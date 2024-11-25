@@ -83,7 +83,7 @@
   font-size: var(--fs-900);
 }
 .fs-1000 {
-  font-size: var(--fs-900);
+  font-size: var(--fs-1000);
 }
 
 .Second-Color {
@@ -267,8 +267,9 @@ body {
 
 .grid-3-col {
   display: grid;
-  align-items: center;
+  align-items: start;
   grid-template-columns: 1fr 1fr 1fr;
+  gap: 15px;
 }
 
 .hidden-div {
@@ -292,7 +293,7 @@ body {
   --max-width: 1500px;
   --padding: 1rem;
 
-  width: min(var(--max-width), 100% - (var(--padding) * 2));
+  /* width: min(var(--max-width), 100% - (var(--padding) * 2)); */
   margin-inline: auto;
 }
 
@@ -804,7 +805,7 @@ label.required:after {
 /* This is the code for the cards with hover affect */
 
 .card {
-  color: var(--clr-neutral-100);
+  color: var(--clr-pop-100);
   background-size: cover;
   padding: 10rem 0 0;
   max-width: 43ch;

@@ -86,6 +86,10 @@
   font-size: var(--fs-900);
 }
 
+.Second-Color {
+  color: var(--clr-primary-400)
+}
+
 @media (min-width: 56em) {
   :root {
     --fs-body: var(--fs-500);

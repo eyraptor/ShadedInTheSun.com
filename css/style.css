@@ -646,7 +646,7 @@ img {
 }
 
 .heroContainer::before {
-  content: "Click To Call Now \A For A Free Consultation 405-259-5599";
+  content: "Click To Call Now and Schedule \A A Free Consultation 405-259-5599";
   white-space: pre;
   display: block;
   position: absolute;

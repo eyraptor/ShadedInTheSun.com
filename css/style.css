@@ -266,6 +266,13 @@ body {
 
 /* Utility Classes  */
 
+.grid-col {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+  grid-template-columns: 1fr;
+}
 .grid-2-col {
   display: grid;
   align-items: center;
@@ -836,7 +843,7 @@ label.required:after {
   transition: transform 500ms ease;
 }
 
-.card:hover,
+/* .card:hover, */
 .card:focus-within {
   transform: scale(1.25);
 }

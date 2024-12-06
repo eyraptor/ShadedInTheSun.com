@@ -329,6 +329,10 @@ body {
   border: 5px solid black;
 }
 
+.container-max-width-800 {
+  max-width: 800px;
+}
+
 .outer-flex {
   display: flex;
   flex-direction: row;

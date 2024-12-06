@@ -578,6 +578,7 @@ body {
 
 a {
   color: var(--clr-pop-200);
+  text-decoration: none;
 }
 
 h1 {

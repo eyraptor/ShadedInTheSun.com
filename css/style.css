@@ -600,6 +600,10 @@ img {
   border-radius: 15px;
 }
 
+.pop-100 {
+  color: var(--clr-pop-100);
+}
+
 /* Slide Box in from sides */
 
 .box {

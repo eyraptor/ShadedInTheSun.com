@@ -77,13 +77,13 @@
   font-size: var(--fs-900);
 }
 .fs-1000 {
-  font-size: var(--fs-900);
+  font-size: var(--fs-1000);
 }
 .fs-5000 {
-  font-size: var(--fs-900);
+  font-size: var(--fs-5000);
 }
-.fs-1000 {
-  font-size: var(--fs-1000);
+.fs-10000 {
+  font-size: var(--fs-10000);
 }
 
 .Second-Color {
@@ -849,7 +849,18 @@ label.required:after {
   transition: transform 500ms ease;
 }
 
-/* .card:hover, */
+.card-small {
+  color: var(--clr-pop-100);
+  background-size: cover;
+  /* padding: 10rem 0 0; */
+  max-width: 33ch;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  transition: transform 500ms ease;
+}
+
+.card:hover,
+.card-small:hover,
 .card:focus-within {
   transform: scale(1.25);
 }

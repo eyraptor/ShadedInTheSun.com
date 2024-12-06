@@ -355,13 +355,6 @@ body {
   margin-left: 35px;
 }
 
-.max-width-70 {
-  display: block;
-  margin: 0 auto;
-  max-width: 70%;
-  padding: 0;
-  height: auto;
-}
 
 .img-40perc-center {
   display: block;
@@ -386,6 +379,12 @@ body {
 .h-center-div {
   margin-left: auto;
   margin-right: auto;
+}
+
+.h-center-all {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
 .flex-h-align {
@@ -717,8 +716,15 @@ img {
 }
 
 .max-width-40 {
-  max-width: 80%;
-  margin: 5px;
+  max-width: 40%;
+}
+
+.max-width-60 {
+  max-width: 60%;
+}
+
+.max-width-70 {
+  max-width: 70%;
 }
 
 label.required:after {

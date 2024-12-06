@@ -790,6 +790,10 @@ label.required:after {
   font-weight: var(--fw-bold);
 }
 
+.fw-black {
+  font-weight: var(--fw-black);
+}
+
 .fw-semi-bold {
   font-weight: var(--fw-semi-bold);
 }

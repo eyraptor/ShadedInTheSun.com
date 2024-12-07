@@ -391,6 +391,10 @@ body {
   text-align: center;
 }
 
+.balanced-text {
+  text-wrap: balance;
+}
+
 .flex-h-align {
   display: flex;
   justify-content: center;

@@ -503,6 +503,10 @@ body {
   margin-right: 30px;
 }
 
+.margin-left {
+  margin-left: 15px;
+}
+
 .z-1 {
   z-index: 20;
 }

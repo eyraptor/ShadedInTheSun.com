@@ -997,6 +997,8 @@ label.required:after {
     /* max-width: 50%; */
     display: grid;
     grid-template-columns: 1fr 1fr;
+    text-align: left;
+    justify-items: left;
   }
 
   .primary-navigation {

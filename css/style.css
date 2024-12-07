@@ -1001,6 +1001,10 @@ label.required:after {
     margin-left: 15px;
   }
 
+  .max-width-60 {
+    max-width: 100%;
+  }
+
   .primary-navigation {
     display: none;
     position: fixed;

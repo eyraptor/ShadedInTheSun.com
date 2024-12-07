@@ -734,6 +734,7 @@ img {
 
 .max-width-50 {
   /* this is used in media query */
+  max-width: 100%;
 }
 
 .max-width-60 {

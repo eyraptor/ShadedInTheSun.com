@@ -481,13 +481,17 @@ body {
   padding: 50px;
 }
 
-.margin-b-10 {
-  margin-bottom: 10px;
+.margin-t-10 {
+  margin-top: 10px;
 }
 
 .margin-rl-20 {
   margin-left: 20px;
   margin-right: 20px;
+}
+
+.margin-b-25 {
+  margin-bottom: 25px;
 }
 
 .margin-b-30 {

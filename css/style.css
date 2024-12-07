@@ -976,6 +976,15 @@ label.required:after {
 
 /* Media Quiries for Screen Size */
 
+@media (max-width: 1240px) {
+  .grid-3-col {
+    display: grid;
+    align-items: start;
+    grid-template-columns: 1fr 1fr;
+    /* gap: 15px; */
+  }
+}
+
 @media (max-width: 1040px) {
   .v-align-top {
     display: block;
@@ -1083,6 +1092,7 @@ label.required:after {
     text-align: left;
     grid-template-columns: 1fr;
   }
+
   .grid-3-col {
   display: grid;
   align-items: start;

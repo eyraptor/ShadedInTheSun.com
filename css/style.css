@@ -729,7 +729,7 @@ img {
 }
 
 .max-width-50 {
-  max-width: 50%;
+  /* this is used in media query */
 }
 
 .max-width-60 {
@@ -987,6 +987,10 @@ label.required:after {
   .max-width-40 {
     max-width: 100%;
     margin: 5px;
+  }
+
+  .max-width-50 {
+    max-width: 50%;
   }
 
   .primary-navigation {

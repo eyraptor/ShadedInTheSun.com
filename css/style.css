@@ -710,6 +710,15 @@ img {
       #000000)
 }
 
+.background-calendy::before {
+  content: 'One Moment While Calendy Loads';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
 .img-80perc-wide {
   width: 80%;
 }

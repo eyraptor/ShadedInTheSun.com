@@ -749,6 +749,10 @@ img {
   max-width: 60%;
 }
 
+.desktop-70p {
+  max-width: 70%;
+}
+
 .max-width-70 {
   max-width: 70%;
 }
@@ -1135,6 +1139,10 @@ label.required:after {
 }
   .display-md-inline-flex {
     display: inline-flex;
+  }
+
+  .desktop-70p {
+    max-width: 100%;
   }
 }
 

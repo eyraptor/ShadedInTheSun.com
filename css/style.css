@@ -1108,6 +1108,7 @@ label.required:after {
   grid-template-columns: 1fr;
   /* gap: 15px; */
 }
+
   .heroContainer::before {
     font-size: 1.75rem;
     font-weight: 900;
@@ -1117,6 +1118,20 @@ label.required:after {
     z-index: 1;
     opacity: 1;
   }
+
+  .container {
+  --max-width: initial;
+  --padding: 1rem;
+ padding: 1rem;
+  /* width: min(var(--max-width), 100% - (var(--padding) * 2)); */
+  margin-inline: auto;
+  }
+
+  
+.max-width-80p {
+  max-width: 100%;
+}
+
   .button3::before {
     font-size: 2em;
   }

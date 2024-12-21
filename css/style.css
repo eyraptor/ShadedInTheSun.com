@@ -1,4 +1,4 @@
-:root {
+r:root {
   --clr-primary-400: #00a1ba;
   --clr-primary-300: #00a8d5;
   --clr-primary-200: #95b0b7;
@@ -889,7 +889,7 @@ label.required:after {
   transition: transform 500ms ease;
 }
 
-.card:hover,
+/* .card:hover, */
 .card-small:hover,
 .card:focus-within {
   transform: scale(1.25);

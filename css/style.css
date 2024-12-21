@@ -471,6 +471,10 @@ body {
   padding-right: 25px;
 }
 
+.padding-left-5px {
+  padding-left: 5px;
+}
+
 .flex-justify-pad {
   display: flex;
   flex-direction: column;

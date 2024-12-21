@@ -1122,7 +1122,7 @@ label.required:after {
   .container {
   --max-width: initial;
   --padding: 1rem;
- padding: 1rem;
+ padding: 10px;
   /* width: min(var(--max-width), 100% - (var(--padding) * 2)); */
   margin-inline: auto;
   }

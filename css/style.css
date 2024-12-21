@@ -356,7 +356,8 @@ body {
 }
 
 .hero-pic {
-  margin-left: 35px;
+  /* margin-left: 35px; */
+  padding-left: 5px;
 }
 
 

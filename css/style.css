@@ -769,7 +769,7 @@ label.required:after {
 
 .footer-layout {
   display: flex;
-  margin: 25px;
+  margin: 15px;
   justify-content: space-around;
   margin-bottom: 50px;
 }

@@ -719,6 +719,7 @@ img {
   z-index: -1;
   font-size: 25px;
   color: red;
+  word-wrap: balance;
 }
 
 .img-80perc-wide {

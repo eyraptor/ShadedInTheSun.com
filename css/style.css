@@ -713,7 +713,7 @@ img {
 .background-calendy::before {
   content: 'One Moment While Calendy Loads';
   position: absolute;
-  top: 25px;
+  top: 80px;
   left: 50%;
   transform: translate(-50%, -0%);
   z-index: -1;

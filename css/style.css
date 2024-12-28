@@ -748,6 +748,11 @@ img {
   max-width: 90%;
 }
 
+.button-vertical-center {
+  display: flex;
+  align-items: center;
+}
+
 .img-vert-center {
   margin: auto 0;
 }

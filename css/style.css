@@ -86,6 +86,10 @@
   font-size: var(--fs-10000);
 }
 
+.primary-color-300 {
+  color: var(--clr-primary-300);
+}
+
 .Second-Color {
   color: var(--clr-primary-400)
 }
@@ -605,6 +609,7 @@ a {
 h1 {
   font-size: var(--size-700);
   text-align: center;
+  color: var(--clr-pop-100);
 }
 
 p {

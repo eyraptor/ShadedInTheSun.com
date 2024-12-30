@@ -95,7 +95,7 @@
             <source
             srcset='/images/1172-pleated-shades-rs22-v1-wide.webp'
             media='(min-width: 640px)'>
-            <img class="hero stagger1 z-1 callToAction" src="images/1172-pleated-shades-rs22-v1-narrow.webp" width="640" height="286" alt="Graber Pleated Shades" loading='eager'>
+            <img class="hero stagger1 z-1 callToAction" src="images/1172-pleated-shades-rs22-v1-wide.webp" width="640" height="286" alt="Graber Pleated Shades" loading='eager'>
           </picture>
          </div>
       </a>
@@ -312,57 +312,57 @@
   <!-- Allows to have a picture in place of YouTube video to save on load times -->
   <script>
 
-    document.getElementById("placeholder").addEventListener("click", function () {
-      this.style.display = 'none';
-      var x = document.getElementById("player");
-      x.style.display = "block";
-      loadYT()
-    });
+    // document.getElementById("placeholder").addEventListener("click", function () {
+    //   this.style.display = 'none';
+    //   var x = document.getElementById("player");
+    //   x.style.display = "block";
+    //   loadYT()
+    // });
 
     // 2. This code loads the IFrame Player API code asynchronously.
-    function loadYT() {
-      var tag = document.createElement('script');
-      tag.src = "https://www.youtube.com/iframe_api";
-      var firstScriptTag = document.getElementsByTagName('script')[0];
-      firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
-    }
+    // function loadYT() {
+    //   var tag = document.createElement('script');
+    //   tag.src = "https://www.youtube.com/iframe_api";
+    //   var firstScriptTag = document.getElementsByTagName('script')[0];
+    //   firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+    // }
 
     // 3. This function creates an <iframe> (and YouTube player)
     //    after the API code downloads.
-    var player;
+    // var player;
 
-    function onYouTubeIframeAPIReady() {
-      player = new YT.Player('player', {
-        height: '401.5',
-        width: '550',
-        videoId: 'vDBkL7H4nHw',
-        events: {
-          'onReady': onPlayerReady,
-          'onStateChange': onPlayerStateChange
-        }
-      });
-    }
+    // function onYouTubeIframeAPIReady() {
+    //   player = new YT.Player('player', {
+    //     height: '401.5',
+    //     width: '550',
+    //     videoId: 'vDBkL7H4nHw',
+    //     events: {
+    //       'onReady': onPlayerReady,
+    //       'onStateChange': onPlayerStateChange
+    //     }
+    //   });
+    // }
 
     // 4. The API will call this function when the video player is ready.
-    function onPlayerReady(event) {
-      event.target.playVideo();
-    }
+    // function onPlayerReady(event) {
+    //   event.target.playVideo();
+    // }
 
     // 5. The API calls this function when the player's state changes.
     //    The function indicates that when playing a video (state=1),
     //    the player should play for six seconds and then stop.
-    var done = false;
+    // var done = false;
 
-    function onPlayerStateChange(event) {
-      if (event.data == YT.PlayerState.PLAYING && !done) {
-        // setTimeout(stopVideo, 6000);
-        done = true;
-      }
-    }
+    // function onPlayerStateChange(event) {
+    //   if (event.data == YT.PlayerState.PLAYING && !done) {
+    //     // setTimeout(stopVideo, 6000);
+    //     done = true;
+    //   }
+    // }
 
-    function stopVideo() {
-      player.stopVideo();
-    }
+    // function stopVideo() {
+    //   player.stopVideo();
+    // }
   </script>
 
 </body>

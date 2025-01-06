@@ -535,6 +535,10 @@ body {
   margin-left: 15px;
 }
 
+.margin-l-20px {
+  margin-left: 20px
+}
+
 .z-1 {
   z-index: 20;
 }

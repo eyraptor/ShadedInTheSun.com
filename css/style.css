@@ -437,6 +437,9 @@ body {
   text-align: left;
 }
 
+.max-width-50ch {
+  max-width: 50ch;
+}
 .max-width-70ch {
   max-width: 70ch;
 }

@@ -408,7 +408,7 @@ body {
 }
 
 .add-border {
-  border: 2px solid black;
+  border: 2px solid red;
 }
 
 :where(.flow :not(:first-child)) {

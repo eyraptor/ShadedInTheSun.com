@@ -358,6 +358,9 @@ body {
   flex-wrap: wrap;
   padding: 0 30px;
 }
+.vertical-align-text {
+  vertical-align: middle;
+}
 
 .hero-pic {
   /* margin-left: 35px; */

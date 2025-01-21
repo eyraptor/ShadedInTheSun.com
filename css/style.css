@@ -491,6 +491,22 @@ body {
   padding-left: 5px;
 }
 
+.padding-left-10px {
+  padding-left: 10px;
+}
+
+.padding-left-15px {
+  padding-left: 15px;
+}
+
+.padding-left-20px {
+  padding-left: 20px;
+}
+
+.padding-left-30px {
+  padding-left: 30px;
+}
+
 .flex-justify-pad {
   display: flex;
   flex-direction: column;
@@ -531,12 +547,24 @@ body {
   margin-right: 30px;
 }
 
-.margin-left {
+.margin-l-10px {
+  margin-left: 10px;
+}
+
+.margin-l-15px {
   margin-left: 15px;
 }
 
 .margin-l-20px {
   margin-left: 20px
+}
+
+.margin-l-25px {
+  margin-left: 25px;
+}
+
+.margin-l-30px {
+  margin-left: 30px;
 }
 
 .z-1 {
@@ -813,7 +841,8 @@ label.required:after {
 }
 
 .margin-tb-25 {
-  margin: 25px 0;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 .margin-rl-25 {

@@ -414,6 +414,10 @@ body {
   border: 2px solid red;
 }
 
+.add-orange-border {
+  border: 2px solid var(--clr-pop-100);
+}
+
 :where(.flow :not(:first-child)) {
   margin-top: var(--flow-spacer, 3em);
 }

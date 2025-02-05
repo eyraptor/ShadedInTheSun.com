@@ -791,6 +791,10 @@ img {
   font-size: var(--fs-550);
 }
 
+.underline-text {
+  text-decoration: underline;
+}
+
 .vertical-center {
   display: flex;
   flex-direction: column;

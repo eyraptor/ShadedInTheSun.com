@@ -1139,7 +1139,7 @@ label.required:after {
   .nav-list {
     display: grid;
     gap: var(--size-600);
-    text-align: center;
+    /* text-align: center; */
     font-weight: var(--fw-bold);
   }
 

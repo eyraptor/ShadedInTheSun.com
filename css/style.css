@@ -965,12 +965,14 @@ label.required:after {
   color: var(--clr-pop-100);
   background-size: cover;
   padding: 0 0 2px 0;
-  max-width: 43ch;
+  max-width: 800px;
   border-radius: 0.5rem;
   overflow: hidden;
   transition: transform 500ms ease;
   /* border: 2px solid gray; */
   border-radius: 1rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .card-small {
@@ -1192,7 +1194,7 @@ label.required:after {
   align-items: start;
   grid-template-columns: 1fr;
   /* gap: 15px; */
-}
+  }
 
   .heroContainer::before {
     font-size: 1.75rem;
@@ -1207,41 +1209,47 @@ label.required:after {
   .container {
   --max-width: initial;
   --padding: 1rem;
- padding: 10px;
+  padding: 10px;
   /* width: min(var(--max-width), 100% - (var(--padding) * 2)); */
   margin-inline: auto;
   }
 
   
-.max-width-80p {
-  max-width: 100%;
-}
+  .max-width-80p {
+    max-width: 100%;
+  }
 
   .button3::before {
     font-size: 2em;
   }
+
   .button-hide {
     display: none;
   }
+
   .button3 {
     margin-top: -50px;
     margin-bottom: 40px;
   }
+
   .even-columns {
     grid-auto-flow: row;
     grid-auto-rows: 1fr;
   }
+
   .outer-flex {
   flex-direction: column;
   align-items: center;
   }
+
   .card {
     max-width: fit-content;
   }
   .margin-rl-25 {
   margin-right: 5px;
   margin-left: 5px;
-}
+  }
+  
   .display-md-inline-flex {
     display: inline-flex;
   }

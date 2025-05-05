@@ -1264,11 +1264,11 @@ label.required:after {
     font-size: 1em;
   }
 
-  .hero-pic {
+  /* .hero-pic {
     width: 200px;
     height: auto;
     margin: 20px 0px;
-  }
+  } */
 
   .button-hide {
     display: none;

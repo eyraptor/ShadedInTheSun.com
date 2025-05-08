@@ -342,6 +342,12 @@ body {
   flex-direction: row;
   align-items: center;
 }
+
+.outer-flex-small {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
 .center-align-text-color button {
   display: block;
   margin: auto;
@@ -446,6 +452,10 @@ body {
 
 .left-align {
   text-align: left;
+}
+
+.max-width-50p {
+  max-width: 50%;
 }
 
 .max-width-30ch {
@@ -1098,6 +1108,7 @@ label.required:after {
     display: block;
     margin: 20px auto;
   }
+
   .outer-flex {
     display: flex;
     flex-direction: column;
@@ -1105,10 +1116,16 @@ label.required:after {
     max-width: 100%;
     gap: 15px;
   }
+
+  .max-width-50p {
+    max-width: 100%;
+  }
+
   .centerSmall {
     display: grid;
     justify-items: center;
   }
+
   .grid-3-col {
   display: grid;
   align-items: start;

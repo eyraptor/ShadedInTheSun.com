@@ -533,6 +533,10 @@ body {
   padding: 50px;
 }
 
+.margin-top-0 {
+  margin-top: 0px;
+}
+
 .margin-t-10 {
   margin-top: 10px;
 }
@@ -552,6 +556,10 @@ body {
 
 .margin-t-15 {
   margin-top: 15px;
+}
+
+.margin-b-0 {
+  margin-bottom: 0px;
 }
 
 .margin-rl30 {

@@ -1245,6 +1245,11 @@ label.required:after {
   .card {
     max-width: fit-content;
   }
+
+  img {
+    margin-inline: auto
+  }
+
   .margin-rl-25 {
   margin-right: 5px;
   margin-left: 5px;

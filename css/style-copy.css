@@ -143,8 +143,12 @@ body {
   text-rendering: optimizeSpeed;
   line-height: 1.5;
   background-color: var(--clr-neutral-100);
-  max-width: 1500px;
+  /* max-width: 1500px; */
   margin: auto;
+}
+
+main {
+  max-width: 1500px;
 }
 
 /* A elements that don't have a class get default styles */
@@ -320,7 +324,9 @@ body {
 .container {
   --max-width: 1500px;
   --padding: 1rem;
+  max-width: 100%;
  padding: 1rem;
+ /* border: orange 1px solid; */
   /* width: min(var(--max-width), 100% - (var(--padding) * 2)); */
   margin-inline: auto;
 }
@@ -335,6 +341,12 @@ body {
 
 .container-max-width-800 {
   max-width: 800px;
+}
+
+.container3 {
+  /* position: relative; */
+  max-width: 1500px;
+  height: 190px;
 }
 
 .outer-flex {
@@ -888,10 +900,6 @@ label.required:after {
   margin-left: 25px;
 }
 
-.margin-0 {
-  margin: 0;
-}
-
 .section-bg-n-100 {
   background-image: linear-gradient(#afd8eb, #e6f4f1);
 }
@@ -1050,6 +1058,116 @@ label.required:after {
   margin-top: 10px;
   font-size: var(--fs-400);
   min-height: 8ch;
+}
+
+/* CSS Top mobile menu */
+
+.header {
+  position: fixed;
+  width: 100%;
+  background-color: transparent;
+  z-index: 3;
+}
+
+.header ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  /* overflow: hidden; */
+  background-color: white;  
+}
+
+.header ul a {
+  display: block;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  color: var(--clr-primary-400);
+}
+
+.header ul a:hover {
+  background-color: #ddd;
+}
+
+.header .logo {
+  float: left;
+  display: block;
+  max-width: 300px;
+  padding: 10px 10px;
+}
+
+.header .menu {
+  /* clear: both; */
+  text-align: right;
+  max-height: 0px;
+  transition: max-height .2s ease-out;
+  margin-top: 62px
+  /* max-width: 100px; */
+}
+
+.header .menu-icon {
+  padding: 30px 20px;
+  position: relative;
+  float: right;
+  cursor: pointer;
+}
+
+.header .menu-icon .nav-icon {
+  background-color: #333;
+  display: block;
+  height: 2px;
+  width: 18px;
+  position: relative;
+  transition: background-color .2s ease-out;
+}
+
+.header .menu-icon .nav-icon:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 5px;
+  height: 100%;
+  width: 100%;
+  background-color: #000;
+  transition: all .2s ease-out;
+}
+
+.header .menu-icon .nav-icon:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: -5px;
+  height: 100%;
+  width: 100%;
+  background-color: #000;
+  transition: all .2s ease-out;
+}
+
+.header .menu-btn {
+  display: none;
+}
+
+.menu {
+  display: none;
+}
+
+.header .menu-btn:checked ~ .menu {
+  display: block;
+  max-height: 380px;
+  
+}
+
+.header .menu-btn:checked ~ .menu-icon .nav-icon {
+  background-color: transparent;
+}
+
+.header .menu-btn:checked ~ .menu-icon .nav-icon:before {
+  transform: rotate(-45deg);
+  top: 0
+}
+
+.header .menu-btn:checked ~ .menu-icon .nav-icon:after {
+  transform: rotate(45deg);
+  top: 0;
 }
 
 /* Media Queries */
@@ -1296,6 +1414,27 @@ label.required:after {
     max-width: 100%;
   }
 }
+  /* Mobile Menu set to work on mobile */
+@media (min-width: 800px) {
+   .header li {
+    float: left;
+  }
+
+  .header li a {
+    padding: 20px 10px;
+  }
+
+  .header .menu {
+    display: block;
+    clear: none;
+    float: right;
+    max-height: none;
+  }
+
+  .header .menu-icon {
+    display: none;
+  }
+}
 
 @media (max-width: 512px) {
   .button3::before {
@@ -1335,6 +1474,10 @@ label.required:after {
   align-items: start;
   grid-template-columns: 1fr;
   gap: 15px;
+  }
+
+  .header .logo {
+  max-width: 80%;
   }
 }
 

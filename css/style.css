@@ -1361,4 +1361,8 @@ label.required:after {
   .nav-list {
     gap: var(--size-300);
   }
+
+  .primary-navigation {
+    padding-top: 15px;
+  }
 }

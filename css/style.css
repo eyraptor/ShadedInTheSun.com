@@ -326,7 +326,7 @@ body {
   --padding: 1rem;
   max-width: 100%;
  padding: 1rem;
- border: orange 1px solid;
+ /* border: orange 1px solid; */
   /* width: min(var(--max-width), 100% - (var(--padding) * 2)); */
   margin-inline: auto;
 }

@@ -1359,10 +1359,10 @@ label.required:after {
 
 @media(max-height: 450px) {
   .nav-list {
-    gap: var(--size-300);
+    grid-template-columns: 1fr 1fr;
   }
 
   .primary-navigation {
-    padding-top: 15px;
+    max-width: 550px;
   }
 }

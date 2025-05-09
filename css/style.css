@@ -1360,6 +1360,7 @@ label.required:after {
 @media(max-height: 450px) {
   .nav-list {
     grid-template-columns: 1fr 1fr;
+    gap: 5px;
   }
 
   .primary-navigation {

@@ -1356,3 +1356,10 @@ label.required:after {
     font-size: var(--fs-600);
   }
 }
+
+@media(max-height: 400px) {
+  .nav-list {
+    gap: var(--size-400);
+  }
+  }
+}

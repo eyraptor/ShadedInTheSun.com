@@ -888,6 +888,10 @@ label.required:after {
   margin-left: 25px;
 }
 
+.margin-0 {
+  margin: 0;
+}
+
 .section-bg-n-100 {
   background-image: linear-gradient(#afd8eb, #e6f4f1);
 }

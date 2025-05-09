@@ -1048,7 +1048,7 @@ label.required:after {
   min-height: 8ch;
 }
 
-/* CSS Menu code */
+/* CSS Top mobile menu */
 
 .header {
   position: fixed;
@@ -1087,6 +1087,8 @@ label.required:after {
 .header .menu-icon {
   padding: 28px 20px;
   position: relative;
+  float: right;
+  cursor: pointer;
 }
 
 .header .menu-icon .nav-icon {
@@ -1100,16 +1102,32 @@ label.required:after {
 
 .header .menu-icon .nav-icon:before {
   content: '';
+  background-color: #000;
   display: block;
   width: 100%;
-  height: 100;
+  height: 100%;
   position: absolute;
   top: 5px;
+  transition: all .2 ease-out;
 }
 
 .header .menu-icon .nav-icon:after {
+  content: '';
+  background-color: #000;
+  display: block;
+  width: 100%;
+  height: 100%;
   position: absolute;
   top: -5px;
+  transition: all .2 ease-out;
+}
+
+.header .menu-btn {
+  display: none;
+}
+
+.header .menu-btn:checked ~ .menu {
+  max-height: 20px;
 }
 
 /* Media Queries */

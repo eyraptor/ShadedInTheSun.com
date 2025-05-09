@@ -1359,7 +1359,6 @@ label.required:after {
 
 @media(max-height: 400px) {
   .nav-list {
-    gap: var(--size-400);
-  }
+    gap: var(--size-300);
   }
 }

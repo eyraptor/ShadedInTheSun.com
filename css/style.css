@@ -377,17 +377,17 @@ img {
 
 .variable-H1 {
   font-weight: var(--fw-bold);
-  font-size: var(--fs-800);
+  font-size: var(--fs-1000);
   color: var(--clr-neutral-900);
 }
 
 .variable-h2 {
-  font-size: var(--fs-700);
+  font-size: var(--fs-900);
   color: var(--clr-primary-400);
 }
 
 .variable-h2-orange {
-  font-size: var(--fs-700);
+  font-size: var(--fs-900);
   color: var(--clr-pop-100);
 }
 

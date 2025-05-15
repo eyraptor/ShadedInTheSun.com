@@ -320,7 +320,7 @@ body {
 .container {
   --max-width: 1500px;
   --padding: 1rem;
- padding: 1rem;
+  padding: 1rem;
   /* width: min(var(--max-width), 100% - (var(--padding) * 2)); */
   margin-inline: auto;
 }
@@ -348,6 +348,13 @@ body {
   flex-direction: row;
   align-items: center;
 }
+
+.index-H1 {
+  font-weight: var(--fw-bold);
+  font-size: var(--fs-900);
+  color: var(--clr-primary-900);
+}
+
 .center-align-text-color button {
   display: block;
   margin: auto;
@@ -1336,6 +1343,10 @@ label.required:after {
   grid-template-columns: 1fr;
   gap: 15px;
   }
+
+.index-H1 {
+  font-size: var(--fs-900);
+  }
 }
 
 @media (max-width: 22em) {
@@ -1352,6 +1363,7 @@ label.required:after {
     z-index: 1;
     opacity: 1;
   }
+
   h2 {
     font-size: var(--fs-600);
   }

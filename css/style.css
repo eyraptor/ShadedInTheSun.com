@@ -377,22 +377,22 @@ img {
 
 .variable-H1 {
   font-weight: var(--fw-bold);
-  font-size: var(--size-800);
+  font-size: var(--fs-800);
   color: var(--clr-neutral-900);
 }
 
 .variable-h2 {
-  font-size: var(--size-700);
+  font-size: var(--fs-700);
   color: var(--clr-primary-400);
 }
 
 .variable-h2-orange {
-  font-size: var(--size-700);
+  font-size: var(--fs-700);
   color: var(--clr-pop-100);
 }
 
 .variable-h3 {
-    font-size: var(--size-700);
+    font-size: var(--fs-700);
     color: var(--clr-neutral-900);
   }
 

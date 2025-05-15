@@ -1392,7 +1392,6 @@ label.required:after {
 
   .variable-h2 {
     font-size: var(--fs-500);
-    color: var(--clr-pop-100);
   }
   
   .variable-h2-orange {

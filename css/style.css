@@ -377,7 +377,7 @@ img {
 
 .variable-H1 {
   font-weight: var(--fw-bold);
-  font-size: var(--size-700);
+  font-size: var(--size-800);
   color: var(--clr-neutral-900);
 }
 
@@ -1236,11 +1236,11 @@ label.required:after {
   }
   
   .variable-H1 {
-    font-size: var(--fs-900);
+    font-size: var(--fs-700);
     }
 
   .variable-h2-orange {
-    font-size: var(--fs-600);
+    font-size: var(--fs-700);
     color: var(--clr-pop-100);
   }
 
@@ -1324,12 +1324,12 @@ label.required:after {
     }
 
   .variable-h2-orange {
-    font-size: var(--fs-550);
+    font-size: var(--fs-600);
     color: var(--clr-pop-100);
   }
 
   .variable-h3 {
-    font-size: var(--fs-550);
+    font-size: var(--fs-600);
   }
 
   .margin-rl-25 {

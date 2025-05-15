@@ -1225,8 +1225,8 @@ label.required:after {
     width: 1.5rem;
     height: 1.5rem;
     background-size: contain;
-    top: var(--fs-750);
-    right: var(--fs-600);
+    top: 40px;
+    right: 20px;
     z-index: 1;
     border: none;
   }

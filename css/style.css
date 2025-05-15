@@ -377,22 +377,22 @@ img {
 
 .variable-H1 {
   font-weight: var(--fw-bold);
-  font-size: var(--fs-900);
+  font-size: var(--size-900);
   color: var(--clr-neutral-900);
 }
 
 .variable-h2 {
-  font-size: var(fs-900);
+  font-size: var(--size-900);
   color: var(--clr-primary-400);
 }
 
 .variable-h2-orange {
-  font-size: var(fs-900);
+  font-size: var(--size-900);
   color: var(--clr-pop-100);
 }
 
 .variable-h3 {
-    font-size: var(--fs-700);
+    font-size: var(--size-700);
     color: var(--clr-neutral-900);
   }
 
@@ -1178,12 +1178,12 @@ label.required:after {
   .primary-navigation {
     display: none;
     position: fixed;
-    padding: var(--size-700);
-    inset: 7rem var(--size-400) auto;
+    padding: var(--fs-700);
+    inset: 7rem var(--fs-400) auto;
     max-width: 15rem;
     margin-left: auto;
     background: var(--clr-neutral-100);
-    border-radius: var(--size-100);
+    border-radius: var(--fs-100);
     box-shadow: 0 0 0.75em rgb(0, 0, 0, 0.05);
   }
 
@@ -1196,7 +1196,7 @@ label.required:after {
 
   .nav-list {
     display: grid;
-    gap: var(--size-600);
+    gap: var(--fs-600);
     /* text-align: center; */
     font-weight: var(--fw-bold);
   }
@@ -1208,8 +1208,8 @@ label.required:after {
   .mobile-nav-toggle {
     display: block;
     position: fixed;
-    top: var(--size-500);
-    right: var(--size-500);
+    top: var(--fs-500);
+    right: var(--fs-500);
     cursor: pointer;
     background: transparent;
     border: 0;
@@ -1225,8 +1225,8 @@ label.required:after {
     width: 1.5rem;
     height: 1.5rem;
     background-size: contain;
-    top: var(--size-750);
-    right: var(--size-600);
+    top: var(--fs-750);
+    right: var(--fs-600);
     z-index: 1;
     border: none;
   }
@@ -1311,7 +1311,7 @@ label.required:after {
   }
   
 .variable-h2-orange {
-  font-size: var(fs-700);
+  font-size: var(--fs-700);
   color: var(--clr-pop-100);
 }
 
@@ -1379,7 +1379,7 @@ label.required:after {
   }
   
 .variable-h2-orange {
-  font-size: var(fs-550);
+  font-size: var(--fs-550);
   color: var(--clr-pop-100);
 }
 }

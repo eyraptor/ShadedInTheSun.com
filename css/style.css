@@ -382,7 +382,7 @@ img {
 }
 
 .variable-h2 {
-  font-size: var(fs-700);
+  font-size: var(fs-900);
   color: var(--clr-primary-400);
 }
 

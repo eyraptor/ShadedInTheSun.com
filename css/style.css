@@ -355,6 +355,11 @@ body {
   color: var(--clr-neutral-900);
 }
 
+.variable-h3 {
+    font-size: var(--fs-700);
+    color: var(--clr-neutral-900);
+  }
+
 .center-align-text-color button {
   display: block;
   margin: auto;
@@ -1288,6 +1293,10 @@ label.required:after {
 
   img {
     margin-inline: auto
+  }
+
+  .variable-h3 {
+    font-size: var(--fs-550);
   }
 
   .margin-rl-25 {

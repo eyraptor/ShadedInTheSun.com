@@ -1133,7 +1133,7 @@ label.required:after {
 
 .header .menu-icon .nav-icon:after {
   content: '';
-  display: block;
+  display:block;
   position: absolute;
   top: -5px;
   height: 100%;
@@ -1153,7 +1153,10 @@ label.required:after {
 .header .menu-btn:checked ~ .menu {
   display: block;
   max-height: 380px;
-  
+  width: 140px;
+  margin-left: auto;
+  margin-right: 40px;
+  padding-inline: 10px;
 }
 
 .header .menu-btn:checked ~ .menu-icon .nav-icon {

@@ -361,7 +361,7 @@ body {
 }
 
 .variable-h2-orange {
-  font-size: var(fs-700);
+  font-size: var(fs-900);
   color: var(--clr-pop-100);
 }
 
@@ -1308,6 +1308,11 @@ label.required:after {
   .variable-h3 {
     font-size: var(--fs-550);
   }
+  
+.variable-h2-orange {
+  font-size: var(fs-700);
+  color: var(--clr-pop-100);
+}
 
   .margin-rl-25 {
   margin-right: 5px;
@@ -1371,6 +1376,11 @@ label.required:after {
 .variable-H1 {
   font-size: var(--fs-700);
   }
+  
+.variable-h2-orange {
+  font-size: var(fs-550);
+  color: var(--clr-pop-100);
+}
 }
 
 @media (max-width: 22em) {

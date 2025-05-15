@@ -351,8 +351,8 @@ body {
 
 .index-H1 {
   font-weight: var(--fw-bold);
-  font-size: var(--fs-900);
-  color: var(--clr-primary-900);
+  font-size: var(--fs-1000);
+  color: var(--clr-neutral-900);
 }
 
 .center-align-text-color button {
@@ -1302,6 +1302,11 @@ label.required:after {
   .desktop-70p {
     max-width: 100%;
   }
+
+  
+.index-H1 {
+  font-size: var(--fs-900);
+  }
 }
 
 @media (max-width: 512px) {
@@ -1345,7 +1350,7 @@ label.required:after {
   }
 
 .index-H1 {
-  font-size: var(--fs-900);
+  font-size: var(--fs-700);
   }
 }
 
@@ -1366,6 +1371,11 @@ label.required:after {
 
   h2 {
     font-size: var(--fs-600);
+  }
+
+  
+.index-H1 {
+  font-size: var(--fs-550);
   }
 }
 

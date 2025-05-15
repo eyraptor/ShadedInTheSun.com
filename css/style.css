@@ -349,10 +349,15 @@ body {
   align-items: center;
 }
 
-.index-H1 {
+.variable-H1 {
   font-weight: var(--fw-bold);
-  font-size: var(--fs-1000);
+  font-size: var(--fs-900);
   color: var(--clr-neutral-900);
+}
+
+.variable-h2 {
+  font-size: var(fs-700);
+  color: var(--clr-primary-400);
 }
 
 .variable-h3 {
@@ -1313,7 +1318,7 @@ label.required:after {
   }
 
   
-.index-H1 {
+.variable-H1 {
   font-size: var(--fs-900);
   }
 }
@@ -1358,7 +1363,7 @@ label.required:after {
   gap: 15px;
   }
 
-.index-H1 {
+.variable-H1 {
   font-size: var(--fs-700);
   }
 }

@@ -360,6 +360,11 @@ body {
   color: var(--clr-primary-400);
 }
 
+.variable-h2-orange {
+  font-size: var(fs-700);
+  color: var(--clr-pop-100);
+}
+
 .variable-h3 {
     font-size: var(--fs-700);
     color: var(--clr-neutral-900);

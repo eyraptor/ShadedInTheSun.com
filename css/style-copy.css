@@ -1335,7 +1335,9 @@ label.required:after {
 
   /* Mobile CSS Top Menu */
   .header .menu li {
-    font-size: var(--fs-300);
+    font-size: 11px;
+    padding-right: 1px;
+    padding-left: 1px;
   }
 }
 

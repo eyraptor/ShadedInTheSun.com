@@ -1074,7 +1074,7 @@ label.required:after {
   padding: 0;
   list-style: none;
   /* overflow: hidden; */
-  background-color: white;  
+  background-color:white;
 }
 
 .header ul a {
@@ -1155,7 +1155,7 @@ label.required:after {
   max-height: 380px;
   width: 140px;
   margin-left: auto;
-  margin-right: 40px;
+  /* margin-right: 30px; */
   padding-inline: 10px;
 }
 

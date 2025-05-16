@@ -1332,6 +1332,11 @@ label.required:after {
   .mobile-nav-toggle .icon-close {
     display: none;
   }
+
+  /* Mobile CSS Top Menu */
+  .header .menu li {
+    font-size: var(--fs-300);
+  }
 }
 
 @media (max-width: 800px) {

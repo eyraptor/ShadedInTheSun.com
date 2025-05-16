@@ -1153,7 +1153,7 @@ label.required:after {
 .header .menu-btn:checked ~ .menu {
   display: block;
   max-height: 380px;
-  width: 140px;
+  width: 130px;
   margin-left: auto;
   /* margin-right: 30px; */
   padding-inline: 10px;

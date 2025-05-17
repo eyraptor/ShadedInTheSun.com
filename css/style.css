@@ -143,8 +143,12 @@ body {
   text-rendering: optimizeSpeed;
   line-height: 1.5;
   background-color: var(--clr-neutral-100);
-  max-width: 1500px;
+  /* max-width: 1500px; */
   margin: auto;
+}
+
+main {
+  max-width: 1500px;
 }
 
 /* A elements that don't have a class get default styles */
@@ -363,7 +367,6 @@ img {
 .container-max-width-800 {
   max-width: 800px;
 }
-
 
 .container3 {
   /* position: relative; */
@@ -1305,7 +1308,7 @@ label.required:after {
     max-width: 15rem;
     margin-left: auto;
     background: var(--clr-neutral-100);
-    border-radius: var(--fs-100);
+    border-radius: 20px;
     box-shadow: 0 0 0.75em rgb(0, 0, 0, 0.05);
   }
 

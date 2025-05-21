@@ -28,19 +28,12 @@
   <!-- Event snippet for Phone Number Click conversion page
   In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
   <script>
-    function gtag_report_conversion(url) {
-      var callback = function () {
-        if (typeof (url) != 'undefined') {
-          window.location = url;
-        }
-      };
+    function gtag_report_conversion() { // Removed 'url' parameter
       gtag('event', 'conversion', {
-        'send_to': 'AW-991416893/cP5ZCMvr65YaEL2k39gD',
-        'event_callback': callback
+        'send_to': 'AW-991416893/cP5ZCMvr65YaEL2k39gD' // Your unique ID
       });
-      return false;
+      // REMOVED 'return false;' from here
     }
-    
   </script>
 
   <!-- Google Tag Manager -->
@@ -148,7 +141,7 @@
   <main class='h-center-div'>
     <div class='max-width-30ch h-center-all fs-900 add-orange-border margin-auto'>
       <p><span class='pop-100 fs-1000 underline-text margin-top-0'>Free!</span><br><span class='fs-700 fw-bold'> Graber UltraLite Cordless Lift System</span><br> On Select Graber Shades, Graber Pleated, Natural, Solar, Roller, and Roman Shades through 05/31/25</p>
-      <p class='fs-600 h-center margin-t-15'>Call Now <a class='fs-700 underline-text' href="tel:14052595599" onclick="gtag_report_conversion('tel:+14052595599'); return false;">405-259-5599</a> <br>
+      <p class='fs-600 h-center margin-t-15'>Call Now <a class='fs-700 underline-text' href="tel:14052595599" onclick="gtag_report_conversion();"); return false;">405-259-5599</a> <br>
         Or <a class='fs-600 underline-text' href="mailto:ednabuxton@buxtonteam.com">Click Here to Email Us</a></p>
     </div>
 
@@ -158,7 +151,7 @@
     </div>
 
     <div class="rel-position margin-tb-25">
-      <a href="tel:14052595599" onclick="gtag_report_conversion('tel:+14052595599'); return false;">
+      <a href="tel:14052595599" onclick="gtag_report_conversion();"); return false;">
         <div class="heroContainer stagger1">
           <picture>
             <source
@@ -285,7 +278,7 @@
         <h3 class='h-center variable-h2'>Blinds</h3>
         <img loading="lazy" src="/images/1685-wood-blinds-rs15-v1.webp" alt="Custom Graber wood blinds installed in a cozy sitting room with natural light" width='675' height='491'>
         <p class='margin-t-15'>Shaded In The Sun and Graber offer a wide range of Blinds. From Aluminum Blinds to Wood Blinds, Graber has the blinds you are looking for. Learn more about the wide selection of blinds Shaded In The Sun has to offer. <br><br>
-        <span class='Second-Color'>Give Brent & Edna a call at</span> <a href="tel:14052595599" onclick="gtag_report_conversion('tel:+14052595599'); return false;">405-259-5599</a> to see the available choices of Graber Window Coverings.
+        <span class='Second-Color'>Give Brent & Edna a call at</span> <a href="tel:14052595599" onclick="gtag_report_conversion();"); return false;">405-259-5599</a> to see the available choices of Graber Window Coverings.
         </p>
       </div>
     </section>

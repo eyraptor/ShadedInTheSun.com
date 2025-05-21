@@ -24,6 +24,23 @@
     gtag('config', 'AW-991416893');
   </script>
 
+  <!-- Event snippet for Phone Number Click conversion page
+            In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+  <script>
+    function gtag_report_conversion(url) {
+      var callback = function () {
+        if (typeof (url) != 'undefined') {
+          window.location = url;
+        }
+      };
+      gtag('event', 'conversion', {
+        'send_to': 'AW-991416893/cP5ZCMvr65YaEL2k39gD',
+        'event_callback': callback
+      });
+      return false;
+    }
+  </script>
+
   <!-- Google Tag Manager -->
   <script>(function (w, d, s, l, i) {
       w[l] = w[l] || []; w[l].push({
@@ -112,7 +129,7 @@
   <main>
     <section>
       <div class="rel-position margin-tb-25">
-        <a href="tel:14052595599">
+        <a href="tel:14052595599" onclick="return gtag_report_conversion();">
           <div class="heroContainer stagger1">
             <img class="hero stagger1 z-1" src="XYZ" width="1200" height="533" alt="Graber Roller Shades">
           </div>
@@ -126,7 +143,7 @@
         <!-- <p class='h-center fs-600'><span class='Second-Color h-center fs-600'>Call Brent & Edna today at <br>
             <a class='button2' href="tel:14052595599">405-259-5599</a></span> to see all the options available from Graber.</p> -->
         <p class='Second-Color fs-900 h-center margin-t-15'>Call Brent & Edna today at <a class='button2 vertical-align-text'
-            href="tel:14052595599">405-259-5599</a> <br>for your window treatment questions.</p>
+            href="tel:14052595599" onclick="return gtag_report_conversion();">405-259-5599</a> <br>for your window treatment questions.</p>
       </div>
     </section>
     <!-- <section>

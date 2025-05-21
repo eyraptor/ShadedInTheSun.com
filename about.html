@@ -26,17 +26,11 @@
     <!-- Event snippet for Phone Number Click conversion page
       In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
     <script>
-      function gtag_report_conversion(url) {
-        var callback = function () {
-          if (typeof (url) != 'undefined') {
-            window.location = url;
-          }
-        };
+      function gtag_report_conversion() { // Removed 'url' parameter
         gtag('event', 'conversion', {
-          'send_to': 'AW-991416893/cP5ZCMvr65YaEL2k39gD',
-          'event_callback': callback
+          'send_to': 'AW-991416893/cP5ZCMvr65YaEL2k39gD' // Your unique ID
         });
-        return false;
+        // REMOVED 'return false;' from here
       }
     </script>
 
@@ -173,7 +167,7 @@
               Thank you for visiting our page. We hope our products bring a little more comfort and joy to your sunny days!<br><br>
               
               If you would like to know more about window treatments or would like to schedule a free consultation, call Brent & Edna today at <a href="tel:14052595599"
-                onclick="gtag_report_conversion('tel:+14052595599'); return false;">405-259-5599</a></span>
+                onclick="gtag_report_conversion();"); return false;">405-259-5599</a></span>
             </p>
           </div>
         </div>

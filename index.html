@@ -36,6 +36,15 @@
     }
   </script>
 
+  <script>
+    function gtag_report_conversion_Calendly() { // Renamed for clarity
+      gtag('event', 'conversion', {
+        'send_to': 'AW-991416893/czo8CNKc7JYaEL2k39gD' // This is your unique Calendly Conversion ID
+      });
+      // REMOVED 'return false;' and 'callback' logic
+    }
+  </script>
+
   <!-- Google Tag Manager -->
   <script>(function (w, d, s, l, i) {
       w[l] = w[l] || []; w[l].push({
@@ -308,12 +317,33 @@
     </nav>
   </footer>
 
-  <!-- Calendly badge widget begin -->
   <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
   <script src="https://assets.calendly.com/assets/external/widget.js" async></script>
-  <script
-    >window.onload = function () { Calendly.initBadgeWidget({ url: 'https://calendly.com/volfram74/15min', text: 'Schedule a call with us', color: '#0069ff', textColor: '#ffffff' }); }</script>
-  <!-- Calendly badge widget end -->
+  <script>
+    window.onload = function () {
+      Calendly.initBadgeWidget({
+        url: 'https://calendly.com/volfram74/15min',
+        text: 'Schedule a call with us',
+        color: '#0069ff',
+        textColor: '#ffffff',
+        // ADD THIS LINE:
+        onClick: function () { gtag_report_conversion_Calendly(); }
+      });
+    };
+  </script>
+
+  <!-- Calendly badge widget begin
+  <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+  <script src="https://assets.calendly.com/assets/external/widget.js" async></script>
+  <script>
+    window.onload = function () { 
+    Calendly.initBadgeWidget({ 
+    url: 'https://calendly.com/volfram74/15min', 
+    text: 'Schedule a call with us', 
+    color: '#0069ff', 
+    textColor: '#ffffff' }); }
+  </script>
+  Calendly badge widget end -->
 
   <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"
     integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ=="

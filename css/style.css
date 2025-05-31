@@ -408,6 +408,11 @@ img {
     color: var(--clr-neutral-900);
   }
 
+  .variable-h3-orange {
+    font-size: var(--fs-600);
+    color: var(--clr-pop-100);
+  }
+
 .center-align-text-color button {
   display: block;
   margin: auto;

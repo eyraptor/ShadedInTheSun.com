@@ -216,7 +216,7 @@ img {
 }
 
 .display-block {
-  display: block;
+  display: flex;
 }
 
 /* Navigation */

@@ -1101,8 +1101,7 @@ label.required:after {
 
 .header {
   position: fixed;
-  /* width: 100%; */
-  max-width: 540px;
+  width: 540px;
   background-color: transparent;
   z-index: 3;
 }
@@ -1126,12 +1125,12 @@ label.required:after {
   background-color: #ddd;
 }
 
-.header .logo {
+/* .header .logo {
   float: left;
   display: block;
   max-width: 300px;
   padding: 10px 10px;
-}
+} */
 
 .header .menu {
   /* clear: both; */

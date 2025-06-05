@@ -217,7 +217,7 @@ img {
 
 .display-block {
   display: block;
-  max-width: 300px;
+  max-width: 400px;
 }
 
 /* Navigation */
@@ -1101,7 +1101,8 @@ label.required:after {
 
 .header {
   position: fixed;
-  width: 100%;
+  /* width: 100%; */
+  max-width: 540px;
   background-color: transparent;
   z-index: 3;
 }

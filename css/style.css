@@ -1101,7 +1101,8 @@ label.required:after {
 
 .header {
   position: fixed;
-  width: 540px;
+  right: 20px;
+  width: 250px;
   background-color: transparent;
   z-index: 3;
 }

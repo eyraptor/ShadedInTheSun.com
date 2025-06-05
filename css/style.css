@@ -218,6 +218,7 @@ img {
 .display-block {
   display: block;
   max-width: 400px;
+  height: auto;
 }
 
 /* Navigation */

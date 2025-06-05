@@ -217,6 +217,7 @@ img {
 
 .display-block {
   display: block;
+  max-width: 300px;
 }
 
 /* Navigation */

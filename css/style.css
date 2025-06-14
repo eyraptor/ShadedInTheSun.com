@@ -410,7 +410,7 @@ img {
 
 .variable-h3 {
     font-size: var(--fs-700);
-    color: var(--clr-neutral-900);
+    color: var(--clr-primary-400);
   }
 
   .variable-h3-orange {

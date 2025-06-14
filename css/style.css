@@ -544,6 +544,10 @@ img {
   max-width: 90ch;
 }
 
+.max-width-70p {
+  max-width: 70%;
+}
+
 .max-width-80p {
   max-width: 80%;
 }
@@ -629,6 +633,14 @@ img {
   margin-top: 10px;
 }
 
+.margin-t-15 {
+  margin-top: 15px;
+}
+
+.margin-t-20 {
+  margin-top: 20px;
+}
+
 .margin-rl-20 {
   margin-left: 20px;
   margin-right: 20px;
@@ -640,10 +652,6 @@ img {
 
 .margin-b-30 {
   margin-bottom: 30px;
-}
-
-.margin-t-15 {
-  margin-top: 15px;
 }
 
 .margin-b-0 {

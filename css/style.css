@@ -1258,6 +1258,11 @@ label.required:after {
   display: block;
 }
 
+/* When the submenu is hidden, disable pointer events */
+.header .menu > li.brands-item > .submenu-toggle-checkbox ~ .submenu {
+  pointer-events: none;
+}
+
 /* Style for the submenu container */
 .header .menu .submenu {
   display: none; /* Hide submenu by default */

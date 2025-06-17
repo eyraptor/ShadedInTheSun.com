@@ -4,10 +4,10 @@
 <head>
   <meta charset="UTF-8">
   <title>Window Treatment Experts In Oklahoma City & Edmond | Shaded In The Sun</title>
-
+  
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-W4SF3R9Q43"></script>
-
+  
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag() { dataLayer.push(arguments); }
@@ -59,19 +59,17 @@
 
   <script src="https://analytics.ahrefs.com/analytics.js" data-key="CvU7eCtPtOpru47fXtaoBg" async></script>
 
-  <meta name="description"
-    content="Upgrade your home with custom shades, shutters, and blinds from Shaded In The Sun. Serving Oklahoma City and Edmond with expert in-home consultations and professional installation.">
+  <meta name="description" content="Upgrade your home with custom shades, shutters, and blinds from Shaded In The Sun. Serving Oklahoma City and Edmond with expert in-home consultations and professional installation.">
   <meta property="og:url" content="https://www.ShadedInTheSun.com/">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Shaded In The Sun">
   <meta property="og:title" content="Window Treatment Experts In Oklahoma City & Edmond | Shaded In The Sun">
-  <meta property="og:description"
-    content="Upgrade your home with custom shades, shutters, and blinds from Shaded In The Sun. Serving Oklahoma City and Edmond with expert in-home consultations and professional installation.">
+  <meta property="og:description" content="Upgrade your home with custom shades, shutters, and blinds from Shaded In The Sun. Serving Oklahoma City and Edmond with expert in-home consultations and professional installation.">
 
   <link rel="icon" href="images/favicon.ico">
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+  
   <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -98,129 +96,105 @@
     @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
   </style> -->
 
-  <link rel="stylesheet" href="css/style-menu.css">
+  <link rel="stylesheet" href="css/style.css">
 
 </head>
 
 <body>
 
   <header class="header">
-
+  
     <input class='menu-btn' type='checkbox' id='menu-btn'>
     <label class='menu-icon' for='menu-btn'><span class='nav-icon'></span></label>
     <ul class='menu'>
       <li><a href="/index.html">Home</a></li>
       <li><a href="/window-shades.html">Window Shades</a></li>
       <li><a href="/window-shutters.html">Window Shutters</a></li>
-      <li class="has-submenu brands-item"> <!-- Added brands-item for potentially more specific styling -->
-        <input type="checkbox" id="brands-submenu-toggle" class="submenu-toggle-checkbox">
-        <label for="brands-submenu-toggle" class="brands-label">Brands</label>
-        <ul class="submenu"> <!-- Submenu for Brands -->
-          <li><a href="graber.html">Graber</a></li>
-          <li><a href="norman.html">Norman</a></li>
-        </ul>
-      </li>
       <li><a href="/about.html">About</a></li>
       <li><a href="/blog.html">Blog</a></li>
       <li><a href="/contact.html">Contact</a></li>
     </ul>
   </header>
 
-  <div class='display-block mobile-left'>
+  <div class='display-block h-center-div'>
     <a href="/index.html"><img class="hero-pic" width="400" height="200" src="images/SITS-blue-logo-400px.webp"
         alt='ShadedInTheSun logo'></a>
-
+    
   </div>
   <h3 class='h-center-all text-neutral-900 fs-550 balanced-text'>Open 9:00 to 5:00 Monday - Saturday</h3>
 
   <main class='h-center-div'>
     <div class='max-width-30ch h-center-all fs-900 add-orange-border margin-auto'>
-      <p><span class='pop-100 fs-1000 underline-text margin-top-0'>Free!</span><br><span class='fs-700 fw-bold'> Graber
-          UltraLite Cordless Lift System</span><br> On Select Graber Shades, Graber Pleated, Natural, Solar, Roller, and
-        Roman Shades through 06/30/25</p>
-      <p class='fs-600 h-center margin-t-15'>Call Now <a class='fs-700 underline-text' href="tel:14052595599"
-          onclick="gtag_report_conversion();">405-259-5599</a> <br>
+      <p><span class='pop-100 fs-1000 underline-text margin-top-0'>Free!</span><br><span class='fs-700 fw-bold'> Graber UltraLite Cordless Lift System</span><br> On Select Graber Shades, Graber Pleated, Natural, Solar, Roller, and Roman Shades through 06/30/25</p>
+      <p class='fs-600 h-center margin-t-15'>Call Now <a class='fs-700 underline-text' href="tel:14052595599" onclick="gtag_report_conversion();">405-259-5599</a> <br>
         Or <a class='fs-600 underline-text' href="mailto:ednabuxton@buxtonteam.com">Click Here to Email Us</a></p>
     </div>
 
     <div class='h-center-all text-neutral-900'>
-      <h1 class='h-center-all variable-H1 balanced-text margin-tb-25'>Shaded In The Sun: Custom Window Treatments in
-        Oklahoma City & Edmond</h1>
-      <h2 class='variable-h2 margin-rl-20 balanced-text'>Stylish Shades, Shutters, Blinds & Drapes Tailored for Every
-        Room</h2>
+      <h1 class='h-center-all variable-H1 balanced-text margin-tb-25'>Shaded In The Sun: Custom Window Treatments in Oklahoma City & Edmond</h1>
+      <h2 class='variable-h2 margin-rl-20 balanced-text'>Stylish Shades, Shutters, Blinds & Drapes Tailored for Every Room</h2>
     </div>
 
     <div class="rel-position margin-tb-25">
       <a href="tel:14052595599" onclick="gtag_report_conversion();">
         <div class="heroContainer stagger1">
           <picture>
-            <source srcset='images/1172-pleated-shades-rs22-v1-short-wide.webp' media='(min-width: 640px)'>
-            <img class="hero stagger1 z-1 callToAction" src="images/1172-pleated-shades-rs22-v1-wide.webp" width="640"
-              height="286" alt="Graber Pleated Shades" loading='eager'>
+            <source
+            srcset='images/1172-pleated-shades-rs22-v1-short-wide.webp'
+            media='(min-width: 640px)'>
+            <img class="hero stagger1 z-1 callToAction" src="images/1172-pleated-shades-rs22-v1-wide.webp" width="640" height="286" alt="Graber Pleated Shades" loading='eager'>
           </picture>
-        </div>
+         </div>
       </a>
-
+      
     </div>
     <!-- <div class="rel-position">
       <button class="button3" onclick=""></button>
       <button class="button3" onclick="window.location.href='#name';">Get Started</button>
     </div> -->
 
-    <div class="margin-tb-25">
-      <!-- <div id="player" class="hidden-div max-width-90p"></div> -->
-
-      <section class="gray-shadow-left margin-tb-25">
-        <div class="section-bg-n-100">
-          <div class="padding-15 outer-flex">
-            <img class="max-width-90p-h-auto margin-rl30 margin-t-15" width="550" height="320" loading="lazy"
-              src="/images/Brent-and-Edna.webp"
-              alt='Brent & Edna Buxton. Edna is the founder of Shaded In The Sun in Oklahoma City'>
-            <div class='centerSmall'>
-
-              <h2 class="fs-700 balanced-text h-center">The Faces Behind Shaded In The Sun – Your Edmond and Oklahoma
-                City Window Treatment Experts</h2>
-              <p>Behind Shaded In The Sun are Edna and Brent Buxton, a husband-and-wife team with over 30 years of
-                entrepreneurial experience. Their mission is simple: to help you enjoy the beauty of natural light in
-                your home without the hassle of glare. Curious about how a shared morning coffee inspired Edna to create
-                Shaded In The Sun? <br>
-                <a href='/about.html' class='text-neutral-900 fs-550'><span class='underline-text'>Click here </span>to
-                  learn more about how Shaded In The Sun Began.</a>
-              </p>
+      <div class="margin-tb-25">
+        <!-- <div id="player" class="hidden-div max-width-90p"></div> -->
+        
+        <section class="gray-shadow-left margin-tb-25">
+          <div class="section-bg-n-100">
+            <div class="padding-15 outer-flex">
+              <img class="max-width-90p-h-auto margin-rl30 margin-t-15" width="550" height="320" loading="lazy"
+                src="/images/Brent-and-Edna.webp" alt='Brent & Edna Buxton. Edna is the founder of Shaded In The Sun in Oklahoma City'>
+              <div class='centerSmall'>
+        
+                <h2 class="fs-700 balanced-text h-center">The Faces Behind Shaded In The Sun – Your Edmond and Oklahoma City Window Treatment Experts</h2>
+                <p>Behind Shaded In The Sun are Edna and Brent Buxton, a husband-and-wife team with over 30 years of entrepreneurial experience. Their mission is simple: to help you enjoy the beauty of natural light in your home without the hassle of glare. Curious about how a shared morning coffee inspired Edna to create Shaded In The Sun? <br>
+                <a href='/about.html' class='text-neutral-900 fs-550'><span class='underline-text'>Click here </span>to learn more about how Shaded In The Sun Began.</a>
+                </p>
+              </div>
+              
             </div>
-
           </div>
-        </div>
-      </section>
-
-      <section class="gray-shadow-left margin-tb-25">
-        <div class="">
-          <div class="padding-15 outer-flex">
-
-            <div class='centerSmall'>
-
-              <h2 class="fs-700 balanced-text h-center">New Feature: UltraLite Cordless Lift System</h2>
-              <p>Upgrade to the groundbreaking Graber UltraLite Lift System and enjoy a sophisticated operation that
-                requires only the lightest touch to lift and lower the shade—a family-friendly feature perfect for every
-                age. Plus, it’s so easy to precisely place the shade. No adjustment necessary! Available on Graber solar
-                shades, roller shades, and layered shades, the UltraLite Lift System brings luxury to your lifestyle
-                with this whisper-quiet, incredibly smooth innovation.<a href='graber-ultralite-lift-system.html'
-                  class='text-neutral-900 underline-text fs-550'>
+        </section>
+        
+        <section class="gray-shadow-left margin-tb-25">
+          <div class="">
+            <div class="padding-15 outer-flex"> 
+              
+              <div class='centerSmall'>
+                
+                <h2 class="fs-700 balanced-text h-center">New Feature: UltraLite Cordless Lift System</h2>
+                <p>Upgrade to the groundbreaking Graber UltraLite Lift System and enjoy a sophisticated operation that requires only the lightest touch to lift and lower the shade—a family-friendly feature perfect for every age. Plus, it’s so easy to precisely place the shade. No adjustment necessary! Available on Graber solar shades, roller shades, and layered shades, the UltraLite Lift System brings luxury to your lifestyle with this whisper-quiet, incredibly smooth innovation.<a href='graber-ultralite-lift-system.html' class='text-neutral-900 underline-text fs-550'>
                   Learn More About the UltraLite Cordless System
                 </a>
-              </p>
-            </div>
-            <img class="max-width-90p-h-auto margin-rl30 margin-t-15" width="550" height="320" loading="lazy"
-              src="images/4110-layered-shades-rs23-v1.webp"
-              alt='Close-up of Graber Layered Shades showcasing light filtering in a dining area'>
-            <div class='h-center-all'>
-
+                </p>
+              </div>
+              <img class="max-width-90p-h-auto margin-rl30 margin-t-15" width="550" height="320" loading="lazy"
+                src="images/4110-layered-shades-rs23-v1.webp" alt='Close-up of Graber Layered Shades showcasing light filtering in a dining area'>
+                <div class='h-center-all'>
+                  
+                </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
 
-      <!-- <div class='padding-15'>
+        <!-- <div class='padding-15'>
            <h1>The Faces Behind Shaded In The Sun</h1>
           <p class='max-width-90'>
             Shaded In The Sun is your one-stop solution for all your window treatment needs. We offer a vast selection of blinds, shades, shutters, and draperies to complement any style or budget. Our expert team provides personalized consultations to help you choose the perfect window treatments that enhance your home's beauty, functionality, and energy efficiency. Learn about custom blinds by clicking here: <a href='/fiveCustomBlindReasons.html'>Five Reasons to Choose Custom Blinds and Shades</a> in our blog.</p>
@@ -229,57 +203,38 @@
                 href="tel:14052595599">405-259-5599</a> <br>for your window treatment questions.</p>
 
         </div> -->
-    </div>
+      </div>
 
     <section class="gray-shadow-left margin-tb-25">
       <h2 class='balanced-text h-center-all'>Shaded In The Sun Testimonials</h2>
-      <div class="padding-15 outer-flex">
-        <img class='max-width-50p' src='/images/Debbie-Testimonial.webp'
-          alt="Testimonial from Debbiehighlighting satisfaction with Shaded In The Sun's services" width='669'
-          height='209'>
-        <img class='max-width-50p' src='/images/Maria-Testimonial.webp'
-          alt="Testimonial from Maria highlighting satisfaction with Shaded In The Sun's services" width='661'
-          height='209'>
-
-      </div>
+        <div class="padding-15 outer-flex">
+          <img class='max-width-50p' src='/images/Debbie-Testimonial.webp' alt="Testimonial from Debbiehighlighting satisfaction with Shaded In The Sun's services" width='669' height='209'>
+          <img class='max-width-50p' src='/images/Maria-Testimonial.webp' alt="Testimonial from Maria highlighting satisfaction with Shaded In The Sun's services" width='661' height='209'>
+          
+        </div>
     </section>
     <div class='h-center-all'>
-    </div>
+     </div>
 
-    <h2 class='margin-rl-25 h-center-all balanced-text variable-h2-orange'>Custom Window Treatments with
-      Motorization:<br> Shades, Shutters, Blinds & More</h2>
+    <h2 class='margin-rl-25 h-center-all balanced-text variable-h2-orange'>Custom Window Treatments with Motorization:<br> Shades, Shutters, Blinds & More</h2>
     <section class="grid-2-top-col padding-tb-30 margin-rl-25">
       <div class='vertical-center h-center-div'>
         <h3 class='h-center variable-h2'>Motorization</h3>
-        <img class='' src="/images/Remote-Control-Shades.webp"
-          alt="Graber motorized window treatments operated via remote control in a smart home setup" width='652'
-          height='674' loading='lazy'>
-        <p class='margin-t-15balanced-text'>Motorized blinds and shades offer the highest level of ease and convenience.
-          Not only does motorization improve safety by removing unsightly cords, it allows you to operate your shades
-          "hands free" from any room in your home, or from halfway around the world with use of a hub. Motorized shades
-          can be scheduled for automatic operation. They can also be integrated into more than a dozen different smart
-          home systems.
+        <img class='' src="/images/Remote-Control-Shades.webp" alt="Graber motorized window treatments operated via remote control in a smart home setup" width='652' height='674' loading='lazy'>
+        <p class='margin-t-15balanced-text'>Motorized blinds and shades offer the highest level of ease and convenience. Not only does motorization improve safety by removing unsightly cords, it allows you to operate your shades "hands free" from any room in your home, or from halfway around the world with use of a hub. Motorized shades can be scheduled for automatic operation. They can also be integrated into more than a dozen different smart home systems.
         </p>
       </div>
       <div class='padding-inline-25'>
         <h3 class='h-center balanced-text variable-h2'>UltraLite Cordless Lift System</h3>
-        <img src="/images/21393-roller-shades-rs20-v3.webp" loading='lazy'
-          alt="Graber Shades with UltraLite Cordless Lift providing a sleek look in a contemporary bedroom" width='675'
-          height='450'>
-        <p class='margin-t-15'>The UltraLite cordless lift system from Graber takes the cordless experience to a whole
-          new level. It is ultra-smooth, whisper quiet, and remarkably precise. Raise and lower your solar, roller, and
-          layered shades with the lightest touch—with so little noise that it won’t wake a sleeping baby. Move the shade
-          exactly where you want with almost no effort. And because you can place your shade precisely every time, you
-          can easily adjust the shade to get the ideal light and privacy you desire. This is the ultimate cordless
-          experience—one that you need to try to believe.
+        <img src="/images/21393-roller-shades-rs20-v3.webp" loading='lazy' alt="Graber Shades with UltraLite Cordless Lift providing a sleek look in a contemporary bedroom" width='675' height='450'>
+        <p class='margin-t-15'>The UltraLite cordless lift system from Graber takes the cordless experience to a whole new level. It is ultra-smooth, whisper quiet, and remarkably precise. Raise and lower your solar, roller, and layered shades with the lightest touch—with so little noise that it won’t wake a sleeping baby. Move the shade exactly where you want with almost no effort. And because you can place your shade precisely every time, you can easily adjust the shade to get the ideal light and privacy you desire. This is the ultimate cordless experience—one that you need to try to believe.
         </p>
       </div>
     </section>
     <section class="grid-2-top-col padding-tb-30 margin-rl-25">
       <div class='vertical-center padding-inline-25'>
         <h3 class='h-center variable-h2'>Shades</h3>
-        <img loading="lazy" src="images/21393-roller-shades-full-bath.webp"
-          alt="Graber Roller Shades offering privacy and style in a modern bathroom" width='602' height='401'>
+        <img loading="lazy" src="images/21393-roller-shades-full-bath.webp" alt="Graber Roller Shades offering privacy and style in a modern bathroom" width='602' height='401'>
         <p class='margin-t-15'>Shaded In The Sun and Graber have a large selection of shades including Solar Shades,
           Roller Shades, Zebra Shades, Pleated Shades, Sheer Shades and a whole lot more. Whether you want stylish,
           semi-opaque fabrics that offer glare and UV protection while maintaining an open view to the outdoors or
@@ -289,53 +244,36 @@
       </div>
       <div class='padding-inline-25'>
         <h3 class='h-center variable-h2'>Shutters</h3>
-        <img loading="lazy" src="/images/1515-Wood-Shutters-RS17-V1.webp"
-          alt="Custom Graber wood shutters enhancing the elegance of a traditional study room" width='675' height='450'>
-        <p class='margin-t-15'>Shaded In The Sun and Graber offer both wood and composite shutters. For unsurpassed
-          elegance and natural beauty, 100% North American hardwood Graber Interior Wood Shutters are a premium window
-          treatment. Hand-crafted in a range of custom styles, real wood shutters are an investment in quality that will
-          add warmth and value to your home. We also offer composit shutters. Graber Composite Shutters are a versatile
-          solution that offer many of the same benefits as real wood, but in an engineered material that can withstand
-          moisture and high humidity. Composite shutters are perfect for kitchens, laundry rooms, bathrooms, and other
-          high-humidity spaces.<br>
-          Click <a href="/window-shutters.html">here to learn more about Graber Shutters</a> .
+        <img loading="lazy" src="/images/1515-Wood-Shutters-RS17-V1.webp" alt="Custom Graber wood shutters enhancing the elegance of a traditional study room" width='675' height='450'>
+        <p class='margin-t-15'>Shaded In The Sun and Graber offer both wood and composite shutters. For unsurpassed elegance and natural beauty, 100% North American hardwood Graber Interior Wood Shutters are a premium window treatment. Hand-crafted in a range of custom styles, real wood shutters are an investment in quality that will add warmth and value to your home. We also offer composit shutters. Graber Composite Shutters are a versatile solution that offer many of the same benefits as real wood, but in an engineered material that can withstand moisture and high humidity. Composite shutters are perfect for kitchens, laundry rooms, bathrooms, and other high-humidity spaces.<br>
+        Click <a href="/window-shutters.html">here to learn more about Graber Shutters</a> .
         </p>
       </div>
     </section>
     <section class="grid-2-top-col padding-tb-30 margin-rl-25">
       <div class='vertical-center padding-inline-25'>
         <h3 class='h-center balanced-text variable-h2' id='RomanShades'>Soft Roman Shades</h3>
-        <img loading="lazy" src="images/3271-Roman-Shades-RS17-V1.webp"
-          alt="Graber Soft Roman Shades adding a touch of luxury to a cozy reading nook" width='602' height='395'>
-        <p class='margin-t-15'>Shaded In The Sun and Graber offer a wide selection of Roman Shades. Graber Tailored
-          Roman Shades use distinctive designs, high-end fabrics and hand-tailoring for a striking effect. Nothing
-          showcases a beautiful fabric like a Roman shade. The time-tested Roman shade design stands on its own—or you
-          can pair it with matching Graber Drapery for a luxurious look. <br><br>
-          Click <a href="/window-shades.html#RomanShades">here to learn more about Graber Roman Shades</a>.
+        <img loading="lazy" src="images/3271-Roman-Shades-RS17-V1.webp" alt="Graber Soft Roman Shades adding a touch of luxury to a cozy reading nook" width='602' height='395'>
+        <p class='margin-t-15'>Shaded In The Sun and Graber offer a wide selection of Roman Shades. Graber Tailored Roman Shades use distinctive designs, high-end fabrics and hand-tailoring for a striking effect. Nothing showcases a beautiful fabric like a Roman shade. The time-tested Roman shade design stands on its own—or you can pair it with matching Graber Drapery for a luxurious look. <br><br>
+        Click <a href="/window-shades.html#RomanShades">here to learn more about Graber Roman Shades</a>.
         </p>
       </div>
       <div class='padding-inline-25'>
         <h3 class='h-center variable-h2'>Blinds</h3>
-        <img loading="lazy" src="/images/1685-wood-blinds-rs15-v1.webp"
-          alt="Custom Graber wood blinds installed in a cozy sitting room with natural light" width='675' height='491'>
-        <p class='margin-t-15'>Shaded In The Sun and Graber offer a wide range of Blinds. From Aluminum Blinds to Wood
-          Blinds, Graber has the blinds you are looking for. Learn more about the wide selection of blinds Shaded In The
-          Sun has to offer. <br><br>
-          <span class='Second-Color'>Give Brent & Edna a call at</span> <a href="tel:14052595599"
-            onclick="gtag_report_conversion();">405-259-5599</a> to see the available choices of Graber Window
-          Coverings.
+        <img loading="lazy" src="/images/1685-wood-blinds-rs15-v1.webp" alt="Custom Graber wood blinds installed in a cozy sitting room with natural light" width='675' height='491'>
+        <p class='margin-t-15'>Shaded In The Sun and Graber offer a wide range of Blinds. From Aluminum Blinds to Wood Blinds, Graber has the blinds you are looking for. Learn more about the wide selection of blinds Shaded In The Sun has to offer. <br><br>
+        <span class='Second-Color'>Give Brent & Edna a call at</span> <a href="tel:14052595599" onclick="gtag_report_conversion();">405-259-5599</a> to see the available choices of Graber Window Coverings.
         </p>
       </div>
     </section>
-
+    
   </main>
-
+  
   <footer>
     <nav class="footer-nav container padding-tb-30">
       <div class="footer-layout">
         <div>
-          <img class="hero-pic" width="200" height="200" src="images/SITS-blue-logo-400px.webp" loading="lazy"
-            alt="Shaded In The Sun Company Logo">
+          <img class="hero-pic" width="200" height="200" src="images/SITS-blue-logo-400px.webp" loading="lazy" alt="Shaded In The Sun Company Logo">
           <h3 class="font-size-550 padding-30">Copywrite: 2025</h3>
           <a href='https://graberblinds.com'>
             <h3 class='Second-Color'>Shaded In The Sun is a proud GraberBlinds Dealer</h3>

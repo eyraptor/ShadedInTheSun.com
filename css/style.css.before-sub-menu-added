@@ -219,8 +219,6 @@ img {
   display: block;
   max-width: 400px;
   height: auto;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 /* Navigation */
@@ -1153,12 +1151,7 @@ label.required:after {
   max-height: 0px;
   transition: max-height .2s ease-out;
   margin-top: 62px
-  /* max-width: 100px; */  
-}
-
-.menu {
-  
-  font-size: 12px;
+  /* max-width: 100px; */
 }
 
 .header .menu-icon {
@@ -1228,81 +1221,6 @@ label.required:after {
 .header .menu-btn:checked ~ .menu-icon .nav-icon:after {
   transform: rotate(45deg);
   top: 0;
-}
-
-/* Add these styles to your existing CSS file (e.g., c:\My Documents\ShadedInTheSun.com\css\style.css) */
-
-/* Ensure the parent of the submenu can be a reference for absolute positioning */
-.header .menu > li.has-submenu {
-  position: relative; /* This is crucial for positioning the submenu */
-}
-
-/* Hide the actual checkbox used for toggling the Brands submenu */
-.header .menu > li.has-submenu > .submenu-toggle-checkbox {
-  display: none; /* Visually hide the checkbox */
-}
-
-/* Style the label for the Brands submenu to look like other menu items */
-/* Ensure these styles are appropriate for your desktop menu appearance */
-.header .menu > li.has-submenu > label.brands-label {
-  display: block;
-  /* padding: 20px 10px; Adjust to match your other desktop menu link padding */
-  /* color: var(--clr-primary-400); Adjust to match your menu link color */
-  /* text-decoration: none;
-  cursor: pointer; */
-  /* Add other styles like font-weight, text-align if they apply to your menu links */
-}
-
-/* Show the submenu when its corresponding checkbox is checked (on label click) */
-.header .menu > li.brands-item > .submenu-toggle-checkbox:checked ~ .submenu {
-  display: block;
-}
-
-/* Style for the submenu container */
-.header .menu .submenu {
-  display: none; /* Hide submenu by default */
-  position: absolute;
-  top: 100%; /* Position it right below the parent "Brands" item */
-  left: 0;
-  /* background-color: #333; Example background, match your menu's theme */
-  color: var(--clr-primary-400);
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-  min-width: 200px; /* Adjust width as needed */
-  /* border: 1px solid #555; Optional: adds a border */
-  /* border-top: none; Optional: removes top border if parent has bottom border */
-  /* box-shadow: 0px 3px 5px rgba(0,0,0,0.2); Optional: adds a subtle shadow */
-  z-index: 10; /* Ensure it appears above other content */
-}
-
-/* Style for submenu list items */
-.header .menu .submenu li {
-  /* Reset any inherited styles that might interfere */
-  float: none; /* Ensures items stack vertically */
-  width: 100%;
-}
-
-/* Style for submenu links */
-.header .menu .submenu li a {
-  padding: 12px 20px; /* Adjust padding for better spacing */
-  color: var(--clr-primary-400);       /* Adjust text color to match your theme */
-  text-decoration: none;
-  display: block;
-  text-align: left; /* Or 'center' if you prefer */
-  white-space: nowrap; /* Prevent text wrapping if brand names are long */
-}
-
-/* Show the submenu when hovering over the parent list item ("Brands") */
-.header .menu > li.has-submenu:hover > .submenu {
-  display: block;
-}
-
-/* Optional: Style the "Brands" link itself when its submenu is hovered (or the link is hovered) */
-.header .menu > li.has-submenu:hover > a {
-  /* background-color: #555; Example background, match your main menu hover */
-  color: var(--clr-primary-400);
-  /* Add any other styles for the active parent link */
 }
 
 /* Media Queries */
@@ -1486,13 +1404,7 @@ label.required:after {
     padding-right: 1px;
     padding-left: 1px;
   }
-
-  .header .menu > li.brands-item > label.brands-label {
-   margin-bottom: 8px; /* Added margin to brands button mobile*/
-   margin-right: 10px;
-   }
 }
-
 
 @media (max-width: 800px) {
   .grid-2-top-col {
@@ -1591,28 +1503,9 @@ label.required:after {
   }
 }
     /* Mobile Menu set to work on mobile */
-@media (min-width: 870px) {
+@media (min-width: 800px) {
    .header li {
     float: left;
-  }
-
-  .mobile-left {
-    margin-left: 0;
-    margin-right: auto;
-  }
-
-  .header .menu > li {
-    float: left;
-  }
-
-  /* Style the label for the Brands submenu to look like other menu items on desktop */
-  .header .menu > li.has-submenu > label.brands-label {
-    display: block; /* Crucial for padding and alignment */
-    padding: 20px 10px; /* Matches .header li a padding */
-    color: var(--clr-primary-400); /* Matches .header ul a color */
-    text-decoration: none; /* Typically labels don't have this, but keeps it consistent if links do */
-    cursor: pointer;
-    /* Add any other relevant styles from .header li a if needed (e.g., font-weight) */
   }
 
   .header li a {
@@ -1629,11 +1522,6 @@ label.required:after {
   .header .menu-icon {
     display: none;
   }
-}
-
-/* Desktop Submenu: Keep open on hover, but not on click */
-.header .menu > li.brands-item:hover > .submenu-toggle-checkbox:checked ~ .submenu {
-  display: none; /* Do not keep submenu open on checkbox check (click) */
 }
 
 @media (max-width: 512px) {

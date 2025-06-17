@@ -82,19 +82,27 @@
 
 <body>
   
-  <header class="header">
-  
-    <input class='menu-btn' type='checkbox' id='menu-btn'>
-    <label class='menu-icon' for='menu-btn'><span class='nav-icon'></span></label>
-    <ul class='menu'>
-      <li><a href="/index.html">Home</a></li>
-      <li><a href="/window-shades.html">Window Shades</a></li>
-      <li><a href="/window-shutters.html">Window Shutters</a></li>
-      <li><a href="/about.html">About</a></li>
-      <li><a href="/blog.html">Blog</a></li>
-      <li><a href="/contact.html">Contact</a></li>
-    </ul>
-  </header>
+    <header class="header">
+    
+      <input class='menu-btn' type='checkbox' id='menu-btn'>
+      <label class='menu-icon' for='menu-btn'><span class='nav-icon'></span></label>
+      <ul class='menu'>
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="/window-shades.html">Window Shades</a></li>
+        <li><a href="/window-shutters.html">Window Shutters</a></li>
+        <li class="has-submenu brands-item"> <!-- Added brands-item for potentially more specific styling -->
+          <input type="checkbox" id="brands-submenu-toggle" class="submenu-toggle-checkbox">
+          <label for="brands-submenu-toggle" class="brands-label">Brands</label>
+          <ul class="submenu"> <!-- Submenu for Brands -->
+            <li><a href="graber.html">Graber</a></li>
+            <li><a href="norman.html">Norman</a></li>
+          </ul>
+        </li>
+        <li><a href="/about.html">About</a></li>
+        <li><a href="/blog.html">Blog</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+      </ul>
+    </header>
   
   <div class='display-block'>
     <a href="/index.html"><img class="hero-pic" width="400" height="200" src="images/SITS-blue-logo-400px.webp"

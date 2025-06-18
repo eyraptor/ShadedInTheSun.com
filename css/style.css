@@ -1630,8 +1630,8 @@ label.required:after {
     background-color: #ddd; /* Matches .header ul a:hover background */
   }
 
-  .header li a {
-    padding: 20px 10px;
+ .header li a { 
+  padding: 20px 10px; 
   }
 
   .header .menu {
@@ -1644,22 +1644,22 @@ label.required:after {
   .header .menu-icon {
     display: none;
   }
-}
 
-.header .menu > li.brands-item:hover .submenu,
-.header .menu .submenu:hover {
-  display: block;
-}
-
-/* Desktop Hover: Show submenu and make it interactive.
+  /* Desktop Hover: Show submenu and make it interactive.
    This rule is inside the @media (min-width: 870px) block implicitly by its position
    if the previous @media block for 870px is where desktop styles begin.
    If not, it should be explicitly within that media query. */
  .header .menu > li.brands-item:hover .submenu,
  .header .menu .submenu:hover {
    display: block;
-+  pointer-events: auto; /* Crucial for making links clickable on hover */
+   pointer-events: auto; /* Crucial for making links clickable on hover */
  }
+ 
+  .header .menu > li.brands-item:hover .submenu,
+  .header .menu .submenu:hover {
+    display: block;
+  }
+}
 
 @media (max-width: 512px) {
   .button3::before {

@@ -1659,11 +1659,6 @@ label.required:after {
    display: block;
    pointer-events: auto; /* Crucial for making links clickable on hover */
  }
- 
-  .header .menu > li.brands-item:hover .submenu,
-  .header .menu .submenu:hover {
-    display: block;
-  }
 }
 
 @media (max-width: 512px) {

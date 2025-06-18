@@ -1295,7 +1295,7 @@ label.required:after {
 
 /* Style for submenu links */
 .header .menu .submenu li a {
-  padding: 12px 20px; /* Adjust padding for better spacing */
+  padding: 0px 20px; /* Adjust padding for better spacing */
   color: var(--clr-primary-400);       /* Adjust text color to match your theme */
   text-decoration: none;
   display: block;
@@ -1310,7 +1310,6 @@ label.required:after {
 
 /* Optional: Style the "Brands" link itself when its submenu is hovered (or the link is hovered) */
 .header .menu > li.has-submenu:hover > a {
-  /* background-color: #555; Example background, match your main menu hover */
   color: var(--clr-primary-400);
   /* Add any other styles for the active parent link */
 }

@@ -1246,10 +1246,10 @@ label.required:after {
 /* Ensure these styles are appropriate for your desktop menu appearance */
 .header .menu > li.has-submenu > label.brands-label {
   display: block;
-  /* padding: 20px 10px; Adjust to match your other desktop menu link padding */
-  /* color: var(--clr-primary-400); Adjust to match your menu link color */
-  /* text-decoration: none;
-  cursor: pointer; */
+  padding: 20px 10px; /* Adjust to match your other desktop menu link padding */
+  color: var(--clr-primary-400); /* Adjust to match your menu link color */
+  text-decoration: none;
+  cursor: pointer;
   /* Add other styles like font-weight, text-align if they apply to your menu links */
 }
 
@@ -1259,19 +1259,20 @@ label.required:after {
   pointer-events: auto; /* Make it interactive when shown via click */
 }
 
-/* When the submenu is hidden, disable pointer events */
+/* When the submenu is hidden, disable pointer events
 .header .menu > li.brands-item > .submenu-toggle-checkbox ~ .submenu {
   pointer-events: none;
-}
+} */
 
 .header .menu > li.brands-item > .submenu-toggle-checkbox:not(:checked) ~ .submenu {
   pointer-events: none;
-  /* display: none; will be handled by the general .submenu rule or hover rules */
+  display: none; /* will be handled by the general .submenu rule or hover rules */
 }
 
 /* Style for the submenu container */
 .header .menu .submenu {
-  display: none; /* Hide submenu by default */
+  display: none; /* Hide submenu by default, and make non-interactive */
+  pointer-events: none; /* Default to non-interactive */
   position: absolute;
   top: 100%; /* Position it right below the parent "Brands" item */
   left: 0;
@@ -1281,9 +1282,7 @@ label.required:after {
   padding: 0;
   margin: 0;
   min-width: 200px; /* Adjust width as needed */
-  /* border: 1px solid #555; Optional: adds a border */
   /* border-top: none; Optional: removes top border if parent has bottom border */
-  /* box-shadow: 0px 3px 5px rgba(0,0,0,0.2); Optional: adds a subtle shadow */
   z-index: 10; /* Ensure it appears above other content */
 }
 
@@ -1304,10 +1303,10 @@ label.required:after {
   white-space: nowrap; /* Prevent text wrapping if brand names are long */
 }
 
-/* Show the submenu when hovering over the parent list item ("Brands") */
+/* Show the submenu when hovering over the parent list item ("Brands")
 .header .menu > li.has-submenu:hover > .submenu {
   display: block;
-}
+} */
 
 /* Optional: Style the "Brands" link itself when its submenu is hovered (or the link is hovered) */
 .header .menu > li.has-submenu:hover > a {
@@ -1642,15 +1641,20 @@ label.required:after {
   }
 }
 
-/* Desktop Submenu: Keep open on hover, but not on click */
-.header .menu > li.brands-item:hover > .submenu-toggle-checkbox:checked ~ .submenu {
-  /* display: none; Do not keep submenu open on checkbox check (click) */
-}
-
 .header .menu > li.brands-item:hover .submenu,
 .header .menu .submenu:hover {
   display: block;
 }
+
+/* Desktop Hover: Show submenu and make it interactive.
+   This rule is inside the @media (min-width: 870px) block implicitly by its position
+   if the previous @media block for 870px is where desktop styles begin.
+   If not, it should be explicitly within that media query. */
+ .header .menu > li.brands-item:hover .submenu,
+ .header .menu .submenu:hover {
+   display: block;
++  pointer-events: auto; /* Crucial for making links clickable on hover */
+ }
 
 @media (max-width: 512px) {
   .button3::before {

@@ -1256,11 +1256,17 @@ label.required:after {
 /* Show the submenu when its corresponding checkbox is checked (on label click) */
 .header .menu > li.brands-item > .submenu-toggle-checkbox:checked ~ .submenu {
   display: block;
+  pointer-events: auto; /* Make it interactive when shown via click */
 }
 
 /* When the submenu is hidden, disable pointer events */
 .header .menu > li.brands-item > .submenu-toggle-checkbox ~ .submenu {
   pointer-events: none;
+}
+
+.header .menu > li.brands-item > .submenu-toggle-checkbox:not(:checked) ~ .submenu {
+  pointer-events: none;
+  /* display: none; will be handled by the general .submenu rule or hover rules */
 }
 
 /* Style for the submenu container */
@@ -1638,7 +1644,12 @@ label.required:after {
 
 /* Desktop Submenu: Keep open on hover, but not on click */
 .header .menu > li.brands-item:hover > .submenu-toggle-checkbox:checked ~ .submenu {
-  display: none; /* Do not keep submenu open on checkbox check (click) */
+  /* display: none; Do not keep submenu open on checkbox check (click) */
+}
+
+.header .menu > li.brands-item:hover .submenu,
+.header .menu .submenu:hover {
+  display: block;
 }
 
 @media (max-width: 512px) {

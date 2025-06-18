@@ -1295,7 +1295,7 @@ label.required:after {
 
 /* Style for submenu links */
 .header .menu .submenu li a {
-  padding: 0px 20px; /* Adjust padding for better spacing */
+  padding: 5px 20px; /* Adjust padding for better spacing */
   color: var(--clr-primary-400);       /* Adjust text color to match your theme */
   text-decoration: none;
   display: block;

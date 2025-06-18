@@ -1630,6 +1630,11 @@ label.required:after {
     background-color: #ddd; /* Matches .header ul a:hover background */
   }
 
+  .display-block {
+  margin-left: 0;
+  margin-right: auto;
+}
+
  .header li a { 
   padding: 20px 10px; 
   }

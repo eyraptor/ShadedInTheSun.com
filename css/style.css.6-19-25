@@ -1653,21 +1653,11 @@ label.required:after {
    This rule is inside the @media (min-width: 870px) block implicitly by its position
    if the previous @media block for 870px is where desktop styles begin.
    If not, it should be explicitly within that media query. */
- /* .header .menu > li.has-submenu.brands-item:hover > ul.submenu,
+ .header .menu > li.has-submenu.brands-item:hover > ul.submenu,
  .header .menu > li.has-submenu.brands-item > ul.submenu:hover {
    display: block;
-   pointer-events: auto;  Crucial for making links clickable on hover 
- } */
-
-  .header .menu > li.brands-item > .submenu-toggle-checkbox:checked ~ .submenu {
-  display: block;
-  pointer-events: auto;
-  }
-
-  .header .menu > li.brands-item > .submenu-toggle-checkbox:not(:checked) ~ .submenu {
-  pointer-events: none;
-  display: none;
-  }
+   pointer-events: auto; /* Crucial for making links clickable on hover */
+ }
 }
 
 @media (max-width: 512px) {

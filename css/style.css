@@ -382,6 +382,10 @@ img {
   height: 20px;
 }
 
+.display-block {
+  display: block;
+}
+
 .outer-flex {
   display: flex;
   flex-direction: row;

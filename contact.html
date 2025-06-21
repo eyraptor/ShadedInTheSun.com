@@ -214,26 +214,47 @@
       </section> -->
   </main>
   <footer>
-    <nav class="footer-nav container">
-      <div class="footer-layout padding-tb-30">
-        <div>
-          <a href="/index.html"><img class="hero-pic" width="200" height="200"
-              src="images/SITS-blue-logo-400px.webp" alt="Shaded In The Sun Logo"></a>
-          <h3 class="font-size-550 padding-30">Copywrite: 2025</h3>
-          <a href='https://graberblinds.com'>
-            <h3 class='Second-Color'>Shaded In The Sun is a proud GraberBlinds Dealer</h3>
+    <nav class="footer-nav container padding-tb-30">
+      <div class="footer-layout">
+  
+        <!-- ====== COLUMN 1: BRAND & CONTACT INFO ====== -->
+        <!-- This entire div is the first "flex item" or column -->
+        <div class='max-width-40ch'>
+          <a class='display-block-left' href="/index.html"><img class="hero-pic display-block-left" width="200"
+              height="100" src="images/SITS-blue-logo-400px.webp" loading="lazy" alt="Shaded In The Sun Logo"></a>
+  
+          <ul aria-label="Contact Information" class="nav-list" style="display: block;">
+            <!-- Inline style to override nav-list flex behavior -->
+            <li class="margin-t-10"><a href="tel:14052595599" onclick="gtag_report_conversion();">(405) 259-5599</a></li>
+            <li class="margin-t-10"><a href="mailto:ednabuxton@yahoo.com">ednabuxton@yahoo.com</a></li>
+            <li class="text-neutral-900 margin-t-10 max-width-40ch balanced-text">
+              <strong>Serving Oklahoma City, Edmond, Nichols Hills, Yukon, The Village, Bethany & The Surrounding
+                Metro</strong>
+            </li>
+          </ul>
+  
+          <p class="fs-400 margin-t-20">Copyright ©2025 Shaded In The Sun</p>
+          <a href='https://graberblinds.com' target="_blank" rel="noopener noreferrer">
+            <p class='Second-Color fs-400'>An Authorized Graber Dealer</p>
           </a>
         </div>
-        <ul aria-label="Footer" role="list" class="nav-list max-width-50">
-          <li><a href="/index.html">Home</a></li>
-          <li><a href="/window-shades.html">Window Shades</a></li>
-          <li><a href="/window-shutters.html">Window Shutters</a></li>
-          <!-- <li><a href="/RomanShades.html">Roman Shades</a></li>
-                            <li><a href="/blinds.html">Blinds</a></li> -->
-          <li><a href="/about.html">About</a></li>
-          <li><a href="/blog.html">Blog</a></li>
-          <li><a href="/contact.html">Contact</a></li>
-        </ul>
+  
+        <!-- ====== COLUMN 2: NAVIGATION ====== -->
+        <!-- This entire div is the second "flex item" or column -->
+        <div>
+          <ul aria-label="Footer Navigation" class="nav-list">
+            <!-- Inline style to override nav-list flex behavior -->
+            <li class="margin-t-10"><a href="/index.html">Home</a></li>
+            <li class="margin-t-10"><a href="/window-shades.html">Window Shades</a></li>
+            <li class="margin-t-10"><a href="/window-shutters.html">Window Shutters</a></li>
+            <li class="margin-t-10"><a href="/graber.html">Graber</a></li>
+            <li class="margin-t-10"><a href="/norman.html">Norman</a></li>
+            <li class="margin-t-10"><a href="/about.html">About</a></li>
+            <li class="margin-t-10"><a href="/blog.html">Blog</a></li>
+            <li class="margin-t-10"><a href="/contact.html">Contact</a></li>
+          </ul>
+        </div>
+  
       </div>
     </nav>
   </footer>

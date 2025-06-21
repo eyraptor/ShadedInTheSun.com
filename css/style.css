@@ -530,11 +530,6 @@ img {
   text-align: left;
 }
 
-.left-div {
-  margin-left:0;
-  margin-right:auto;
-}
-
 .max-width-50p {
   max-width: 50%;
 }
@@ -941,7 +936,6 @@ label.required:after {
 
 .footer-layout {
   display: flex;
-  flex-direction: row;
   margin: 15px;
   justify-content: space-around;
   margin-bottom: 50px;

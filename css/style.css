@@ -1602,6 +1602,11 @@ label.required:after {
   .desktop-70p {
     max-width: 100%;
   }
+
+  .display-block-left {
+    margin-left: 0;
+    margin-right: auto;
+  }
 }
     /* Mobile Menu set to work on mobile */
 @media (min-width: 870px) {
@@ -1633,7 +1638,7 @@ label.required:after {
     background-color: #ddd; /* Matches .header ul a:hover background */
   }
 
-  .display-block {
+  .display-block-left {
   margin-left: 0;
   margin-right: auto;
 }

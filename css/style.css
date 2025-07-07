@@ -468,6 +468,7 @@ img {
 
 .h-center {
   text-align: center;
+  word-wrap: balance;
 }
 
 .h-center-div {
@@ -663,6 +664,10 @@ img {
 .margin-rl30 {
   margin-left: 30px;
   margin-right: 30px;
+}
+
+.margin-l-0 {
+  margin-left: 0;
 }
 
 .margin-l-10px {

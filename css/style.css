@@ -16,14 +16,16 @@
   --ff-body: var(--ff-primary);
   --ff-heading: var(--ff-primary);
 
-  --fw-light: 300;
-  --fw-regular: 400;
+  --fw-light: 200;
+  --fw-regular: 300;
   --fw-semi-bold: 500;
   --fw-bold: 700;
   --fw-black: 900;
 
-  --fs-300: 0.8125;
-  --fs-350: 0.85;
+  --fs-100: 0.5rem;
+  --fs-200: 0.75rem;
+  --fs-300: 0.8125rem;
+  --fs-350: 0.85rem;
   --fs-400: 0.875rem;
   --fs-500: 1rem;
   --fs-550: 1.25rem;
@@ -31,7 +33,12 @@
   --fs-700: 1.875rem;
   --fs-900: 2rem;
   --fs-1000: 3rem;
+  --fs-4000: 4rem;
   --fs-5000: 5rem;
+  --fs-6000: 6rem;
+  --fs-7000: 7rem;
+  --fs-8000: 8rem;
+  --fs-9000: 9rem;
   --fs-10000: 10rem;
 
   --fs-body: var(--fs-400);
@@ -39,19 +46,132 @@
   --fs-secondary-heading: var(--fs-700);
   --fs-nav: var(--fs-500);
   --fs-button: var(--fs-600);
-
-  --size-100: 0.25rem;
-  --size-200: 0.5rem;
-  --size-300: 0.75rem;
-  --size-400: 1rem;
-  --size-500: 1.5rem;
-  --size-600: 2rem;
-  --size-700: 3rem;
-  --size-750: 3.5rem;
-  --size-800: 4rem;
-  --size-900: 5rem;
 }
 
+.primary-color-300 {
+  color: var(--clr-primary-300);
+}
+
+.Second-Color {
+  color: var(--clr-primary-400)
+}
+
+@media (min-width: 56em) {
+  :root {
+    --fs-body: var(--fs-500);
+    --fs-primary-heading: var(--fs-900);
+    --fs-secondary-heading: var(--fs-700);
+    --fs-nav: var(--fs-300);
+  }
+}
+
+/* Font Faces for Roboto - Each corresponds to a unique font file you downloaded */
+
+/* Roboto Thin (100) */
+@font-face {
+  font-family: 'Roboto';
+  src: url('/fonts/roboto-v48-latin-100.woff2') format('woff2'),
+       url('/fonts/roboto-v48-latin-100.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Roboto Extra-light (200) */
+@font-face {
+  font-family: 'Roboto';
+  src: url('/fonts/roboto-v48-latin-200.woff2') format('woff2'),
+       url('/fonts/roboto-v48-latin-200.woff') format('woff');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Roboto Light (300) */
+@font-face {
+  font-family: 'Roboto';
+  src: url('/fonts/roboto-v48-latin-300.woff2') format('woff2'),
+       url('/fonts/roboto-v48-latin-300.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Roboto Medium (500) */
+@font-face {
+  font-family: 'Roboto';
+  src: url('/fonts/roboto-v48-latin-500.woff2') format('woff2'),
+       url('/fonts/roboto-v48-latin-500.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Roboto Semi-bold (600) */
+@font-face {
+  font-family: 'Roboto';
+  src: url('/fonts/roboto-v48-latin-600.woff2') format('woff2'),
+       url('/fonts/roboto-v48-latin-600.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Roboto Bold (700) */
+@font-face {
+  font-family: 'Roboto';
+  src: url('/fonts/roboto-v48-latin-700.woff2') format('woff2'),
+       url('/fonts/roboto-v48-latin-700.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Roboto Extra-bold (800) */
+@font-face {
+  font-family: 'Roboto';
+  src: url('/fonts/roboto-v48-latin-800.woff2') format('woff2'),
+       url('/fonts/roboto-v48-latin-800.woff') format('woff');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Roboto Black (900) */
+@font-face {
+  font-family: 'Roboto';
+  src: url('/fonts/roboto-v48-latin-900.woff2') format('woff2'),
+       url('/fonts/roboto-v48-latin-900.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Then in your regular CSS, you just use font-family and font-weight: */
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700; /* This pulls the Roboto Bold file */
+  font-size: 2.5rem;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400; /* This pulls the Roboto Regular file */
+  font-size: 1rem;
+}
+
+strong {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500; /* This pulls the Roboto Medium file */
+}
+
+.fs-100 {
+  font-size: var(--fs-100);
+}
+
+.fs-200 {
+  font-size: var(--fs-200);
+}
 .fs-300 {
   font-size: var(--fs-300);
 }
@@ -79,29 +199,48 @@
 .fs-1000 {
   font-size: var(--fs-1000);
 }
+.fs-4000 {
+  font-size: var(--fs-4000);
+}
 .fs-5000 {
   font-size: var(--fs-5000);
+}
+.fs-6000 {
+  font-size: var(--fs-6000);
+}
+.fs-7000 {
+  font-size: var(--fs-7000);
+}
+.fs-8000 {
+  font-size: var(--fs-8000);
+}
+.fs-9000 {
+  font-size: var(--fs-9000);
 }
 .fs-10000 {
   font-size: var(--fs-10000);
 }
 
-.primary-color-300 {
-  color: var(--clr-primary-300);
+.fw-light {
+  font-weight: var(--fw-light);
 }
 
-.Second-Color {
-  color: var(--clr-primary-400)
+.fw-regular {
+  font-weight: var(--fw-regular);
 }
 
-@media (min-width: 56em) {
-  :root {
-    --fs-body: var(--fs-500);
-    --fs-primary-heading: var(--fs-900);
-    --fs-secondary-heading: var(--fs-700);
-    --fs-nav: var(--fs-300);
-  }
+.fw-semi-bold {
+  font-weight: var(--fw-semi-bold);
 }
+
+.fw-bold {
+  font-weight: var(--fw-bold);
+}
+
+.fw-black {
+  font-weight: var(--fw-black);
+}
+
 
 /* // https://piccalil.li/blog/a-modern-css-reset
 
@@ -987,22 +1126,6 @@ label.required:after {
 
 .bg-neutral-900 {
   background-color: var(--clr-neutral-900);
-}
-
-.fw-bold {
-  font-weight: var(--fw-bold);
-}
-
-.fw-black {
-  font-weight: var(--fw-black);
-}
-
-.fw-semi-bold {
-  font-weight: var(--fw-semi-bold);
-}
-
-.fw-regular {
-  font-weight: var(--fw-regular);
 }
 
 .fs-primary-heading {

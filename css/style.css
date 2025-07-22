@@ -1865,9 +1865,9 @@ label.required:after {
     color: var(--clr-pop-100);
   }
 
-  .variable-h3 {
+  /* .variable-h3 {
     font-size: var(--fs-400);
-  }
+  } */
 }
 
 @media (max-width: 22em) {

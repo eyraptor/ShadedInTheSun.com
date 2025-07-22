@@ -1864,10 +1864,6 @@ label.required:after {
     font-size: var(--fs-600);
     color: var(--clr-pop-100);
   }
-
-  /* .variable-h3 {
-    font-size: var(--fs-400);
-  } */
 }
 
 @media (max-width: 22em) {

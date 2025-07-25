@@ -1863,7 +1863,7 @@ label.required:after {
   .variable-h2-orange {
     font-size: var(--fs-600);
     color: var(--clr-pop-100);
-  }
+  } 
 }
 
 @media (max-width: 22em) {

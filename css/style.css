@@ -515,6 +515,10 @@ img {
   max-width: 800px;
 }
 
+.container-max-width-1500 {
+  max-width: 1500px;
+}
+
 .container3 {
   /* position: relative; */
   max-width: 1500px;

@@ -539,6 +539,12 @@ img {
   color: var(--clr-neutral-900);
 }
 
+.variable-h1-orange {
+  font-weight: var(--fw-bold);
+  font-size: var(--fs-1000);
+  color: var(--clr-pop-100);
+}
+
 .variable-h2 {
   font-size: var(--fs-900);
   color: var(--clr-primary-400);

@@ -1747,8 +1747,8 @@ label.required:after {
     margin-right: auto;
   }
 }
-    /* Mobile Menu set to work on mobile */
-@media (min-width: 870px) {
+    /* Mobile Menu set to work on mobile Was 870px, but changed when menu was bigger*/
+@media (min-width: 1440px) {
    .header li {
     float: left;
   }

@@ -688,6 +688,10 @@ img {
   max-width: 40ch;
 }
 
+.max-width-50ch {
+  max-width: 50ch;
+}
+
 .max-width-70ch {
   max-width: 70ch;
 }

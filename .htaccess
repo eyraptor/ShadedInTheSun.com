@@ -1,0 +1,4 @@
+# Redirect index.html to root
+RewriteEngine On
+RewriteCond %{THE_REQUEST} ^.*/index\.html
+RewriteRule ^(.*)index\.html$ https://shadedinthesun.com/$1 [R=301,L]

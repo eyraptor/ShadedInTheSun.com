@@ -331,7 +331,7 @@ body {
 
 a {
   color: var(--clr-pop-100);
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 h1 {

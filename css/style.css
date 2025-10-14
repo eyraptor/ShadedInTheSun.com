@@ -352,6 +352,7 @@ h2 {
 
 img {
   border-radius: 15px;
+  margin-inline: auto;
 }
 
 .display-block {

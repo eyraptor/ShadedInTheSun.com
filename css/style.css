@@ -1218,10 +1218,10 @@ label.required:after {
 }
 
 /* .card:hover, */
-.card-small:hover,
+/* .card-small:hover,
 .card:focus-within {
   transform: scale(1.25);
-}
+} */
 
 .card-content {
   --padding: 1.5rem;

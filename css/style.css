@@ -7,8 +7,8 @@
   --clr-neutral-200: rgb(230, 244, 241);
   --clr-neutral-900: #0b1517;
 
-  --clr-pop-100: #fb9039;
-  --clr-pop-200: #fcbb87;
+  --clr-pop-100: #e67b30;
+  --clr-pop-200: #fa6400;
   --clr-pop-300: #a587c1;
 
   --ff-primary: 'Roboto', sans-serif;
@@ -330,7 +330,7 @@ body {
 }
 
 a {
-  color: var(--clr-pop-100);
+  color: var(--clr-pop-200);
   text-decoration: underline;
 }
 

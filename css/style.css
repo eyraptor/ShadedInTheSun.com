@@ -1,15 +1,18 @@
 :root {
-  --clr-primary-400: #00a1ba;
-  --clr-primary-300: #00a8d5;
-  --clr-primary-200: #95b0b7;
+  /* Soft, accessible blues for primary and navigation */
+  --clr-primary-400: #236483;    /* Accessible blue for text/buttons/links */
+  --clr-primary-300: #4da6c7;    /* Lighter for highlights */
+  --clr-primary-200: #e6f4f8;    /* Very light for background or accent */
 
-  --clr-neutral-100: #ffffff;
-  --clr-neutral-200: rgb(230, 244, 241);
-  --clr-neutral-900: #0b1517;
+  /* Neutrals for backgrounds and core sections */
+  --clr-neutral-100: #fff8f5;    /* Soft white for main background */
+  --clr-neutral-200: #f4ede7;    /* Warm near-white for panels */
+  --clr-neutral-900: #2d2926;    /* Elegant deep brown/charcoal for text */
 
-  --clr-pop-100: #c64a07;
-  --clr-pop-200: #fa6400;
-  --clr-pop-300: #a587c1;
+  /* Warm, accessible accent oranges for headings/buttons/links */
+  --clr-pop-100: #c0601b;        /* Accessible "cinnamon" orange (H1, buttons) */
+  --clr-pop-200: #a14d0c;        /* Darker orange for hover/focus states */
+  --clr-pop-300: #a587c1;        /* Keep as your accent purple if desired */
 
   --ff-primary: 'Roboto', sans-serif;
 

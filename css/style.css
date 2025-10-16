@@ -7,7 +7,7 @@
   --clr-neutral-200: rgb(230, 244, 241);
   --clr-neutral-900: #0b1517;
 
-  --clr-pop-100: #e67b30;
+  --clr-pop-100: #c64a07;
   --clr-pop-200: #fa6400;
   --clr-pop-300: #a587c1;
 
@@ -410,7 +410,7 @@ img {
   font-weight: var(--fw-black);
   font-size: var(--fs-button);
   line-height: 1;
-  color: var(--clr-neutral-900);
+  color: var(--clr-neutral-100);
   background-color: var(--clr-pop-100);
   box-shadow: 0 1.125em 1em -1em var(--cls-primary-200);
   margin-top: 2em;
@@ -426,7 +426,7 @@ img {
   font-weight: var(--fw-black);
   font-size: 16px;
   line-height: 1;
-  color: var(--clr-neutral-900);
+  color: var(--clr-neutral-100);
   background-color: var(--clr-pop-100);
   box-shadow: 0 1.125em 1em -1em var(--cls-primary-200);
   /* margin-top: 2em; */

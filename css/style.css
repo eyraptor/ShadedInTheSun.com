@@ -59,6 +59,10 @@
   color: var(--clr-primary-400)
 }
 
+.text-pop-200 {
+  color: var(--clr-pop-200);
+}
+
 @media (min-width: 56em) {
   :root {
     --fs-body: var(--fs-500);
@@ -746,6 +750,12 @@ img {
 .padding-top-30px {
   padding-top: 30px;
 }
+
+.padding-inline-15px {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 .padding-inline-25px {
   padding-left: 25px;
   padding-right: 25px;
@@ -984,6 +994,11 @@ img {
   border-radius: 15px;
 }
 
+.heroContainer-light {
+  position: relative;
+  border-radius: 15px;
+}
+
 .heroContainer::before {
   content: "Click To Call Now and Schedule \A A Free Consultation 405-259-5599";
   white-space: pre;
@@ -992,6 +1007,23 @@ img {
   text-align: center;
   /* color: var(--clr-primary-400); */
   color: white;
+  font-size: 2rem;
+  font-weight: 900;
+  bottom: 50px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  z-index: 1;
+  opacity: 1;
+}
+
+.heroContainer-light::before {
+  content: "Click To Call Now and Schedule \A A Free Consultation 405-259-5599";
+  white-space: pre;
+  display: block;
+  position: absolute;
+  text-align: center;
+  /* color: var(--clr-primary-400); */
+  color: black;
   font-size: 2rem;
   font-weight: 900;
   bottom: 50px;

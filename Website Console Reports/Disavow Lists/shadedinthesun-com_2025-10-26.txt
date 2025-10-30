@@ -1,0 +1,55 @@
+# Disavow file for shadedinthesun.com
+# Created: October 13, 2025
+# Reason: Removing spam backlinks causing ranking volatility
+# 
+# This file tells Google to ignore links from these spam domains
+# that were not built by us and are harming our rankings.
+#
+# Format: domain:spamsite.com (disavows all links from that domain)
+
+# Spam link farm sites - "Where to buy aged domains and backlinks"
+domain:itxoft.com
+domain:seoflox.io
+domain:sparltech.com
+domain:rankva.com
+domain:conference.delhi.in
+domain:veethemes.co.in
+domain:sovereignmedia.co.za
+domain:purple-elephant.us
+domain:bethanyfamilyinstitute.com
+domain:seo-domains.com.in
+domain:seoprobox.click
+domain:indonesia-gov-links.eu
+domain:jobsapp.info
+domain:seo-revealed.club
+domain:linkbox.agency
+domain:prolinkbox.com
+domain:seolink.info
+domain:myhon.ch
+domain:xploredomains.com
+domain:all-aged-domains.com
+domain:boost-your-site-with-homepage-backlinks.us
+domain:links4you.info
+domain:selfie-battles-are-for-amateurs-tim--kalin-from-seodomains-here.com
+domain:vix.lt
+domain:rank-fast.agency
+domain:qa-animals.info
+domain:sunnyside-pbn-domains.club
+domain:kompromat100.info
+domain:sergechel.info
+domain:ageokousei.jp
+domain:moneygame.pro
+domain:alenews.pl
+domain:einzerce.eu
+domain:rankpilot.shop
+domain:katmoviehd.wf
+domain:fldh.info
+domain:agmermer.pro
+domain:this-is-not-what-you-think-it-is-at-all.us
+domain:dont-tell-anyone.click
+domain:india-gov-links.com
+domain:buyseolink.com
+domain:rank-fast.agency
+
+# DO NOT DISAVOW - This is a legitimate backlink
+# iretoolbox.com - Real estate office partners page - KEEP THIS ONE

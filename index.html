@@ -100,6 +100,73 @@
   });
 </script>
 
+<!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-W4SF3R9Q43"></script>
+
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-W4SF3R9Q43');
+  </script>
+
+  <!-- Google tag (gtag.js) Phone Number click Tracking-->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-991416893"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'AW-991416893');
+  </script>
+
+  <!-- Event snippet for Phone Number Click conversion page
+  In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+  <script>
+    function gtag_report_conversion() { // Removed 'url' parameter
+      gtag('event', 'conversion', {
+        'send_to': 'AW-991416893/cP5ZCMvr65YaEL2k39gD' // Your unique ID
+      });
+      // REMOVED 'return false;' from here
+    }
+  </script>
+
+  <script>
+    function gtag_report_conversion_Calendly() { // Renamed for clarity
+      gtag('event', 'conversion', {
+        'send_to': 'AW-991416893/czo8CNKc7JYaEL2k39gD' // This is your unique Calendly Conversion ID
+      });
+      // REMOVED 'return false;' and 'callback' logic
+    }
+  </script>
+
+<!-- Google Tag Manager -->
+  <script>(function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-KPGF8C29');</script>
+  <!-- End Google Tag Manager -->
+
+  <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+  <script src="https://assets.calendly.com/assets/external/widget.js" async></script>
+  <script>
+    window.onload = function () {
+      Calendly.initBadgeWidget({
+        url: 'https://calendly.com/volfram74/15min',
+        text: 'Schedule a call with us',
+        color: '#0069ff',
+        textColor: '#ffffff',
+        // ADD THIS LINE:
+        onClick: function () { gtag_report_conversion_Calendly(); }
+      });
+    };
+  </script>
+
 </head>
 
 <body>
@@ -388,151 +455,6 @@
       </div>
     </nav>
   </footer>
-
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-W4SF3R9Q43"></script>
-
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-
-    gtag('config', 'G-W4SF3R9Q43');
-  </script>
-
-  <!-- Google tag (gtag.js) Phone Number click Tracking-->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-991416893"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-
-    gtag('config', 'AW-991416893');
-  </script>
-
-  <!-- Event snippet for Phone Number Click conversion page
-  In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
-  <script>
-    function gtag_report_conversion() { // Removed 'url' parameter
-      gtag('event', 'conversion', {
-        'send_to': 'AW-991416893/cP5ZCMvr65YaEL2k39gD' // Your unique ID
-      });
-      // REMOVED 'return false;' from here
-    }
-  </script>
-
-  <script>
-    function gtag_report_conversion_Calendly() { // Renamed for clarity
-      gtag('event', 'conversion', {
-        'send_to': 'AW-991416893/czo8CNKc7JYaEL2k39gD' // This is your unique Calendly Conversion ID
-      });
-      // REMOVED 'return false;' and 'callback' logic
-    }
-  </script>
-
-<!-- Google Tag Manager -->
-  <script>(function (w, d, s, l, i) {
-      w[l] = w[l] || []; w[l].push({
-        'gtm.start':
-          new Date().getTime(), event: 'gtm.js'
-      }); var f = d.getElementsByTagName(s)[0],
-        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
-          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
-    })(window, document, 'script', 'dataLayer', 'GTM-KPGF8C29');</script>
-  <!-- End Google Tag Manager -->
-
-  <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
-  <script src="https://assets.calendly.com/assets/external/widget.js" async></script>
-  <script>
-    window.onload = function () {
-      Calendly.initBadgeWidget({
-        url: 'https://calendly.com/volfram74/15min',
-        text: 'Schedule a call with us',
-        color: '#0069ff',
-        textColor: '#ffffff',
-        // ADD THIS LINE:
-        onClick: function () { gtag_report_conversion_Calendly(); }
-      });
-    };
-  </script>
-
-  <!-- Calendly badge widget begin
-  <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
-  <script src="https://assets.calendly.com/assets/external/widget.js" async></script>
-  <script>
-    window.onload = function () { 
-    Calendly.initBadgeWidget({ 
-    url: 'https://calendly.com/volfram74/15min', 
-    text: 'Schedule a call with us', 
-    color: '#0069ff', 
-    textColor: '#ffffff' }); }
-  </script>
-  Calendly badge widget end -->
-
-  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"
-    integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
-  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"
-    integrity="sha512-wK2NuxEyN/6s53M8G7c6cRUXvkeV8Uh5duYS06pAdLq4ukc72errSIyyGQGYtzWEzvVGzGSWg8l79e0VkTJYPw=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
-
-  <!-- <script src="/main.js" type="module"></script> -->
-
-  <!-- Allows to have a picture in place of YouTube video to save on load times -->
-  <!-- <script>
-
-    // document.getElementById("placeholder").addEventListener("click", function () {
-    //   this.style.display = 'none';
-    //   var x = document.getElementById("player");
-    //   x.style.display = "block";
-    //   loadYT()
-    // });
-
-    // 2. This code loads the IFrame Player API code asynchronously.
-    // function loadYT() {
-    //   var tag = document.createElement('script');
-    //   tag.src = "https://www.youtube.com/iframe_api";
-    //   var firstScriptTag = document.getElementsByTagName('script')[0];
-    //   firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
-    // }
-
-    // 3. This function creates an <iframe> (and YouTube player)
-    //    after the API code downloads.
-    // var player;
-
-    // function onYouTubeIframeAPIReady() {
-    //   player = new YT.Player('player', {
-    //     height: '401.5',
-    //     width: '550',
-    //     videoId: 'vDBkL7H4nHw',
-    //     events: {
-    //       'onReady': onPlayerReady,
-    //       'onStateChange': onPlayerStateChange
-    //     }
-    //   });
-    // }
-
-    // 4. The API will call this function when the video player is ready.
-    // function onPlayerReady(event) {
-    //   event.target.playVideo();
-    // }
-
-    // 5. The API calls this function when the player's state changes.
-    //    The function indicates that when playing a video (state=1),
-    //    the player should play for six seconds and then stop.
-    // var done = false;
-
-    // function onPlayerStateChange(event) {
-    //   if (event.data == YT.PlayerState.PLAYING && !done) {
-    //     // setTimeout(stopVideo, 6000);
-    //     done = true;
-    //   }
-    // }
-
-    // function stopVideo() {
-    //   player.stopVideo();
-    // }
-  </script> -->
 
 </body>
 

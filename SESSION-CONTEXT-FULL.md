@@ -1,5 +1,12 @@
 # SEO OPTIMIZATION PROJECT - COMPLETE RESUME GUIDE
 
+## 🚀 HOW TO RESUME WORK (COPY THIS PROMPT)
+
+**Paste this in new sessions:**
+```
+Read SESSION-CONTEXT-FULL.md and continue SEO work from where we left off. Work on the next batch of 5 files, following all the patterns and using the keyword list. Commit and push when done.
+```
+
 ## PROJECT STATUS
 **Progress:** 10 of 30 files completed (33% done) on current branch
 **CRITICAL:** Extensive SEO work already done on other branches - see "Previous SEO Work" section
@@ -124,10 +131,12 @@ Replace ALL instances of generic link text:
   - "Read More →" → "Explore motorized installation services"
   - "Read More →" → "View latest window treatment trends"
 
-### 4. Remove Plantation Shutters References
-- Remove from schema markup `itemListElement`
-- Site doesn't sell plantation shutters - causes SEO confusion
-- **Example:** Delete line `{"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Plantation Shutters"}},`
+### 4. Plantation Shutters - DO NOT ADD MORE
+- **CRITICAL:** Site DOES sell plantation shutters but doesn't push them
+- **DO NOT add new plantation shutter content or pages**
+- **DO NOT remove existing plantation shutter references** (they're fine)
+- Previous removal work was done when they weren't selling them at all
+- Keep what's there, just don't expand on it
 
 ### 5. Add Norman Product References
 - **CRITICAL:** Site is light on Norman content (new dealer)

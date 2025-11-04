@@ -12,11 +12,12 @@ THIRD: Continue SEO work on the next batch of 5 files from the "NEXT BATCH TO CO
 FOURTH: Follow all patterns in "SEO FIXES PATTERN" section and use keywords from "MASTER KEYWORD LIST"
 FIFTH: Commit and push when done
 
-The file contains:
-- 83 keywords to use
-- Norman & Graber products to mention
-- All previous work completed (don't duplicate)
-- Next files to work on
+The SESSION-CONTEXT-FULL.md file contains everything you need (83 keywords, products, patterns, etc.)
+
+If you need the original reference documents, they're on branch claude/improve-link-descriptions-seo-011CUkzktfj3FBQFbB5THtkz:
+- /home/user/ShadedInTheSun.com/10-17-2025 - MASTER-UNIFIED-SEO-PLAN-v2-FINAL.md
+- /home/user/ShadedInTheSun.com/10-17-2025 - seo_performance_analysis.md
+- /home/user/ShadedInTheSun.com/WriteSonic/10-31-25 Report/seo-audit-report-shadedinthesun.com-2025-11-01.xlsx
 ```
 
 ## PROJECT STATUS

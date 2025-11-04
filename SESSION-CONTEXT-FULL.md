@@ -1,9 +1,11 @@
 # SEO OPTIMIZATION PROJECT - COMPLETE RESUME GUIDE
 
 ## PROJECT STATUS
-**Progress:** 10 of 30 files completed (33% done)
+**Progress:** 10 of 30 files completed (33% done) on current branch
+**CRITICAL:** Extensive SEO work already done on other branches - see "Previous SEO Work" section
 **Working Branch:** `claude/resume-prompt-issue-011CUmqgzUpwwmTSeeHujoJs`
 **Reference Branch:** `claude/improve-link-descriptions-seo-011CUkzktfj3FBQFbB5THtkz` (contains planning docs)
+**Other Branches with Work:** `claude/check-file-visibility-011CUbmUkg2Jcmj1p2P62DKM`, `claude/debug-execution-failures-011CUh8GiQife7c5oEgFXJXa`
 
 ## FILES COMPLETED (Last Session - 2 Batches)
 
@@ -23,18 +25,83 @@
 
 **IMPORTANT:** Also completed index.html in several commits.
 
+## PREVIOUS SEO WORK COMPLETED (From Other Branches)
+
+### MAJOR: WriteSonic Audit Fixes (Branch: claude/check-file-visibility-011CUbmUkg2Jcmj1p2P62DKM)
+**Commit b94f640 - "SEO improvements: Fix WriteSonic audit issues across all pages"**
+
+✅ **ALREADY COMPLETED (32 pages):**
+1. **Fixed ~90-95 Non-Descriptive Links** across entire site
+   - "Click here" → descriptive text
+   - "Read More →" → contextual descriptions
+   - Examples: "Click here to email us" → "Email Shaded In The Sun"
+
+2. **Added Open Graph Tags to 30 pages**
+   - Added og:image (SITS-blue-logo-720X720px.png) to all pages
+   - Complete OG tags: og:url, og:type, og:site_name, og:title, og:description, og:image
+   - Improves social media sharing
+
+3. **Fixed Canonical/OG:URL Mismatches** (6 pages)
+   - Fixed case sensitivity issues
+   - Fixed missing .com in Window-Treatment-Value.html
+   - Removed duplicate canonical from norman.html
+
+### Text-to-HTML Ratio Improvements (Branch: claude/debug-execution-failures-011CUh8GiQife7c5oEgFXJXa)
+
+✅ **ALREADY COMPLETED:**
+- ae11e52: Text-to-HTML ratio improvements for final 5 pages
+- b34d5d2: Added content to 5 more pages for text-to-HTML ratio
+- 04fc7bf: Added 244 words to shades-and-shutters-and-blinds-oh-my.html
+- 8690e07: Fixed Norman® trademark and added content to 6 pages
+- 40790f3: Added 219 words to fiveCustomBlindReasons.html
+- b2bdaa6: Added content to WindowShadeOpacitiesExplained and 2025Trends
+- eeed138: Added Oklahoma-focused content to index and window-shutters
+- b008894: Added 238-word Oklahoma section to window-shades.html
+- Blog.html: Changed 27 instances of 'Click to Read More' to 'Read Full Article'
+
+### Other SEO Improvements Completed:
+
+✅ **Internal Linking & Related Articles** (Commit 0001d8c)
+- Optimized internal linking structure
+- Added/improved Related Articles sections
+
+✅ **Plantation Shutters Removal** (Multiple commits)
+- Removed from template JSON (d1fa5f7)
+- Removed from Living Rooms section (9580fbe)
+- Replaced with Roman Shades section (32479d0)
+- Removed from schema markup site-wide
+
+✅ **Location Keywords Optimization** (Commit cdda119)
+- SEO Task #4: Optimized location keywords throughout site
+- Removed remaining plantation shutter references from schema
+
+✅ **Motorized Page Optimization** (Commit 61fd34a)
+- SEO Plan Task #3: Optimized for target keywords
+
+✅ **Index.html Optimization** (Commits 5b4c200, 977077d, 1cf5c8e)
+- Title and meta description length optimized
+- Removed Plantation Shutters references
+- Fixed over-linking and confusing link text
+- Rewrote Oklahoma challenges paragraph to feature sunroom article
+
 ## WRITESONIC AUDIT FINDINGS (11-01-2025)
-The WriteSonic audit identified these critical issues:
 
-### Issues to Fix:
-1. **Non-Descriptive Anchor Text** - ALL 30 pages have this issue
-   - Replace ALL "Read More →", "Click Here", "Learn More" with descriptive link text
+### ✅ ALREADY FIXED ON OTHER BRANCH:
+1. **Non-Descriptive Anchor Text** - FIXED ~90-95 links across 32 pages (Commit b94f640)
+2. **Open Graph Tags** - ADDED to 30 pages (Commit b94f640)
+3. **Canonical/OG:URL Mismatches** - FIXED on 6 pages (Commit b94f640)
+4. **Text-to-HTML Ratio** - IMPROVED on 15+ pages (Multiple commits)
 
-2. **Title Too Long** - 19 pages exceed 60 characters
+### ⚠️ STILL NEEDS WORK ON CURRENT BRANCH:
+1. **Title Too Long** - 19 pages exceed 60 characters
    - Shorten while keeping location keywords (OKC, Edmond)
+   - Some may have been fixed on other branches - need to verify
 
-3. **Meta Description Too Long** - 16 pages exceed 160 characters
+2. **Meta Description Too Long** - 16 pages exceed 160 characters
    - Trim to under 160 chars while keeping compelling copy
+   - Some may have been fixed on other branches - need to verify
+
+**IMPORTANT:** The work on current branch (Batches 1 & 2) may be duplicating work already done on other branches. Need to merge or verify what's still needed.
 
 ## SEO FIXES PATTERN (FROM COMPLETED FILES)
 

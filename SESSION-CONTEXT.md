@@ -30,6 +30,21 @@ These files are on branch `claude/improve-link-descriptions-seo-011CUkzktfj3FBQF
 2. **10-17-2025 - seo_performance_analysis.md** - Performance metrics showing 6X click improvement
 3. **WriteSonic/10-31-25 Report/seo-audit-report-shadedinthesun.com-2025-11-01.xlsx** - Most recent audit (Excel file)
 
+## WRITESONIC AUDIT FINDINGS (11-01-2025)
+The WriteSonic audit identified these critical issues:
+
+### Issues to Fix:
+1. **Non-Descriptive Anchor Text** - ALL 30 pages have this issue
+   - Replace ALL "Read More →", "Click Here", "Learn More" with descriptive link text
+
+2. **Title Too Long** - 19 pages exceed 60 characters
+   - Shorten while keeping location keywords (OKC, Edmond)
+
+3. **Meta Description Too Long** - 16 pages exceed 160 characters
+   - Trim to under 160 chars while keeping compelling copy
+
+**Files already fixed in Batches 1 & 2:** Energy-Saving-Window-Shades-Edmond-and-OKC.html, Types-of-window-blinds.html, window-shades.html, window-shutters.html, zebra-shades-stylish-solution.html, best-motorized-blinds-installer-oklahoma-city.html, best-window-treatment-company-edmond-ok.html, graber.html, norman-smartdrape-oklahoma-city.html, norman.html
+
 ## SEO FIXES PATTERN (FROM COMPLETED FILES)
 
 ### 1. Title Tag Optimization

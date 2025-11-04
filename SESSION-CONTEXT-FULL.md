@@ -6,6 +6,7 @@
 ```
 I'm working on SEO optimization for ShadedInTheSun.com.
 
+ZEROTH: Switch to Haiku model (/model haiku) - This pattern-based SEO work runs perfectly on Haiku 4.5 at 90% of Sonnet performance but 3x more token-efficient, making sessions last much longer
 FIRST: Switch to branch claude/resume-prompt-issue-011CUmqgzUpwwmTSeeHujoJs
 SECOND: Read the file at /home/user/ShadedInTheSun.com/SESSION-CONTEXT-FULL.md
 THIRD: Continue SEO work on the next batch of 5 files from the "NEXT BATCH TO COMPLETE" section

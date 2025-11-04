@@ -2,9 +2,21 @@
 
 ## 🚀 HOW TO RESUME WORK (COPY THIS PROMPT)
 
-**Paste this in new sessions:**
+**Paste this EXACT prompt in new sessions:**
 ```
-Read SESSION-CONTEXT-FULL.md and continue SEO work from where we left off. Work on the next batch of 5 files, following all the patterns and using the keyword list. Commit and push when done.
+I'm working on SEO optimization for ShadedInTheSun.com.
+
+FIRST: Switch to branch claude/resume-prompt-issue-011CUmqgzUpwwmTSeeHujoJs
+SECOND: Read the file at /home/user/ShadedInTheSun.com/SESSION-CONTEXT-FULL.md
+THIRD: Continue SEO work on the next batch of 5 files from the "NEXT BATCH TO COMPLETE" section
+FOURTH: Follow all patterns in "SEO FIXES PATTERN" section and use keywords from "MASTER KEYWORD LIST"
+FIFTH: Commit and push when done
+
+The file contains:
+- 83 keywords to use
+- Norman & Graber products to mention
+- All previous work completed (don't duplicate)
+- Next files to work on
 ```
 
 ## PROJECT STATUS

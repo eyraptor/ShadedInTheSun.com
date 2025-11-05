@@ -625,7 +625,7 @@ img {
 
 .h-center {
   text-align: center;
-  word-wrap: balance;
+  text-wrap: balance;
 }
 
 .h-center-div {

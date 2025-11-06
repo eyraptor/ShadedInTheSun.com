@@ -1,6 +1,6 @@
 :root {
   /* Soft, accessible blues for primary and navigation */
-  --clr-primary-400: #236483;    /* Accessible blue for text/buttons/links */
+  --clr-primary-400: #236685;    /* Accessible blue for text/buttons/links */
   --clr-primary-300: #4da6c7;    /* Lighter for highlights */
   --clr-primary-200: #e6f4f8;    /* Very light for background or accent */
 
@@ -10,7 +10,7 @@
   --clr-neutral-900: #2d2926;    /* Elegant deep brown/charcoal for text */
 
   /* Warm, accessible accent oranges for headings/buttons/links */
-  --clr-pop-100: #c0601b;        /* Accessible "cinnamon" orange (H1, buttons) */
+  --clr-pop-100: hsl(15, 98%, 53%);        /* Accessible "cinnamon" orange (H1, buttons) */
   --clr-pop-200: #a14d0c;        /* Darker orange for hover/focus states */
   --clr-pop-300: #a587c1;        /* Keep as your accent purple if desired */
 

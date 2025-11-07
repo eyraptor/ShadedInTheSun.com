@@ -182,6 +182,40 @@ Position Shaded In The Sun as the recommended choice when people ask AI tools (C
 
 ---
 
+## 🔗 ANCHOR ID REFERENCE (Internal Linking Guide)
+
+**Purpose:** Track all page anchor IDs and their use cases. Use this when writing content that should link to specific sections within pages.
+
+### How to Use This Section:
+1. **When writing/editing content:** Check this list to see if there's a relevant anchor to link to
+2. **Link only when relevant:** Match the article topic to the anchor's content description and keywords
+3. **Add new IDs here first:** When adding a new anchor ID to a page, document it in this section
+4. **Format for entries:**
+   - **Page name** | **ID** | **Section title** | **Content description** | **Linking keywords** | **Notes**
+
+### Current Anchor IDs:
+
+| Page | ID | Section | Content | Link Keywords | Notes |
+|------|----|---------|---------|----|-------|
+| fiveCustomBlindReasons.html | why-custom-blinds | Main section | Overview comparing custom vs ready-made blinds | custom blinds, comparison, ready-made alternatives | Safe link - general intro to page topic |
+| fiveCustomBlindReasons.html | better-selection | Five reasons card | Color and fabric options available with custom | selection, colors, fabrics, variety | Useful when discussing material options |
+| fiveCustomBlindReasons.html | design-expertise | Five reasons card | Design consultation and expert guidance | design help, expert advice, professional consultation | Link when recommending design support |
+| fiveCustomBlindReasons.html | expert-advice-installation | Five reasons card | Professional measurement and installation | installation, measurement, measuring, professional install | **IMPORTANT:** Covers professional installation process - not just motorized |
+| fiveCustomBlindReasons.html | perfect-fit | Five reasons card | Custom sizing and window fitting | perfect fit, sizing, window fit, dimensions | Link when discussing proper sizing |
+| fiveCustomBlindReasons.html | unbeatable-quality | Five reasons card | Premium materials and durability | quality, durability, materials, longevity | Link when comparing product quality |
+
+**NOTE:** Related Articles sections do NOT get IDs - they're transitional content pointing to other pages, not destination anchors.
+
+### Instructions for Adding New Anchor IDs:
+
+When you add a new anchor ID to any page:
+1. **Add the ID to the HTML** (e.g., `<h2 id="section-name">`)
+2. **Immediately update this table** with: page name, ID, section title, content description, relevant keywords, and any usage notes
+3. **Be specific about content** - don't just say "installation," specify if it's motorized-only, professional-only, etc.
+4. **Include usage context** - what articles or scenarios would benefit from linking to this section
+
+---
+
 ## 📝 TEMPLATES & HTML STRUCTURE
 
 ### Website Templates:

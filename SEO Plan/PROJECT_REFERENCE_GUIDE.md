@@ -68,6 +68,20 @@ Before adding ANY product claims, features, or benefits to the website:
 - Favor one brand over others without strategic reason (documented in plan)
 - Mix up product names or features between brands
 
+#### Brand Name & Registered Mark Formatting
+**CORRECT FORMAT:** Use the Unicode registered trademark character (®) directly in text: `Norman®` or `Graber®`
+- **Display method:** Norman® (small, clean, doesn't affect line height)
+- **HTML encoding:** Use `&reg;` OR the literal ® character (both work fine)
+- Example: `Norman® window treatments` or `Graber® solar shades`
+
+**INCORRECT FORMAT:** DO NOT use `<sup>` tags around the ® symbol
+- **Bad example:** `Norman<sup>®</sup>` (makes the ® larger and raises line height)
+- **Why it's wrong:** Makes text harder to read, inconsistent with professional brand presentation
+- **Where we see this:** Currently on motorized page and other pages—will be standardized
+
+**Going Forward:**
+Always use the proper registered trademark format `Norman®` and `Graber®` to maintain consistent, professional appearance across the site.
+
 ---
 
 ## 🎯 CRITICAL DECISION FRAMEWORKS (How Future Claude Will Think)

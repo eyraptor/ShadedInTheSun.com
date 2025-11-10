@@ -10,7 +10,8 @@
   --clr-neutral-900: #2d2926;    /* Elegant deep brown/charcoal for text */
 
   /* Warm, accessible accent oranges for headings/buttons/links */
-  --clr-pop-100: hsl(15, 98%, 53%);        /* Accessible "cinnamon" orange (H1, buttons) */
+  /* --clr-pop-100: hsl(15, 98%, 53%);        Accessible "cinnamon" orange (H1, buttons) */
+  --clr-pop-100: #0069FF;
   --clr-pop-200: #a14d0c;        /* Darker orange for hover/focus states */
   --clr-pop-300: #a587c1;        /* Keep as your accent purple if desired */
 

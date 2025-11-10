@@ -10,7 +10,121 @@ All files related to SEO, this file and planning the sites are located in: C:\My
 The html files are located in C:\My Documents\ShadedInTheSun.com
 The css files are located in C:\My Documents\ShadedInTheSun.com\css
 
+---
 
+## 🏢 BUSINESS FOUNDATION (CRITICAL - READ FIRST!)
+
+### Company Overview:
+- **Name:** Shaded In The Sun
+- **Owners:** Brent & Edna Buxton (married 35+ years)
+- **Launch Date:** August 2024 (3 months old as of November 2025)
+- **Business Model:** Professional custom window treatments with installation
+- **Phone:** 405-259-5599
+- **Key Differentiator:** Free in-home consultation, professional measurement, expert installation (NOT DIY-focused)
+
+### Geographic Service Area:
+**PRIMARY FOCUS (Equal Emphasis):**
+- Oklahoma City, OK
+- Edmond, OK
+
+**SECONDARY (Strategic Pages Only):**
+- Nichols Hills, OK (high-value demographic, has dedicated page)
+- Surrounding metro area (Piedmont, Moore, Yukon, Warr Acres, Bethany, etc.)
+  - These are mentioned in footer and service area descriptions
+  - No dedicated pages created unless they rank naturally or have strategic value
+
+**LOCATION STRATEGY:**
+- Main pages (homepage, product pages, brand pages) emphasize BOTH Oklahoma City AND Edmond equally
+- Neighborhood pages created ONLY when: (1) already ranking well, OR (2) strategic market opportunity (affluent area)
+- All other towns captured through footer mentions + "near me" keywords
+- Do NOT create neighborhood pages for every town—focus effort strategically
+
+### The 3 Authorized Dealers (CRITICAL - VERIFY ALL CONTENT):
+
+| Brand | Website | Role | Products | Importance |
+|-------|---------|------|----------|-----------|
+| **Graber** | https://www.graberblinds.com | Established dealer | Shades, blinds, shutters, motorization, UltraLite cordless | Secondary (established brand) |
+| **Norman** | https://www.NormanUSA.com | New dealer (strict image rules) | Shades, blinds, shutters, motorization | PRIMARY (growth focus) |
+| **Draper** | https://www.draperinc.com | Emerging dealer | Shades, blinds, shutters, motorized options | Tertiary (building presence) |
+
+**MANDATORY VERIFICATION PROCESS:**
+Before adding ANY product claims, features, or benefits to the website:
+1. Search the official brand website for that product/feature
+2. Verify the exact terminology used by the brand
+3. Confirm Shaded In The Sun carries that specific product
+4. Use brand's terminology (don't invent or paraphrase)
+5. Example: If Graber calls it "UltraLite Lift System," don't call it "UltraLite Cordless Blinds"
+
+**MENTION ALL 3 BRANDS:**
+- Homepage: Brief mention of all three brands
+- Product pages: Include all three brands (where applicable to product type)
+- Page footers: All three brands should be mentioned naturally
+- Brand pages: Graber (established), Norman (priority), Draper (emerging)
+- Feature pages: If feature is available from multiple brands, mention all
+
+**NEVER:**
+- Claim products Shaded In The Sun doesn't actually carry
+- Use brand terminology differently than the official website uses it
+- Favor one brand over others without strategic reason (documented in plan)
+- Mix up product names or features between brands
+
+---
+
+## 🎯 CRITICAL DECISION FRAMEWORKS (How Future Claude Will Think)
+
+These frameworks are documented so every session, the same logic applies:
+
+### 1. INTENT OVER BRAND (Already documented below)
+See full section: "🎯 KEYWORD STRATEGY: INTENT OVER BRAND"
+
+### 2. TITLE TAG METHODOLOGY (Already documented below)
+See full section: "🔍 COMPETITOR TITLE TAG ANALYSIS & METHODOLOGY"
+
+### 3. MULTI-LOCATION STRATEGY
+**Decision Date:** November 10, 2025
+**Reasoning:** Service area covers multiple towns, but resources are finite. Strategic focus prevents dilution.
+
+**For OKC + Edmond Pages:**
+- Sprinkle BOTH cities naturally throughout content
+- Don't force one over the other—use whichever is geographically appropriate
+- Both cities get equal keyword emphasis (e.g., "custom blinds oklahoma city" AND "custom blinds edmond")
+- Homepage and main service pages ALWAYS mention both cities
+
+**For Neighborhood Pages:**
+- Create ONLY if: (1) already ranking well, OR (2) high-value demographic (like Nichols Hills)
+- Each neighborhood page is its own effort—don't create for every town
+- Strategic approach: Master Tier 3 keywords target specific neighborhoods as performance dictates
+
+**For Other Towns (Piedmont, Moore, Yukon, etc.):**
+- Mentioned in footer
+- Captured through "window treatments near me" type keywords
+- No dedicated pages unless strategic opportunity arises
+- If user asks "should we make a Moore page?" → Check Master Plan Tier 3 first
+
+### 4. PRODUCT TERMINOLOGY RULES
+**Critical Distinction (SHADES vs. BLINDS):**
+- **SHADES** = smooth, quiet operation (roller, cellular, Roman, solar, motorized) → Keywords with "shades"
+- **BLINDS** = loud slat mechanism (wood, faux wood, vertical, aluminum) → Keywords with "blinds"
+- **NEVER MIX** these on same page if claiming "quiet" or "smooth operation"
+- UltraLite is a SHADE feature (cordless + smooth + quiet) → target "shades" keywords
+- Future Norman cordless = also a SHADE feature → target "shades" keywords
+
+**Brand Terminology:**
+- Use exact names from official websites (graberblinds.com, NormanUSA.com, draperinc.com)
+- Example: Graber = "UltraLite Lift System" (not "UltraLite Cordless Blinds")
+- Example: Norman = search their site for exact product names
+- Example: Draper = search their site for exact product names
+
+### 5. PAGE PROTECTION RULES
+**PAGES THAT MUST NOT BE CHANGED (Protecting what's working):**
+- Zebra shades page (ranking #4.88 for "zebra shades oklahoma city")
+- Nichols Hills page (ranking #2.8 for "window treatments nichols hills")
+- Any page ranking in top 10 positions
+
+**PAGES READY FOR OPTIMIZATION (Targeting page 2):**
+- Pages ranking positions 11-20 (close to page 1, most potential)
+- Pages with 0 clicks despite indexing (likely keyword/positioning mismatch)
+- Pages with high impressions but low CTR (title/meta description issue)
 
 ---
 
@@ -568,6 +682,61 @@ A: Read the plan's reasoning first. If their idea is good, acknowledge it but ex
 
 ---
 
-**Last Updated:** November 10, 2025 (Corrected file paths to Windows format)
+---
+
+## 📋 ACTIVE INITIATIVES & SESSION NOTES
+
+**Last Updated:** November 10, 2025
+**Current Project Status:** Month 1 of Master SEO Plan (Weeks 1-4 complete, Week 5+ in progress)
+**Next Major Milestone:** Month 2 goals (Dec 2025) - 10+ keywords top 10, 100+ clicks/month
+
+### Recent Work Completed (November 10, 2025):
+1. ✅ Updated Tier 6 keywords in Master Plan from "Graber-Specific + Smart Home" to "CORDLESS/SAFETY FEATURES"
+   - Removed: Brand-only keywords (graber ultralite, graber virtual cord, etc.)
+   - Added: Problem-solution keywords (quiet cordless shades, smooth operating shades, child safe coverings, quiet shades for families)
+   - Reasoning: 0 clicks on brand keywords = proof people search for problems, not brand names
+
+2. ✅ Enhanced graber.html and fiveCustomBlindReasons.html with Master Plan alignment
+   - Added child safety certification messaging
+   - Strengthened cord safety focus
+   - Balanced brand mentions across all three dealers
+
+3. ✅ Added comprehensive documentation to PROJECT_REFERENCE_GUIDE.md
+   - Business Foundation section
+   - Critical Decision Frameworks
+   - 3-brand dealer verification process
+   - Location strategy clarity
+   - Product terminology rules
+
+### In Progress (As of November 10, 2025):
+- Review and optimize graber-ultralite-lift-system.html with new keyword focus
+  - Page currently targeting: "Graber UltraLite Cordless Lift System" (0 clicks = wrong positioning)
+  - Should target: "Quiet cordless shades oklahoma city" + child safety angle
+  - Status: Pending title/meta description review using competitor analysis methodology
+
+### Pending Tasks (Next Session):
+1. Perform competitive analysis for "quiet cordless shades oklahoma city" keyword
+   - Search Google, document top 3 titles
+   - Identify winning pattern
+   - Propose new title for graber-ultralite-lift-system.html
+
+2. Review and update graber-ultralite-lift-system.html HTML with new positioning
+   - Update title tag
+   - Update meta description
+   - Strengthen content around: quiet operation, cordless safety, smooth for families
+   - Ensure "shades" terminology (not "blinds")
+
+3. Create Draper page (emerging dealer - new initiative)
+   - Research Draper products on draperinc.com
+   - Verify Shaded In The Sun's Draper offerings
+   - Create new page or section featuring Draper
+
+### Decision Log (For Context):
+- **Nov 10, 2025:** Tier 6 keyword pivot approved - "intent over brand" principle applied to graber-ultralite page
+- **Nov 10, 2025:** Multi-location strategy clarified - OKC + Edmond equal emphasis on main pages, Nichols Hills for affluent market, other towns in footer
+
+---
+
+**Last Updated:** November 10, 2025 (Added Business Foundation, Decision Frameworks, Brand Verification, Location Strategy, and Session Tracking)
 **Project Status:** Month 1 of Master SEO Plan (Weeks 1-4 complete, Week 5+ in progress)
 **Next Major Milestone:** Month 2 goals (Dec 2025) - 10+ keywords top 10, 100+ clicks/month

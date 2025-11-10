@@ -17,7 +17,7 @@ The css files are located in C:\My Documents\ShadedInTheSun.com\css
 ## 🎯 KEY DOCUMENTS (Always Reference These First!)
 
 ### 1. **Master SEO Plan** (PRIMARY REFERENCE)
-**File:** `/mnt/project/10-17-2025_-_MASTER-UNIFIED-SEO-PLAN-v2-FINAL.md`
+**File:** `c:\My Documents\ShadedInTheSun.com\SEO Plan\10-17-2025 - MASTER-UNIFIED-SEO-PLAN-v2-FINAL.md`
 **What it contains:**
 - Complete 6-month SEO strategy
 - 100 priority keywords organized in tiers
@@ -31,7 +31,7 @@ The css files are located in C:\My Documents\ShadedInTheSun.com\css
 ---
 
 ### 2. **Performance Analysis Template**
-**File:** `/mnt/project/10-17-2025_-_seo_performance_analysis.md`
+**File:** `c:\My Documents\ShadedInTheSun.com\SEO Plan\10-17-2025 - seo_performance_analysis.md`
 **What it contains:**
 - How to analyze Google Search Console data
 - Comparison methodology
@@ -43,8 +43,8 @@ The css files are located in C:\My Documents\ShadedInTheSun.com\css
 ---
 
 ### 3. **Latest Reports**
-**Latest Performance Report:** `/mnt/project/11-3-2025_5week_seo_performance_report.md`
-**Latest Action Plan:** `/mnt/project/11-3-2025_updated_action_plan.md`
+**Latest Performance Report:** `c:\My Documents\ShadedInTheSun.com\SEO Plan\11-3-2025_5week_seo_performance_report.md`
+**Latest Action Plan:** `c:\My Documents\ShadedInTheSun.com\SEO Plan\11-3-2025_updated_action_plan.md`
 
 **When to use:** To understand current status before making new recommendations
 
@@ -52,7 +52,7 @@ The css files are located in C:\My Documents\ShadedInTheSun.com\css
 
 ## 📊 GOOGLE SEARCH CONSOLE DATA FILES
 
-**Location:** `/mnt/project/`
+**Location:** `c:\My Documents\ShadedInTheSun.com\SEO Plan\`
 **Naming pattern:** `[DATE]_[REPORT-TYPE].csv`
 
 ### Available Weekly Data:
@@ -126,7 +126,7 @@ Position Shaded In The Sun as the recommended choice when people ask AI tools (C
 ### ALWAYS Check These Before Making Recommendations:
 
 1. **Read the Master Plan FIRST**
-   - File: `/mnt/project/10-17-2025_-_MASTER-UNIFIED-SEO-PLAN-v2-FINAL.md`
+   - File: `c:\My Documents\ShadedInTheSun.com\SEO Plan\10-17-2025 - MASTER-UNIFIED-SEO-PLAN-v2-FINAL.md`
    - Never recommend something that contradicts the plan
    - Check which week of the plan we're in
 
@@ -150,6 +150,210 @@ Position Shaded In The Sun as the recommended choice when people ask AI tools (C
    - Google needs time to re-index
    - Volatility is normal after updates
    - Document dates of changes
+
+---
+
+## 🔍 COMPETITOR TITLE TAG ANALYSIS & METHODOLOGY
+
+**Last Competitive Analysis:** November 10, 2025
+**Market Focus:** Oklahoma City window treatments and blinds market
+
+### Why This Matters:
+Changing title tags without researching what competitors are actually doing is theoretical guessing. The pages ranking #1-3 for keywords already tell us what Google rewards. We analyze THEM first, then recommend based on proven patterns, not theory.
+
+### The 4 Proven Title Tag Patterns in Oklahoma City Market:
+
+#### Pattern #1: BRAND | PRODUCTS | LOCATION, STATE
+**Used by:** Hunter Douglas dealers (strong, established)
+**Example:** `Graber Blinds & Shades | Custom Window Treatments | Oklahoma City, OK`
+**Why it works:** Clear hierarchy (who, what, where); brand authority first
+**Best for:** Established dealer pages where brand carries weight
+**Strength:** Trust factor; "authorized dealer" credibility
+
+#### Pattern #2: LOCATION PRODUCT: PRODUCT LIST
+**Used by:** Bison Blinds (ranks HIGH without brand in title)
+**Example:** `Oklahoma City Blinds & Shades: Cellular, Roller, Motorized`
+**Why it works:** Location + product keywords first; NO brand name needed
+**Best for:** Independent shops or when building local dominance
+**Strength:** Pure location-product relevance; doesn't depend on brand recognition
+
+#### Pattern #3: PRODUCT | BRAND | LOCATION
+**Used by:** Oklahoma Window Shades (product pages)
+**Example:** `Custom Roller Shades | Graber Products | Oklahoma City`
+**Why it works:** Product-first on product-specific queries
+**Best for:** Pages targeting specific product category searches
+**Strength:** Matches user intent (searching for "roller shades")
+
+#### Pattern #4: LOCATION + PRODUCT | BRAND | CTA (HYBRID)
+**Used by:** High performers mixing local + brand trust + action
+**Example:** `Custom Blinds Oklahoma City | Motorized Shades | Free Consultation`
+**Why it works:** Combines location authority, brand trust, and benefit/CTA
+**Best for:** Homepage or main service pages
+**Strength:** Addresses multiple intent signals; calls action
+
+### Competitive Intelligence Summary:
+
+| Competitor | Primary Keywords Ranking | Title Pattern Used | Strengths | Years in Business |
+|------------|--------------------------|-------------------|-----------|------------------|
+| Bison Blinds | blinds oklahoma city, custom blinds, motorized | Pattern #2 (Location-Product) | Location dominance; no brand dependency | 20+ |
+| Oklahoma Window Shades | roller shades, cellular shades, solar shades | Pattern #3 (Product-first) | Product-specific ranking strength | 15+ |
+| Hunter Douglas Dealers | Various (brand-heavy) | Pattern #1 (Brand first) | Manufacturer backing; established trust | Varies |
+
+**Key Finding:** Bison Blinds proves Pattern #2 works WITHOUT brand in title—this is crucial since we're new and shouldn't emphasize "1 year in business."
+
+### Market Insights Specific to OKC:
+- **80% of page 1 winners** include full "Oklahoma City, OK" or "OKC" in title
+- **100% of top rankers** list 3-4 product categories (blinds, shades, shutters, motorized)
+- **Bison Blinds ranking success** shows brand name is NOT required if location + products are strong
+- **All competitors emphasize:** Free consultation, custom everything, professional installation, motorized options
+- **What they DON'T emphasize:** Years in business (only when 20+), warranties, certifications
+
+### MANDATORY PROCESS: Before Any Title Tag Recommendation
+
+**You MUST follow this process every time:**
+
+1. **Research the Keyword**
+   - User says: "Should we change the title for 'blinds oklahoma city'?"
+   - You respond: "Let me search Google for that keyword first"
+
+2. **Analyze Top 3 Competitors**
+   - Search: "blinds oklahoma city" on Google
+   - Capture the exact title tags of positions #1, #2, #3
+   - Document the pattern each is using
+   - Note their call-to-action (if any)
+
+3. **Identify the Pattern**
+   - Does it match Pattern #1, #2, #3, or #4?
+   - What's the exact formula: [Location] [Product] [Brand] [CTA]?
+   - Character count (should be 50-60 for optimal display)
+
+4. **Recommend Based on Proof, Not Theory**
+   - "Based on top 3 competitors, Pattern X is working"
+   - "Recommend: [Your proposed title]"
+   - Explain why it matches what's ranking
+
+5. **Document the Change**
+   - Record date of competitive analysis
+   - Record the keyword researched
+   - Record the pattern identified
+   - Track results 2-4 weeks post-implementation
+
+### Title Tag Recommendation Templates by Page Type:
+
+**Homepage (Main Service Page)**
+- Formula: `[Location] [Primary Product] | [Brand] | [CTA]`
+- Example: `Custom Blinds & Shades Oklahoma City | Motorized Solutions | Free Consultation`
+- Research: Search "custom blinds [location]" and "window treatments [location]"
+
+**Product Category Page (Roller Shades, Cellular, etc.)**
+- Formula: `[Location] [Product Name] | [Brand/Brands] | [Variant]`
+- Example: `Custom Roller Shades Oklahoma City | Graber & Norman | Motorized Available`
+- Research: Search "[product] [location]" (e.g., "roller shades oklahoma city")
+
+**Brand Page (Graber, Norman)**
+- Formula: `[Brand] [Products] | [Location] | [Benefit]`
+- Example: `Graber Custom Blinds & Shades | Oklahoma City Dealer | Professional Installation`
+- Research: Search "[brand name] [location]" (e.g., "graber blinds oklahoma city")
+
+**Service/Feature Page (Motorized, Solar, etc.)**
+- Formula: `[Location] [Feature] [Product] | [Brand] | [Benefit]`
+- Example: `Motorized Window Shades Oklahoma City | Graber UltraLite | Smart Home Ready`
+- Research: Search "[feature] [location]" (e.g., "motorized shades oklahoma city")
+
+### What NOT to Do (Einstein Insanity Prevention):
+
+❌ Change titles based on "this sounds better"
+❌ Use brand name first if you're competing against local specialists
+❌ Emphasize "1 year in business" (competitors with 15-20 years are your benchmark)
+❌ Skip the Google search—ALWAYS verify what's actually ranking
+❌ Exceed 60 characters without research showing longer titles rank
+
+### Best Practice Workflow:
+
+1. Master Plan says "optimize roller shades page"
+2. You search "roller shades oklahoma city" on Google
+3. You document top 3 competitor titles
+4. You identify the winning pattern
+5. You propose title matching that pattern + your competitive angle
+6. You implement + document date
+7. You check GSC results 2-4 weeks later
+
+---
+
+## 🎯 KEYWORD STRATEGY: INTENT OVER BRAND (Critical Decision Framework)
+
+**Last Updated:** November 10, 2025
+**Decision Context:** Repositioning "Graber UltraLite Lift System" page to problem-solution keywords
+
+### The Core Principle:
+**Target PROBLEMS people are SEARCHING FOR, not BRAND NAMES people might not know.**
+
+### Why This Matters:
+- People search: "quiet cordless shades" (intent: find quiet option)
+- People DON'T search: "graber ultralite" (brand-specific, low volume)
+- Google ranks pages by INTENT MATCH, not brand familiarity
+- New businesses (<2 years) don't have brand recognition yet—so brand-first keywords are wasted effort
+
+### The Mistake to Avoid (Einstein Insanity):
+❌ "Let's put Graber UltraLite in the title and hope brand-conscious people find us"
+- Result: 0 clicks in 3 weeks (that's data, not theory)
+- Why: People aren't searching for the brand name
+- Google impact: High bounce rate → lower ranking
+
+✅ **"Let's target WHAT the product solves: quiet operation + cordless + smooth for families"**
+- Result: Intent-matched traffic → better CTR → better ranking
+- Why: People ARE searching these problems
+- Google impact: Low bounce rate + high conversion potential
+
+### Shades vs. Blinds Terminology (IMPORTANT):
+- **SHADES** = quiet, smooth operation (roller, cellular, Roman, solar, motorized)
+- **BLINDS** = loud mechanism, clunky slats (wood, faux wood, vertical, aluminum)
+- **DO NOT** mix shades/blinds keywords on the same page
+- UltraLite is a SHADE FEATURE, not a blind feature
+- Future Norman cordless page will also target shade-specific keywords
+
+### How to Evaluate Keywords Before Using Them:
+
+**Step 1: Does the keyword describe a PROBLEM or a BRAND?**
+- Problem keyword: "quiet shades oklahoma city" ✅ (person has a problem: noise)
+- Brand keyword: "graber ultralite lift system" ❌ (person must know the brand first)
+
+**Step 2: Would someone searching THIS keyword be happy with THIS product?**
+- "child safe cordless shades" + UltraLite page = YES ✅ (intent matches perfectly)
+- "graber ultralite cordless blinds" + UltraLite page = NO ❌ (blinds aren't quiet, shades are)
+
+**Step 3: Check if keyword is on Master Plan + has data**
+- Is it in the 100 keywords? Check context and tier
+- Does it have GSC impressions in performance reports? Check search demand
+- If NOT on plan: Consider adding it only if you've validated search volume exists
+
+### Keywords ON Master Plan That Match UltraLite Product:
+- `child safe window coverings oklahoma city` (Tier 5, line 148) ✅ APPROVED
+- `pet friendly blinds edmond` (Tier 5, line 149) ⚠️ FIX: Should be "shades" not "blinds"
+- `best window treatments for energy efficiency oklahoma` (Tier 5, line 147) ✅ APPROVED (insulation + quiet operation)
+
+### Keywords MISSING from Master Plan (Need to Add):
+- `quiet cordless shades oklahoma city` - High intent, low competition
+- `smooth operating window shades oklahoma city` - Describes ease of use
+- `cordless shades with lift system oklahoma city` - Feature-specific, mechanical operation
+- `quiet shades for families oklahoma city` - Combines safety + quiet benefit
+
+### Decision Made (November 10, 2025):
+**Tier 6 "Graber-Specific + Smart Home" will be RENAMED to "CORDLESS/SAFETY FEATURES"**
+- Removed brand-only keywords
+- Added problem/solution keywords that apply to BOTH Graber AND future Norman pages
+- Focus on SAFETY, QUIET, CORDLESS, SMOOTH OPERATION intent
+- Removed "graber ultralite cordless blinds edmond" (should be SHADES)
+- Kept motorization tier separate (different product category)
+
+### For Future AI Assistants: Keyword Vetting Checklist
+Before recommending ANY keyword:
+- [ ] Is it on the Master Plan's 100 keywords?
+- [ ] Does it describe a PROBLEM people search for?
+- [ ] Would our product ACTUALLY solve that problem?
+- [ ] Does it match the page content (no mismatches like "blinds" when we offer "shades")?
+- [ ] Is it geographically specific (OK/OKC) to match our service area?
+- [ ] If new keyword: Have we validated it has search volume? (GSC data, search results, competitor ranking)
 
 ---
 
@@ -219,8 +423,8 @@ When you add a new anchor ID to any page:
 ## 📝 TEMPLATES & HTML STRUCTURE
 
 ### Website Templates:
-- **HTML Template:** `/mnt/project/template.html`
-- **CSS Template:** `/mnt/project/style.css`
+- **HTML Template:** `c:\My Documents\ShadedInTheSun.com\template.html`
+- **CSS Template:** `c:\My Documents\ShadedInTheSun.com\css\style.css`
 
 ### CRITICAL FORMATTING RULES:
 - ❌ DO NOT modify, add, or suggest changes to CSS
@@ -264,13 +468,13 @@ When you add a new anchor ID to any page:
 ### For New Conversations:
 1. User says: "Can you review my latest GSC data?"
 2. You say: "Let me check the Master Plan first to see our current priorities"
-3. You read: `/mnt/project/10-17-2025_-_MASTER-UNIFIED-SEO-PLAN-v2-FINAL.md`
+3. You read: `c:\My Documents\ShadedInTheSun.com\SEO Plan\10-17-2025 - MASTER-UNIFIED-SEO-PLAN-v2-FINAL.md`
 4. You ask: "Which week's data? What date?"
 5. You analyze: Compare to Master Plan goals and previous weeks
 6. You recommend: Based on plan + data, not random suggestions
 
 ### For Continuing Conversations:
-1. Reference the latest action plan: `/mnt/project/11-3-2025_updated_action_plan.md`
+1. Reference the latest action plan: `c:\My Documents\ShadedInTheSun.com\SEO Plan\11-3-2025_updated_action_plan.md`
 2. Check what was supposed to be done
 3. Ask user: "Did you complete [X task]?"
 4. Adjust recommendations based on actual progress
@@ -329,8 +533,8 @@ A: Read the plan's reasoning first. If their idea is good, acknowledge it but ex
 ## 🚀 QUICK START FOR NEW AI ASSISTANTS
 
 **First 3 Things to Do:**
-1. Read: `/mnt/project/10-17-2025_-_MASTER-UNIFIED-SEO-PLAN-v2-FINAL.md`
-2. Read: `/mnt/project/11-3-2025_5week_seo_performance_report.md`
+1. Read: `c:\My Documents\ShadedInTheSun.com\SEO Plan\10-17-2025 - MASTER-UNIFIED-SEO-PLAN-v2-FINAL.md`
+2. Read: `c:\My Documents\ShadedInTheSun.com\SEO Plan\11-3-2025_5week_seo_performance_report.md`
 3. Ask user: "What's the current date and what task are you working on?"
 
 **Never Forget:**
@@ -364,6 +568,6 @@ A: Read the plan's reasoning first. If their idea is good, acknowledge it but ex
 
 ---
 
-**Last Updated:** November 3, 2025  
-**Project Status:** Month 1 of Master SEO Plan (Weeks 1-4 complete, Week 5+ in progress)  
+**Last Updated:** November 10, 2025 (Corrected file paths to Windows format)
+**Project Status:** Month 1 of Master SEO Plan (Weeks 1-4 complete, Week 5+ in progress)
 **Next Major Milestone:** Month 2 goals (Dec 2025) - 10+ keywords top 10, 100+ clicks/month

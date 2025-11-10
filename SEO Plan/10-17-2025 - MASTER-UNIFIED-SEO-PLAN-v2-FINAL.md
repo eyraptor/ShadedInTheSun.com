@@ -159,19 +159,21 @@
 83. **blinds installation price okc** ⭐ NEW
 84. **cost of motorized blinds oklahoma** ⭐ NEW
 
-### TIER 6: GRABER-SPECIFIC + SMART HOME (10 keywords)
+### TIER 6: CORDLESS/SAFETY FEATURES (10 keywords)
 
-#### Graber Features:
-85. **graber ultralite lift system oklahoma city** ⭐ EXCLUSIVE FEATURE
-86. graber ultralite cordless blinds edmond
-87. graber virtual cord shades oklahoma city
-88. graber powerview motorization okc
-89. graber eco performance shades edmond
+#### Cordless Shades + Safety (NEW STRATEGY - Problem-Solution Focus):
+⭐ **IMPORTANT UPDATE (November 10, 2025):** This tier was updated from "Graber-Specific + Smart Home" to target PROBLEM-SOLUTION keywords (cordless, safety, quiet operation) instead of BRAND-SPECIFIC keywords. These keywords work for BOTH Graber UltraLite AND future Norman cordless competitors. Performance data showed 0 clicks on brand-only keywords, indicating people search for PROBLEMS they want solved, not brand names they don't know.
 
-#### Smart Home Integration (NEW - EXTENDS MOTORIZATION STRENGTH):
-90. **Alexa compatible blinds oklahoma city** ⭐ NEW - HIGH VALUE
-91. **Google Home window shades edmond** ⭐ NEW - HIGH VALUE
-92. **smart home window treatments okc** ⭐ NEW - HIGH VALUE
+85. **quiet cordless shades oklahoma city** ⭐ HIGH INTENT - FAMILY SAFETY + QUIET OPERATION
+86. **smooth operating window shades oklahoma city** ⭐ EASE OF USE - EFFORTLESS OPERATION
+87. **cordless shades with lift system oklahoma city** ⭐ FEATURE-SPECIFIC - GRABER ULTRALITE POSITIONING
+88. **child safe window coverings oklahoma city** ⭐ SAFETY INTENT - FAMILY-FOCUSED (moves from Tier 5)
+89. **quiet shades for families oklahoma city** ⭐ COMBINES SAFETY + QUIET + FAMILY INTENT
+
+#### Smart Home Integration (EXTENDS MOTORIZATION - SEPARATE SUBSECTION):
+90. **Alexa compatible blinds oklahoma city** ⭐ VOICE CONTROL - HIGH VALUE
+91. **Google Home window shades edmond** ⭐ SMART HOME INTEGRATION
+92. **smart home window treatments okc** ⭐ AUTOMATION - HIGH VALUE
 93. home automation blinds oklahoma city
 94. voice controlled shades edmond
 
@@ -1053,10 +1055,11 @@ Print it. Reference it. Follow it. Don't deviate without updating this plan.
 
 ---
 
-**Version:** 2.0 FINAL  
-**Created:** October 16, 2025  
-**Last Updated:** October 17, 2025  
-**Next Review:** October 23, 2025 (Week 2)  
-**Status:** ACTIVE - Week 1 in progress
+**Version:** 2.0 FINAL
+**Created:** October 16, 2025
+**Last Updated:** November 10, 2025
+**Last Change:** Updated TIER 6 from "Graber-Specific + Smart Home" to "CORDLESS/SAFETY FEATURES" - Strategic pivot to problem-solution keywords instead of brand-specific keywords. Keywords now applicable to both Graber UltraLite AND future Norman cordless products.
+**Next Review:** November 17, 2025
+**Status:** ACTIVE - Tier 6 strategy updated
 
 **IMPORTANT:** This is now the ONLY SEO plan to reference. Archive all previous versions.

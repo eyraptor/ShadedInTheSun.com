@@ -126,6 +126,47 @@ See full section: "🔍 COMPETITOR TITLE TAG ANALYSIS & METHODOLOGY"
 - Pages with 0 clicks despite indexing (likely keyword/positioning mismatch)
 - Pages with high impressions but low CTR (title/meta description issue)
 
+### 6. INTERNAL LINKING RULES
+
+#### Core Rule: NO DUPLICATE LINKS ON SAME PAGE
+- Each URL should appear **only once** per page (with rare exceptions for main CTA buttons)
+- **Article/Content Cards:** Include 3-5 relevant links sprinkled throughout benefit cards, feature sections, or main content
+- **Related Articles Section:** Use DIFFERENT links that support the page topic or introduce complementary content
+- **Example:** If Energy-Saving-Window-Shades link is in a benefit card, remove it from Related Articles section and replace with a different supporting article
+- **Goal:** Spread link juice to different resources, improve user experience (no redundant navigation), and increase page views across the site
+
+**Why This Matters:**
+- Duplicate links don't increase internal link value (only counts once)
+- Makes content less useful to readers (they don't need the same link twice)
+- Related Articles section is for "additional resources" not "repeat the main links"
+- Better user journey when Related Articles offer NEW reading paths
+
+#### ID Anchoring: Link to Specific Sections, Not Just Page Headers
+**Instead of generic page links, use URL anchors with IDs to point directly to relevant sections:**
+
+**Pages with IDs (Always Reference These):**
+- `window-shades.html` has section IDs:
+  - `#roller-shades` - Roller Shades section
+  - `#cellular-shades` - Cellular Shades section (H2 has duplicate ID - needs fixing)
+  - `#solar-shades` - Solar Shades section
+  - `#RomanShades` - Roman Shades section
+
+**Correct Link Format Examples:**
+- Instead of: `<a href="/window-shades.html">window shades</a>`
+- Use: `<a href="/window-shades.html#solar-shades">solar shades</a>` (links directly to Solar Shades section)
+- Or: `<a href="/window-shades.html#roller-shades">roller shades</a>` (links directly to Roller Shades section)
+
+**How to Find Available IDs:**
+1. Check the HTML file for `id=` attributes on headings or divs
+2. Ask before adding links: "Is there an ID for [topic] on this page?"
+3. If no ID exists, either add one or link to the main page
+
+**Why This Matters:**
+- Users land on the exact section they need, not at page top
+- Better UX = lower bounce rate = better SEO signals
+- Reduces scrolling and improves content discoverability
+- Takes advantage of work already done (IDs already exist on key pages)
+
 ---
 
 ## 🎯 KEY DOCUMENTS (Always Reference These First!)

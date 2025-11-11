@@ -66,6 +66,15 @@ Last Updated: November 11, 2025
 - If forcing a keyword makes the sentence awkward, integrate naturally without the keyword
 - Example: Instead of forcing "automated blinds oklahoma city" into an awkward sentence, say "automated blinds without leaving the couch" then mention "Oklahoma City" in proper context elsewhere
 
+### CRITICAL: Avoid Keyword Density Overload
+- **DO NOT REPEAT CITY NAMES MULTIPLE TIMES IN ONE PARAGRAPH**
+- Maximum 2-3 location references per paragraph (not 7+ in one paragraph)
+- Spread location keywords throughout the page, not concentrated in one section
+- If a paragraph mentions "Oklahoma City" 2x already, don't add "Edmond" just to hit keyword targets
+- Focus on natural flow over keyword stuffing
+- Example of TOO MUCH: "motorized blinds Oklahoma City homeowners, motorized blinds for Oklahoma City homes, motorized shades Edmond residents, automated blinds Oklahoma City metro" ✗
+- Example of GOOD: "motorized blinds for Oklahoma City homeowners bring convenience and control to homes. Whether you're in Edmond or throughout the metro area, we have solutions for you." ✓
+
 ---
 
 ## 4. META TAG OPTIMIZATION

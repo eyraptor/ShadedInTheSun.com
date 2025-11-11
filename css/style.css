@@ -549,7 +549,7 @@ img {
 .variable-h1 {
   font-weight: var(--fw-bold);
   font-size: var(--fs-1000);
-  color: var(--clr-neutral-900);
+  color: var(--clr-primary-400);
 }
 
 .variable-h1-orange {
@@ -1904,6 +1904,10 @@ label.required:after {
       max-width: 80%;
    }
   .variable-h1 {
+    font-size: var(--fs-600);
+  }
+
+  .variable-h1-orange {
     font-size: var(--fs-600);
   }
 

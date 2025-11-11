@@ -29,7 +29,7 @@ The css files are located in C:\My Documents\ShadedInTheSun.com\css
 
 **SECONDARY (Strategic Pages Only):**
 - Nichols Hills, OK (high-value demographic, has dedicated page)
-- Surrounding metro area (Piedmont, Moore, Yukon, Warr Acres, Bethany, etc.)
+- Surrounding metro area (Yukon, The Village, Bethany, Moore, Piedmont, Warr Acres, Mustang & The Surrounding Metro)
   - These are mentioned in footer and service area descriptions
   - No dedicated pages created unless they rank naturally or have strategic value
 
@@ -143,7 +143,7 @@ See full section: "🔍 COMPETITOR TITLE TAG ANALYSIS & METHODOLOGY"
 ### 6. INTERNAL LINKING RULES
 
 #### Core Rule: NO DUPLICATE LINKS ON SAME PAGE
-- Each URL should appear **only once** per page (with rare exceptions for main CTA buttons)
+- Each URL should appear **only once** per page not includings any of the menu links (with rare exceptions for main CTA buttons)
 - **Article/Content Cards:** Include 3-5 relevant links sprinkled throughout benefit cards, feature sections, or main content
 - **Related Articles Section:** Use DIFFERENT links that support the page topic or introduce complementary content
 - **Example:** If Energy-Saving-Window-Shades link is in a benefit card, remove it from Related Articles section and replace with a different supporting article
@@ -172,8 +172,8 @@ See full section: "🔍 COMPETITOR TITLE TAG ANALYSIS & METHODOLOGY"
 
 **How to Find Available IDs:**
 1. Check the HTML file for `id=` attributes on headings or divs
-2. Ask before adding links: "Is there an ID for [topic] on this page?"
-3. If no ID exists, either add one or link to the main page
+2. Ask before adding links: "Is there an ID for [topic] on a page on the website?"
+3. If you think there is an opportunity to link to an ID on another page, ask the Brent if there is a relevant ID already that compliments what you are writing. If you are writing about Roller Shades and think an internal link will help, ask the user if there is an existing relevant link like the one for Roller Shades on window-shades.html
 
 **Why This Matters:**
 - Users land on the exact section they need, not at page top
@@ -257,7 +257,7 @@ See full section: "🔍 COMPETITOR TITLE TAG ANALYSIS & METHODOLOGY"
 
 ### Key Services:
 - Custom window shades (solar, roller, cellular, Roman, motorized)
-- Plantation shutters (wood and composite)
+- Plantation shutters (wood and composite). This is not a priority and we aren't pushing this product. We are leaving what is on the site as it is.
 - Custom blinds (wood, faux wood, aluminum)
 - Motorization and smart home integration
 - UltraLite Cordless systems
@@ -268,6 +268,12 @@ See full section: "🔍 COMPETITOR TITLE TAG ANALYSIS & METHODOLOGY"
 - Nichols Hills
 - Piedmont
 - Mustang
+- Yukon
+- The Village
+- Bethany
+- Moore
+- Warr Acres
+- Surrounding Metro
 
 ---
 
@@ -415,27 +421,27 @@ Changing title tags without researching what competitors are actually doing is t
 - Research: Search "custom blinds [location]" and "window treatments [location]"
 
 **Product Category Page (Roller Shades, Cellular, etc.)**
-- Formula: `[Location] [Product Name] | [Brand/Brands] | [Variant]`
-- Example: `Custom Roller Shades Oklahoma City | Graber & Norman | Motorized Available`
+- Formula: `[Location] [Product Name] | [Variant]`
+- Example: `Custom Roller Shades Oklahoma City | Motorized Available`
 - Research: Search "[product] [location]" (e.g., "roller shades oklahoma city")
 
 **Brand Page (Graber, Norman)**
-- Formula: `[Brand] [Products] | [Location] | [Benefit]`
-- Example: `Graber Custom Blinds & Shades | Oklahoma City Dealer | Professional Installation`
-- Research: Search "[brand name] [location]" (e.g., "graber blinds oklahoma city")
+- Formula: `[Location] | [Benefit]`
+- Example: `Custom Blinds & Shades | Oklahoma City Dealer | Professional Installation`
+- Research: Search "[location]" (e.g., "blinds oklahoma city")
 
 **Service/Feature Page (Motorized, Solar, etc.)**
-- Formula: `[Location] [Feature] [Product] | [Brand] | [Benefit]`
-- Example: `Motorized Window Shades Oklahoma City | Graber UltraLite | Smart Home Ready`
+- Formula: `[Location] [Feature] [Product] | [Benefit]`
+- Example: `Motorized Window Shades Oklahoma City | Smart Home Ready`
 - Research: Search "[feature] [location]" (e.g., "motorized shades oklahoma city")
 
 ### What NOT to Do (Einstein Insanity Prevention):
 
 ❌ Change titles based on "this sounds better"
-❌ Use brand name first if you're competing against local specialists
+❌ Use brand name
 ❌ Emphasize "1 year in business" (competitors with 15-20 years are your benchmark)
 ❌ Skip the Google search—ALWAYS verify what's actually ranking
-❌ Exceed 60 characters without research showing longer titles rank
+❌ Exceed 60 characters
 
 ### Best Practice Workflow:
 
@@ -476,7 +482,7 @@ Changing title tags without researching what competitors are actually doing is t
 
 ### Shades vs. Blinds Terminology (IMPORTANT):
 - **SHADES** = quiet, smooth operation (roller, cellular, Roman, solar, motorized)
-- **BLINDS** = loud mechanism, clunky slats (wood, faux wood, vertical, aluminum)
+- **BLINDS** = control amount of light by adjusting slats, slats (wood, faux wood, vertical, aluminum)
 - **DO NOT** mix shades/blinds keywords on the same page
 - UltraLite is a SHADE FEATURE, not a blind feature
 - Future Norman cordless page will also target shade-specific keywords
@@ -523,6 +529,119 @@ Before recommending ANY keyword:
 - [ ] Does it match the page content (no mismatches like "blinds" when we offer "shades")?
 - [ ] Is it geographically specific (OK/OKC) to match our service area?
 - [ ] If new keyword: Have we validated it has search volume? (GSC data, search results, competitor ranking)
+
+---
+
+## 🎯 THE KEYWORDS-TO-CREDIBILITY FUNNEL: How We Use Dealer Info
+
+### Critical Distinction: Keywords vs. Page Content
+
+This section prevents future AI assistants from confusing when and how to mention dealers/brands.
+
+**The Fundamental Truth:**
+- People don't search for dealers they don't know
+- People search for PROBLEMS they want to solve
+- We use keywords to HOOK them with solutions
+- We use page content to BUILD TRUST through dealer credibility
+
+### Three-Phase Funnel
+
+**Phase 1: KEYWORDS (The Fishing Hook)**
+- Purpose: Get people to the website
+- Strategy: Target PROBLEM keywords people actually search for
+- Dealer mention: ❌ NO dealer names in keywords/titles/meta
+- Examples: "quiet cordless shades oklahoma city", "motorized window treatments for heat control", "child safe window coverings"
+- Why no dealers: People don't search "graber shades oklahoma city" — they search "quiet shades oklahoma city"
+- Impact: Better search visibility, lower bounce rate when intent matches solution
+
+**Phase 2: PAGE CONTENT (Building Trust)**
+- Purpose: Establish credibility once they land
+- Strategy: Explain product benefits + show dealer partnerships
+- Dealer mention: ✅ YES, prominent dealer mentions
+- How used: "Graber and Norman are authorized dealers providing..." or "We partner with market-leading brands..."
+- Why dealers matter here: Shows we're smart enough to work with quality manufacturers
+- Impact: Visitor develops trust, more likely to contact or convert
+
+**Phase 3: CONVERSION (Close Based on Trust)**
+- Purpose: Turn trust into action
+- Strategy: CTA leveraging dealer credibility ("Call our specialists today")
+- Dealer mention: ✅ YES, emphasize expertise
+- How used: "Our team trained with Graber and Norman specialists..."
+- Impact: Higher conversion rate from trust-building
+
+### Decision Tree for Future AI Assistants
+
+**When writing KEYWORDS/TITLES/META:**
+- ❌ Do NOT include dealer names
+- ✅ DO include the PROBLEM the product solves
+- ✅ DO include location keywords
+- ✅ DO include benefit keywords
+- Example: "Quiet Cordless Shades Oklahoma City" not "Graber UltraLite Oklahoma City"
+
+**When writing PAGE CONTENT (body text):**
+- ✅ DO mention Graber®, Norman®, Hunter Douglas
+- ✅ DO explain why we partner with them
+- ✅ DO reference their reputation/quality
+- ✅ DO use dealer names in benefit cards
+- ❌ Do NOT repeat dealer names excessively (once per section is enough)
+
+### Why This Strategy Works for New Businesses
+
+Shaded In The Sun (< 2 years old):
+- Nobody knows your brand yet
+- Customers aren't searching "Shaded In The Sun blinds"
+- BUT they ARE searching "custom blinds oklahoma city" and "motorized shades near me"
+- By using dealer partnerships on the page, we show authority: "We're trusted enough to work with Graber"
+- This transforms unknown local business → credible dealer partner
+
+### Common Mistakes to Avoid
+
+❌ **Mistake 1: Dealer names in keywords**
+- Title: "Graber Shades Oklahoma City" (wrong — brand-focused)
+- Correct: "Quiet Cordless Shades Oklahoma City" (problem-focused)
+- Impact: Lost search visibility
+
+❌ **Mistake 2: No dealer mention in content**
+- Page has great keywords but never explains WHY you're credible
+- Visitor wonders: "How do I know this business is legit?"
+- Impact: High bounce rate, low conversions
+
+❌ **Mistake 3: Inconsistent dealer mentions**
+- Some pages mention Graber, others don't
+- Confuses visitor about your partnerships
+- Impact: Reduced trust across site
+
+✅ **Correct Approach:**
+- Keywords: Problem-focused ("quiet", "smooth", "safe", "cordless")
+- H1/Hero: Location + benefit (not brand name)
+- Content sections: Mention dealers prominently in benefit cards
+- Related Articles: Different dealer links than main content
+- Footer: Show all partnerships
+
+### Historical Examples from This Site
+
+**motorized-window-treatments-for-OKC.html:**
+- Title: "Motorized Window Treatments Oklahoma City" (not "Graber motorized shades")
+- Content: 10+ mentions of Graber, Norman, Hunter Douglas throughout
+- Result: Ranks for problem keyword, visitors trust dealer partnerships
+
+**graber-ultralite-lift-system.html:**
+- Title: "Quiet Cordless Shades Oklahoma City | Graber UltraLite" (problem keyword FIRST, brand second)
+- Content: Multiple sections explain Graber benefits, but H1 leads with "Quiet Cordless Shades"
+- Result: Catches people searching for the benefit, proves credibility through Graber partnership
+
+**solar-shades-oklahoma-city.html:**
+- Title: "Solar Shades Oklahoma City & Edmond" (benefit + location, no brand)
+- Content: Mentions Hunter Douglas solar shades prominently in body
+- Result: Gets search visibility for benefit keyword, builds trust with dealer mention
+
+### For Next Session: Reference This When...
+
+- AI suggests adding dealer names to title/meta → Redirect: "That goes in page content, not keywords"
+- AI struggles with "should we mention Graber here?" → Check phase: Keywords? No. Content? Yes.
+- AI writes keywords that are too brand-focused → Rewrite with problem keywords instead
+- Page content doesn't mention dealers → Add 1-2 prominent mentions in benefit cards
+- User asks about dealer strategy → Point them to this section
 
 ---
 
@@ -707,7 +826,7 @@ A: Read the plan's reasoning first. If their idea is good, acknowledge it but ex
 3. Ask user: "What's the current date and what task are you working on?"
 
 **Never Forget:**
-- This is a 3-month-old business (launched Aug 2024)
+- This is a 1-year, 3-month-old business (launched Aug 2024)
 - Owner has done work between conversations - ASK what's current
 - Master Plan is law - respect it
 - Protect page 1 keywords fiercely - optimization can make them worse

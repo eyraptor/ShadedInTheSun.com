@@ -1,0 +1,246 @@
+# SEO WORKING INSTRUCTIONS
+**Master Reference for All Page Reviews and Modifications**
+
+Last Updated: November 11, 2025
+
+---
+
+## 1. MANDATORY PROCESS - RESEARCH FIRST
+
+**Before making ANY recommendations or changes:**
+- Conduct competitive research on actual top-ranking competitors (not theory)
+- Analyze 5+ competitor pages for the target keywords
+- Document their title tags, meta descriptions, content strategies
+- Identify patterns in what's ranking
+- Only THEN propose changes based on real competitive data
+
+**Never assume.** Always ask before making changes you're unsure about.
+
+---
+
+## 2. PAGE REVIEW CHECKLIST - "WHAT YOU'LL LEARN" SECTION
+
+**For EVERY page being reviewed or modified:**
+
+1. **Check for "What You'll Learn in This Article" section:**
+   - If MISSING: Add it with 3-4 bullet points promising specific content and what the reader will learn
+   - If EXISTS: Review and verify each promise is fulfilled in the content below
+
+2. **Evaluate Content Delivery:**
+   - Does each bullet point promise something specific?
+   - Is that specific topic answered in the content?
+   - Could the content answer it better/more thoroughly?
+   - Are promises vague or specific?
+
+3. **Format:**
+   - H2 title: "What You'll Learn in This Article:"
+   - Use checkmark bullets (✓)
+   - 3-4 promises max
+   - Be specific about what readers will learn
+
+---
+
+## 3. KEYWORD STRATEGY
+
+### Core Principle
+**Target problem-solution keywords (what customers search for), NOT brand names**
+- People don't search "Graber blinds" - they search "motorized blinds near me"
+- People don't search "Norman shades" - they search "energy efficient window shades"
+- Focus on customer pain points and solutions
+
+### 100 Keywords Strategy (7 Tiers)
+- Tier 1-7 keywords with search volumes
+- Problem-focused: "cordless blinds for safety", "energy saving shades", "motorized window treatments"
+- Location-integrated: "motorized blinds Oklahoma City", "custom shades Edmond"
+- Natural integration, never forced
+
+### Integration Rules
+- **NEVER lowercase city names** - "Oklahoma City" always, never "oklahoma city"
+- Use natural prepositions:
+  - "motorized blinds for Oklahoma City" ✓
+  - "motorized blinds in Oklahoma City" ✓
+  - "motorized blinds throughout Oklahoma City" ✓
+  - "motorized blinds oklahoma city" ✗ (lowercase, awkward)
+- Keywords must fit grammatically in sentences
+- Proper capitalization and grammar ALWAYS
+- If forcing a keyword makes the sentence awkward, integrate naturally without the keyword
+- Example: Instead of forcing "automated blinds oklahoma city" into an awkward sentence, say "automated blinds without leaving the couch" then mention "Oklahoma City" in proper context elsewhere
+
+---
+
+## 4. META TAG OPTIMIZATION
+
+### Title Tag
+- **Length:** 55-60 characters (optimal) and not longer than 60 as per SEO guidelines
+- **Format:** Primary keyword + benefit + location (if relevant)
+- **Examples:**
+  - "Custom Window Blinds & Shades | Oklahoma City & Edmond"
+  - "Quiet Cordless Shades Oklahoma City | Featherlight touch System"
+  - "Motorized Window Treatments Oklahoma City - Smart Home Control"
+
+### Meta Description
+- **Length:** 150-160 characters
+- **Format:** Benefit-focused, action-oriented, specific
+- **Do NOT include dealer names (Graber, Norman, Draper)** - most people don't know these brands
+- **DO include:** Phone number for conversion intent
+- **Examples:**
+  - "Discover custom blinds and shades for every style and budget. Expert installation throughout Oklahoma City and Edmond. Free consultation!"
+  - "Transform your home with quiet, cordless shades. We offer Lift System that operate with a featherlite touch, enhanced safety, and minimal light gaps—perfect for families."
+
+### Brand Strategy in Content
+- Use brand mentions naturally in page content when relevant
+- NOT in meta descriptions
+- Mention authorized dealer status in closing paragraphs
+- Focus on benefits, not brand prestige
+
+---
+
+## 5. LOCATION STRATEGY
+
+### Primary Locations
+- Oklahoma City (full name, always)
+- Edmond (full name, always)
+
+### Secondary Locations (Footer)
+- Nichols Hills, Yukon, The Village, Bethany, Moore, Piedmont, Warr Acres, Mustang
+- Metro area references
+
+### Implementation
+- Use full location names with proper capitalization
+- Vary prepositions for natural reading: "for", "in", "throughout", "serving"
+- Location context should fit grammatically
+- Avoid forcing locations into unnatural sentence structures
+
+---
+
+## 6. INTERNAL LINKING STRATEGY
+
+### Main Content Section Requirements
+- **3-5 internal links per page** (minimum 3, maximum 5)
+- First pass: Fix ALL non-descriptive links
+- Second pass: Add internal links where missing
+
+### Link Text Rules
+- **DESCRIPTIVE:** "Explore our complete shade selection" ✓
+- **NOT DESCRIPTIVE:** "click here", "read more", "learn more" ✗
+- **NATURAL TO READ:** Links should flow in sentences, not feel forced
+- **NOT TOO LONG:** Single phrase, not multiple sentences
+
+### Strategic Linking
+- Link to related product pages
+- Link to problem-solution content
+- Link to pages with more details on topics mentioned
+- Don't duplicate links already in the page
+
+### Related Articles Section
+- Add if missing
+- 3 article cards
+- **Important:** Links in Related Articles section should NOT duplicate links already in main content
+- Links should NOT all point to same page type
+- Vary content: some educational, some product-focused, some benefit-focused
+
+---
+
+## 7. CONTENT STRUCTURE & FORMATTING
+
+### H1 Tag
+- One H1 per page
+- Should include primary keyword or main benefit
+- Examples:
+  - "Custom Window Blinds & Shades for Oklahoma City & Edmond Homes"
+  - "Motorized Window Treatments Oklahoma City - Convenience & Control"
+
+### H2 Tags
+- Section headers
+- Use keywords naturally where appropriate
+- Examples: "Key Benefits of Motorized Blinds & Shades in Oklahoma"
+
+### Paragraph Structure
+- 2-4 sentences per paragraph
+- Clear, benefit-focused messaging
+- Integrate keywords naturally, not forced
+
+### Grammar & Capitalization
+- Proper capitalization for all proper nouns (Oklahoma City, Edmond, Graber, Norman)
+- Correct punctuation
+- No run-on sentences
+- Keywords integrated as part of natural sentences
+
+---
+
+## 8. COMPETITOR RESEARCH DOCUMENTATION
+
+When researching competitors:
+- Document competitor URLs
+- Note their title tags
+- Note their meta descriptions
+- Identify keyword focus
+- Note content structure
+- Record any unique approaches
+- Create brief findings summary
+- Only then propose strategy changes
+
+---
+
+## 9. PAGE STATUS DASHBOARD
+
+| Page | Status | Notes |
+|------|--------|-------|
+| index.html | ✓ COMPLETE | Title, meta, H1, link text optimized |
+| motorized-window-treatments-for-OKC.html | ✓ COMPLETE | "What You'll Learn" verified, Integration card updated with brand mentions |
+| graber-ultralite-lift-system.html | ✓ COMPLETE | "What You'll Learn" included, content well-structured |
+| window-shades.html | ✓ MODIFIED | Title, meta, intro optimized |
+| graber.html | ✓ MODIFIED | Brand-focused content, dealer advantages highlighted |
+| norman.html | PENDING | Next review |
+| draper.html | PENDING | Next review |
+| Other pages | PENDING | TBD |
+
+---
+
+## 10. QUALITY CHECKLIST BEFORE FINALIZING ANY PAGE
+
+Before marking a page as complete:
+
+- [ ] "What You'll Learn" section exists and is accurate
+- [ ] Title tag: 55-60 characters, keyword + benefit + location
+- [ ] Meta description: 150-160 characters, benefit-focused, includes phone number
+- [ ] H1 tag includes primary keyword or benefit
+- [ ] All city names properly capitalized (Oklahoma City, Edmond)
+- [ ] Keywords integrated naturally, no forced lowercase
+- [ ] Prepositions used naturally with location references
+- [ ] 3-5 internal links in main content
+- [ ] All links are descriptive (not "click here", "read more", etc.)
+- [ ] Related Articles section exists with 3+ articles
+- [ ] Related Articles links don't duplicate main content links
+- [ ] Grammar and punctuation are correct
+- [ ] No awkward sentences due to keyword forcing
+- [ ] Brand mentions (Graber, Norman, Draper) used naturally in content
+- [ ] Phone number visible for conversion intent
+- [ ] Page flows well and reads naturally
+
+---
+
+## 11. DO NOT DO
+
+- Do NOT add brand names to meta descriptions
+- Do NOT force keywords into unnatural sentences
+- Do NOT use lowercase city names
+- Do NOT create links with generic text
+- Do NOT assume what the user wants - always ask when uncertain
+- Do NOT skip competitive research before recommending changes
+- Do NOT add brand URLs to meta tags
+- Do NOT add multiple H1 tags per page
+- Do NOT duplicate Related Articles links in main content
+- Do NOT make changes you're unsure about without confirming first
+
+---
+
+## 12. COMMUNICATION PROTOCOL
+
+- Always propose before implementing large changes
+- Ask questions when uncertain
+- Reference specific lines/sections when discussing
+- Summarize findings before proceeding
+- Confirm user satisfaction before moving to next page
+- Track progress transparently
+

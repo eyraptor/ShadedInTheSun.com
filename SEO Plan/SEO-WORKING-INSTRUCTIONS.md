@@ -101,6 +101,7 @@ Last Updated: November 11, 2025
 - NOT in meta descriptions
 - Mention authorized dealer status in closing paragraphs
 - Focus on benefits, not brand prestige
+- **Trademark Symbols:** Use "Norman®" and "Graber®" with actual ® symbol (not HTML entities like &reg;)
 
 ---
 
@@ -141,12 +142,27 @@ Last Updated: November 11, 2025
 - Link to pages with more details on topics mentioned
 - Don't duplicate links already in the page
 
+### Brand-Specific Link Strategy
+- Links mentioning specific brand products should point to brand-specific pages when available
+- If no brand-specific page exists, link to benefit/problem-solution page and use descriptive text that clarifies what they'll learn
+- Example CORRECT: "Learn more about motorized shades and smart home integration" (link to /motorized-window-treatments-for-OKC.html)
+- Example INCORRECT: "Motorized Norman® shades" (link to generic motorized page - doesn't clarify they're learning generic info, not Norman-specific)
+- Link text must accurately reflect page content - don't mislead readers about what they'll find
+
+### Link Descriptiveness Requirements
+- **ALL links must be descriptive** - applies to main content, Related Articles, footer, everywhere
+- Non-descriptive links: "Read More →", "click here", "learn more", "read more", "view more" ✗
+- Descriptive links: "Explore motorized shade options", "Discover five reasons to choose custom shades" ✓
+- Link text should tell reader what they'll learn or see on destination page
+- Links must flow naturally in sentences, not feel forced or generic
+
 ### Related Articles Section
 - Add if missing
 - 3 article cards
 - **Important:** Links in Related Articles section should NOT duplicate links already in main content
 - Links should NOT all point to same page type
 - Vary content: some educational, some product-focused, some benefit-focused
+- **All Related Articles links must be descriptive** - not "Read More →"
 
 ---
 
@@ -191,6 +207,37 @@ When researching competitors:
 
 ---
 
+## 8.5. HERO SECTION LAYOUT & STRUCTURE
+
+### Hero Section Pattern
+- Use the `outer-flex` responsive layout pattern for hero sections on all pages
+- Location: Reference the `template.html` file for the exact structure
+
+### Implementation
+- **Parent container:** `<section class="margin-tb-25">`
+- **Main wrapper:** `<div class="padding-15 outer-flex">`
+- **Image:** `<img class="max-width-90p-h-auto margin-rl30" width="800" height="533" src="..." alt="...">`
+- **Content wrapper:** `<div class='centerSmall'>`
+  - Include H1 inside centerSmall div
+  - Include "What You'll Learn" section inside centerSmall div
+  - Include call-to-action paragraph inside centerSmall div
+
+### Benefits
+- Responsive design that adapts to mobile and desktop
+- Image and text side-by-side on desktop
+- Stacked on mobile with proper sizing
+- Consistent styling across all pages
+
+### Key CSS Classes
+- `outer-flex`: Responsive flex container
+- `centerSmall`: Text content wrapper
+- `max-width-90p-h-auto`: Image sizing
+- `margin-rl30`: Image margins (left/right)
+- `stagger1`: H1 animation effect
+- `balanced-text`: Text wrapping optimization
+
+---
+
 ## 9. PAGE STATUS DASHBOARD
 
 | Page | Status | Notes |
@@ -200,7 +247,7 @@ When researching competitors:
 | graber-ultralite-lift-system.html | ✓ COMPLETE | "What You'll Learn" included, content well-structured |
 | window-shades.html | ✓ MODIFIED | Title, meta, intro optimized |
 | graber.html | ✓ MODIFIED | Brand-focused content, dealer advantages highlighted |
-| norman.html | PENDING | Next review |
+| norman.html | ✓ COMPLETE | Hero section updated, internal links fixed, product names verified (Portrait, Soluna, Centerpiece, Ultimate, SmartDrape), Related Articles links descriptive |
 | draper.html | PENDING | Next review |
 | Other pages | PENDING | TBD |
 

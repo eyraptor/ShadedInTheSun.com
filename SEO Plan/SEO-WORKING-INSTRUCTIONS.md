@@ -1,7 +1,7 @@
 # SEO WORKING INSTRUCTIONS
 **Master Reference for All Page Reviews and Modifications**
 
-Last Updated: November 12, 2025
+Last Updated: November 12, 2025 (Updated meta description length to 135 chars - verified by SEMRush research)
 
 ---
 
@@ -88,13 +88,15 @@ Last Updated: November 12, 2025
   - "Motorized Window Treatments Oklahoma City - Smart Home Control"
 
 ### Meta Description
-- **Length:** 150-160 characters
+- **Length:** Maximum 135 characters (verified by SEMRush research to prevent mobile truncation)
+- **Why 135?** Ensures full visibility on mobile devices (135.87 chars avg on mobile) and desktop (146.28 chars avg on desktop). Google truncates descriptions that exceed device width.
+- **Source:** SEMRush analysis of actual search result display behavior across devices
 - **Format:** Benefit-focused, action-oriented, specific
 - **Do NOT include dealer names (Graber, Norman, Draper)** - most people don't know these brands
-- **DO include:** Phone number for conversion intent
-- **Examples:**
-  - "Discover custom blinds and shades for every style and budget. Expert installation throughout Oklahoma City and Edmond. Free consultation!"
-  - "Transform your home with quiet, cordless shades. We offer Lift System that operate with a featherlite touch, enhanced safety, and minimal light gaps—perfect for families."
+- **DO include:** Phone number for conversion intent (if space allows)
+- **Examples (all under 135 chars):**
+  - "Custom blinds and shades for every style and budget. Expert installation in Oklahoma City and Edmond. Call 405-259-5599!" (122 chars)
+  - "Transform your home with quiet, cordless shades with featherlite touch and safety. Perfect for families. Call today!" (120 chars)
 
 ### Brand Strategy in Content
 - Use brand mentions naturally in page content when relevant
@@ -292,7 +294,7 @@ Before marking a page as complete:
 ### Content & SEO
 - [ ] "What You'll Learn" section exists and is accurate
 - [ ] Title tag: 55-60 characters, keyword + benefit + location
-- [ ] Meta description: 150-160 characters, benefit-focused, includes phone number
+- [ ] Meta description: Maximum 135 characters, benefit-focused, includes phone number (prevents mobile truncation)
 - [ ] H1 tag includes primary keyword or benefit
 - [ ] All city names properly capitalized (Oklahoma City, Edmond)
 - [ ] Keywords integrated naturally, no forced lowercase

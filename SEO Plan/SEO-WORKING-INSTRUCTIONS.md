@@ -1,7 +1,7 @@
 # SEO WORKING INSTRUCTIONS
 **Master Reference for All Page Reviews and Modifications**
 
-Last Updated: November 11, 2025
+Last Updated: November 12, 2025
 
 ---
 
@@ -207,6 +207,38 @@ When researching competitors:
 
 ---
 
+## 8.4. IMAGE ATTRIBUTES VERIFICATION
+
+### All Images Require:
+- **Width attribute** - Must match actual image dimensions (verify with file check, not assumptions)
+- **Height attribute** - Must match actual image dimensions (verify with file check, not assumptions)
+- **Alt text** - Descriptive text for accessibility and SEO
+- **Loading attribute** - Add `loading="lazy"` for performance optimization
+
+### Verification Process
+- **DO NOT ASSUME** image dimensions - always verify actual file dimensions
+- Use file command or image inspection tools to confirm width x height
+- Common dimensions on this site: 800x533, 800x600, 400x200, etc.
+- Incorrect dimensions cause:
+  - Cumulative Layout Shift (CLS) - harms Core Web Vitals and SEO
+  - Browser reflows and performance issues
+  - Poor user experience with layout jumping
+
+### Example - CORRECT:
+```html
+<img class='margin-tb-25' src="/images/example.webp" alt="Description" width="800" height="533" loading="lazy">
+```
+
+### Example - INCORRECT:
+```html
+<!-- Missing width and height -->
+<img class='margin-tb-25' src="/images/example.webp" alt="Description">
+<!-- Wrong dimensions assumed without verification -->
+<img class='margin-tb-25' src="/images/example.webp" alt="Description" width="800" height="600" loading="lazy">
+```
+
+---
+
 ## 8.5. HERO SECTION LAYOUT & STRUCTURE
 
 ### Hero Section Pattern
@@ -257,6 +289,7 @@ When researching competitors:
 
 Before marking a page as complete:
 
+### Content & SEO
 - [ ] "What You'll Learn" section exists and is accurate
 - [ ] Title tag: 55-60 characters, keyword + benefit + location
 - [ ] Meta description: 150-160 characters, benefit-focused, includes phone number
@@ -274,6 +307,14 @@ Before marking a page as complete:
 - [ ] Phone number visible for conversion intent
 - [ ] Page flows well and reads naturally
 
+### Image Attributes (CRITICAL - impacts Core Web Vitals)
+- [ ] ALL images have width attribute
+- [ ] ALL images have height attribute
+- [ ] **Width and height VERIFIED against actual file dimensions** (not assumed)
+- [ ] ALL images have descriptive alt text
+- [ ] Content images have `loading="lazy"` attribute
+- [ ] Image dimensions match actual file sizes (use file command to verify)
+
 ---
 
 ## 11. DO NOT DO
@@ -288,15 +329,26 @@ Before marking a page as complete:
 - Do NOT add multiple H1 tags per page
 - Do NOT duplicate Related Articles links in main content
 - Do NOT make changes you're unsure about without confirming first
+- Do NOT assume image dimensions - always verify actual file dimensions
+- **Do NOT take action based on user questions** - answer the question first, then ask if they want you to proceed
+- Do NOT assume user wants you to implement changes just because you identify a problem
 
 ---
 
 ## 12. COMMUNICATION PROTOCOL
 
+### Questions vs. Action Intent
+- **CRITICAL:** When user asks a question, provide an answer - do NOT assume they want you to take action
+- Example WRONG: User asks "how do you know those images are 800x600?" → I immediately verify and fix without asking
+- Example RIGHT: User asks "how do you know those images are 800x600?" → I explain I didn't verify, then ask "Would you like me to check and fix them?"
+- **Only take action when explicitly instructed** - never assume from questions
+
+### General Communication Guidelines
 - Always propose before implementing large changes
 - Ask questions when uncertain
 - Reference specific lines/sections when discussing
 - Summarize findings before proceeding
 - Confirm user satisfaction before moving to next page
 - Track progress transparently
+- Answer questions directly before offering solutions
 

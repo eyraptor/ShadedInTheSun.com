@@ -166,6 +166,20 @@ Last Updated: November 12, 2025 (Updated meta description length to 135 chars - 
 - Vary content: some educational, some product-focused, some benefit-focused
 - **All Related Articles links must be descriptive** - not "Read More →"
 
+### BEFORE UPDATING RELATED ARTICLES - CRITICAL STEP
+**ALWAYS check the INTERNAL-LINK-PRIORITY-CHECKLIST.md file FIRST**
+- Location: `SEO Plan\INTERNAL-LINK-PRIORITY-CHECKLIST.md`
+- This file lists pages that need more internal links (priority list)
+- Prioritize linking to underperforming pages instead of well-linked pages
+- This ensures the site's link structure is balanced across ALL pages
+
+**Process for updating Related Articles:**
+1. Open `INTERNAL-LINK-PRIORITY-CHECKLIST.md`
+2. Check which priority pages are NOT already linked in the current page's main content
+3. Prefer linking to pages with fewer links (pages listed as HIGH PRIORITY)
+4. Ensure the 3 Related Article links complement the current page's topic
+5. Document which pages got new links so we can update the checklist
+
 ---
 
 ## 7. CONTENT STRUCTURE & FORMATTING
@@ -303,6 +317,7 @@ Before marking a page as complete:
 - [ ] All links are descriptive (not "click here", "read more", etc.)
 - [ ] Related Articles section exists with 3+ articles
 - [ ] Related Articles links don't duplicate main content links
+- [ ] Related Articles prioritize pages from INTERNAL-LINK-PRIORITY-CHECKLIST.md (underperforming pages)
 - [ ] Grammar and punctuation are correct
 - [ ] No awkward sentences due to keyword forcing
 - [ ] Brand mentions (Graber, Norman, Draper) used naturally in content
@@ -334,6 +349,7 @@ Before marking a page as complete:
 - Do NOT assume image dimensions - always verify actual file dimensions
 - **Do NOT take action based on user questions** - answer the question first, then ask if they want you to proceed
 - Do NOT assume user wants you to implement changes just because you identify a problem
+- **Do NOT add Related Articles links without checking INTERNAL-LINK-PRIORITY-CHECKLIST.md first** - always prioritize underperforming pages
 
 ---
 

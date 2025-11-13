@@ -759,6 +759,11 @@ img {
   padding-top: 30px;
 }
 
+.padding-inline-7px {
+  padding-left: 7px;
+  padding-right: 7px;
+}
+
 .padding-inline-15px {
   padding-left: 15px;
   padding-right: 15px;
@@ -1325,8 +1330,9 @@ label.required:after {
 
 .header ul a {
   display: block;
-  padding-right: 10px;
-  padding-bottom: 5px;
+  padding: 20px 3px; 
+  /* padding-right: 10px; */
+  /* padding-bottom: 5px; */
   color: var(--clr-primary-400);
 }
 
@@ -1814,7 +1820,7 @@ label.required:after {
   }
 }
     /* Mobile Menu set to work on mobile Was 870px, but changed when menu was bigger*/
-@media (min-width: 1440px) {
+@media (min-width: 1280px) {
    .header li {
     float: left;
   }
@@ -1846,11 +1852,11 @@ label.required:after {
   .display-block-left {
   margin-left: 0;
   margin-right: auto;
-}
-
- .header li a { 
-  padding: 20px 10px; 
   }
+
+ /* .header li a { 
+  padding: 20px 5px;
+  }  */
 
   .header .menu {
     display: block;

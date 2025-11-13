@@ -1,0 +1,161 @@
+================================================================================
+                    WEBSITE INTERNAL LINK STRUCTURE ANALYSIS
+                         ShadedInTheSun.com
+================================================================================
+
+ANALYSIS DATE: November 12, 2025
+DIRECTORY: c:\My Documents\ShadedInTheSun.com
+
+OVERVIEW
+================================================================================
+Total HTML files analyzed: 31
+Files excluded: template.html, test.html, index-copy.html, RollerShadesOLD.html
+
+SUMMARY STATISTICS
+================================================================================
+- Pages with 3+ internal links (GOOD): 27 pages
+- Pages with 1-2 links (NEEDS ATTENTION): 3 pages  
+- Pages with 0 links (CRITICAL): 1 page
+- Total internal links in site: 577
+
+
+================================================================================
+SECTION 1: PAGES WITH 3+ INTERNAL LINKS (WELL-LINKED)
+================================================================================
+
+1. graber.html                                              75 internal links
+2. window-shades.html                                       75 internal links
+3. norman.html                                              70 internal links
+4. window-shutters.html                                     64 internal links
+5. about.html                                               62 internal links
+6. blog.html                                                61 internal links
+7. contact.html                                             60 internal links
+8. faq.html                                                 48 internal links
+9. Energy-Saving-Window-Shades-Edmond-and-OKC.html         19 internal links
+10. motorized-window-treatments-for-OKC.html               19 internal links
+11. best-motorized-blinds-installer-oklahoma-city.html     13 internal links
+12. WindowShadeOpacitiesExplained.html                      13 internal links
+13. fiveCustomBlindReasons.html                             12 internal links
+14. LuxuryWindowTreatments.html                             10 internal links
+15. graber-ultralite-lift-system.html                        7 internal links
+16. Best-Alternatives-to-Blinds.html                        6 internal links
+17. Cool-Your-Edmond-Oklahoma-Sunroom.html                  6 internal links
+18. norman-smartdrape-oklahoma-city.html                    6 internal links
+19. Types-of-window-blinds.html                             6 internal links
+20. best-window-treatment-company-edmond-ok.html            5 internal links
+21. Top-Five-Window-Treatment-Trends-in-Oklahoma-City.html  4 internal links
+22. Window-Treatment-Value.html                             4 internal links
+23. custom-blinds-oklahoma-city.html                        3 internal links
+24. index.html                                              3 internal links
+25. patio-shades-nichols-hills.html                         3 internal links
+26. shades-and-shutters-and-blinds-oh-my.html              3 internal links
+27. zebra-shades-stylish-solution.html                      3 internal links
+
+
+================================================================================
+SECTION 2: PAGES NEEDING ATTENTION (FEWER THAN 3 INTERNAL LINKS)
+================================================================================
+
+CRITICAL PRIORITY - 0 LINKS:
+----------------------------
+
+newsletter.html                                              0 internal links
+STATUS: NOT LINKED FROM ANY OTHER PAGES - COMPLETELY ISOLATED
+PRIORITY: CRITICAL
+RECOMMENDATION: Add links from at least 5 pages including:
+  - index.html (homepage)
+  - about.html
+  - contact.html
+  - blog.html
+  - faq.html
+
+
+HIGH PRIORITY - 1 LINK ONLY:
+----------------------------
+
+2025Trends.html                                              1 internal link
+CURRENT SOURCES: blog.html, zebra-shades-stylish-solution.html
+LINKS NEEDED: 2+ more to reach acceptable level (3+)
+RECOMMENDATION: Add links from:
+  - index.html
+  - Best-Alternatives-to-Blinds.html
+  - Top-Five-Window-Treatment-Trends-in-Oklahoma-City.html
+
+
+best-window-treatments-oklahoma-weather.html                1 internal link
+CURRENT SOURCES: about.html, blog.html
+LINKS NEEDED: 2+ more to reach acceptable level (3+)
+RECOMMENDATION: Add links from:
+  - Energy-Saving-Window-Shades-Edmond-and-OKC.html
+  - motorized-window-treatments-for-OKC.html
+  - Cool-Your-Edmond-Oklahoma-Sunroom.html
+
+
+why-is-hunter-douglas-so-expensive.html                     1 internal link
+CURRENT SOURCES: blog.html, LuxuryWindowTreatments.html
+LINKS NEEDED: 2+ more to reach acceptable level (3+)
+RECOMMENDATION: Add links from:
+  - graber.html
+  - window-shades.html
+  - high-end design related pages
+
+
+================================================================================
+SECTION 3: QUICK ACTION ITEMS
+================================================================================
+
+PHASE 1 - URGENT (This Week):
+1. newsletter.html - Add 5 links from:
+   * index.html (footer or CTA)
+   * about.html (subscription info)
+   * contact.html (newsletter signup alternative)
+   * blog.html (bottom of page)
+   * faq.html
+
+2. 2025Trends.html - Add 2 links from:
+   * index.html
+   * Best-Alternatives-to-Blinds.html
+
+PHASE 2 - SHORT TERM (Next 2 Weeks):
+1. best-window-treatments-oklahoma-weather.html - Add 2 links from:
+   * Energy-Saving-Window-Shades-Edmond-and-OKC.html
+   * motorized-window-treatments-for-OKC.html
+
+2. why-is-hunter-douglas-so-expensive.html - Add 2 links from:
+   * graber.html
+   * window-shades.html
+
+
+================================================================================
+SECTION 4: KEY FINDINGS
+================================================================================
+
+Strong Hub Pages (75 links each):
+- graber.html
+- window-shades.html
+
+High Authority Pages (60+ links):
+- norman.html (70)
+- window-shutters.html (64)
+- about.html (62)
+- blog.html (61)
+- contact.html (60)
+
+These hub pages are good candidates for adding links to underperforming pages.
+
+
+================================================================================
+DETAILED BREAKDOWN BY LINK COUNT
+================================================================================
+
+27 pages - EXCELLENT LINK DISTRIBUTION (3+ links)
+ 3 pages - POOR LINK DISTRIBUTION (1-2 links)
+ 1 page  - CRITICAL (0 links)
+
+Total percentage well-linked: 87%
+Target: Improve to 100% (all pages with 3+ links)
+
+
+================================================================================
+REPORT END
+================================================================================

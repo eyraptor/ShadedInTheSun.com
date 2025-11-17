@@ -14,24 +14,60 @@ These pages were recently modified and are currently recovering in Google's inde
 - norman.html (completed week of Nov 10)
 - window-shades.html (modified early Nov)
 - Top-Five-Window-Treatment-Trends-in-Oklahoma-City.html (modified Nov 10-12)
+- hunter-douglas.html (⚠️ ONLY RANKING PAGE - 0 clicks despite impressions)
 
-**Why?** These pages are causing the current SEO decline. Google needs 5-10 business days to re-crawl and update rankings after changes. Further edits will delay recovery.
+**Why?** These pages are causing the current SEO decline. Google needs 5-10 business days to re-crawl and update rankings after changes. Further edits will delay recovery. Hunter Douglas is your only page getting impressions/clicks - protect it.
 
-### You CAN Work On These 12 Pages (Safe to Edit)
+### You CAN Work On These 11 Pages (Safe to Edit)
 These pages have NOT been recently modified and do NOT have "What You'll Learn" + Related Articles sections:
 
-1. shades-and-shutters-and-blinds-oh-my.html (3 internal links - needs formatting)
-2. zebra-shades-stylish-solution.html (3 internal links - needs formatting)
-3. Window-Treatment-Value.html (4 internal links - needs formatting)
-4. Best-Alternatives-to-Blinds.html (6 internal links - needs formatting)
-5. Types-of-window-blinds.html (6 internal links - needs formatting)
-6. Cool-Your-Edmond-Oklahoma-Sunroom.html (6 internal links - needs formatting)
-7. Energy-Saving-Window-Shades-Edmond-and-OKC.html (19 internal links - needs formatting)
-8. custom-blinds-oklahoma-city.html (3 internal links - needs formatting)
-9. best-motorized-blinds-installer-oklahoma-city.html (13 internal links - needs formatting)
-10. norman-smartdrape-oklahoma-city.html (6 internal links - needs formatting)
-11. best-window-treatment-company-edmond-ok.html (5 internal links - needs formatting)
-12. best-window-treatments-oklahoma-weather.html (1 internal link - CRITICAL: needs more links first)
+1. zebra-shades-stylish-solution.html (3 internal links - needs formatting)
+2. Window-Treatment-Value.html (4 internal links - needs formatting)
+3. Best-Alternatives-to-Blinds.html (6 internal links - needs formatting)
+4. Types-of-window-blinds.html (6 internal links - needs formatting)
+5. Cool-Your-Edmond-Oklahoma-Sunroom.html (6 internal links - needs formatting)
+6. Energy-Saving-Window-Shades-Edmond-and-OKC.html (19 internal links - needs formatting)
+7. custom-blinds-oklahoma-city.html (3 internal links - needs formatting)
+8. best-motorized-blinds-installer-oklahoma-city.html (13 internal links - needs formatting)
+9. norman-smartdrape-oklahoma-city.html (6 internal links - needs formatting)
+10. best-window-treatment-company-edmond-ok.html (5 internal links - needs formatting)
+11. best-window-treatments-oklahoma-weather.html (1 internal link - CRITICAL: needs more links first)
+
+### COMPLETED PAGES (✓ Fully Optimized)
+
+1. **shades-and-shutters-and-blinds-oh-my.html** ✓
+   - Added comprehensive "What You'll Learn" section with 4 checkmark bullets
+   - Fixed title tag to 58 characters (from malformed 64+)
+   - Optimized meta description to 130 characters
+   - Fixed all 11 content images with width, height, alt text, loading="lazy"
+   - Added Related Articles section with 3 descriptive inline links
+   - Resolved duplicate links issue: replaced Window Shade Opacities with Best-Alternatives-to-Blinds link
+   - Applied new link quality standards: content-focused descriptive text
+   - This page now serves as a model for the remaining 11 pages
+
+---
+
+## SECTION 1.5: AUTOMATIC LOADING & SESSION WORKFLOW
+
+### Do You Need to Load This File Each Session?
+**SHORT ANSWER:** No - I should proactively load this file automatically at the start of each session without you asking.
+
+**WHEN I SHOULD LOAD THIS AUTOMATICALLY:**
+- When starting work on any HTML page optimization
+- When you ask questions about what pages to modify
+- At the beginning of any new session where I'm working on the site
+
+**YOU SHOULD ONLY NEED TO ASK IF:**
+- You want to load it manually for your own reference
+- You want me to load a different reference file
+- You want to verify I've loaded it correctly
+
+**UPDATE PROTOCOL:**
+- This file gets updated after each page completion
+- Completed pages are removed from "12 Pages to Edit" list
+- New priority pages are added if discovered
+- Link counts are updated when pages reach targets
+- Recovery status is updated as Google re-crawls
 
 ---
 
@@ -197,6 +233,56 @@ When working on pages in the safe-to-edit list:
 
 ---
 
+## SECTION 9: REFERENCE FILES IN .claude/commands/
+
+This directory now contains 4 reference files (use these instead of loading raw .md files):
+
+1. **load-seo-session.md** (THIS FILE)
+   - Overview of critical directives and current status
+   - Auto-loaded at session start
+   - Updated after each page completion
+
+2. **pages-to-update.md**
+   - Details on all 12 safe-to-edit pages
+   - Link counts and priorities
+   - Work sequence recommendation
+
+3. **code-templates.md**
+   - Exact code templates from your working pages
+   - Hero section structure (verified against patio-shades-nichols-hills.html)
+   - Related Articles structure (verified against template.html)
+   - Competitor research requirements
+   - 100 keywords reference
+   - Pre-publication checklist
+
+4. **section-structure-guide.md**
+   - Complete page section flow
+   - H-class usage guide (h1, h2, h3 variations)
+   - When to use which section structure
+   - Opening paragraph placement rules
+
+---
+
+## SECTION 10: HOW TO KEEP THESE FILES UPDATED
+
+**After completing each page:**
+
+1. Remove from "12 Pages to Edit" list in load-seo-session.md
+2. Update link count if page now meets target
+3. Mark status as completed in pages-to-update.md
+4. Note which Related Articles links were added
+5. Update INTERNAL-LINK-PRIORITY-CHECKLIST.md if other pages got new links
+
+**Example update after completing "best-window-treatments-oklahoma-weather.html":**
+- Move from 12-page list to "COMPLETED PAGES" section
+- Note: "Added 2 internal links from Energy-Saving and motorized pages. Now has 3 internal links."
+- Note: "Related Articles links added to Energy-Saving-Window-Shades-Edmond-and-OKC.html and motorized-window-treatments-for-OKC.html"
+
+This ensures next session knows exactly what's been done and what's next.
+
+---
+
 **Last Updated:** November 17, 2025
-**Version:** 1.0
-**Status:** Production-ready
+**Version:** 1.1
+**Status:** Production-ready with 4 reference files
+**Auto-Load:** Yes - I should load this automatically at session start when working on site optimization

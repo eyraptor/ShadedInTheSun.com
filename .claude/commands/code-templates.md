@@ -278,6 +278,84 @@ Graber® (with ® symbol)
 
 ---
 
+## BRAND ACCURACY VERIFICATION - REQUIRED BEFORE ANY PAGE EDIT
+
+**CRITICAL DIRECTIVE:** Before editing or optimizing ANY page, you MUST verify all product information, claims, and technical details against the official brand supplier websites.
+
+### Why This Is Non-Negotiable:
+- Your site sells Graber® and Norman® products - you represent these brands
+- Inaccurate product information damages credibility and violates brand trust
+- Competitors will cite accurate information; you must match or exceed accuracy
+- Google rewards sites with accurate, authoritative product information
+- This is the "single most important thing" for SEO optimization work
+
+### VERIFICATION PROCESS - Do This FIRST:
+
+**For every page you work on:**
+
+1. **Identify all product claims and features mentioned** on the page:
+   - Product names and model references
+   - Feature descriptions (e.g., "honeycomb structure," "cordless lift system")
+   - Material types (e.g., "cellular shades," "roman shades")
+   - Technical specifications (dimensions, lift systems, motorization options)
+   - Brand-specific claims (e.g., "Norman® SmartDrape," "Graber® UltraLite")
+
+2. **Cross-reference each claim with official sources:**
+   - **graberblinds.com** - For all Graber® product specifications, features, and technical details
+   - **normanusa.com** - For all Norman® product specifications, features, and technical details
+   - Use product pages, spec sheets, feature guides from these official sites
+   - Document what the official sources say vs. what your page claims
+
+3. **Verify accuracy by:**
+   - Checking product names match official naming conventions
+   - Confirming feature descriptions are accurate
+   - Validating technical specifications are correct
+   - Ensuring brand symbols are used correctly (®, ™)
+   - Confirming product availability in Oklahoma market
+
+4. **Correct any inaccuracies BEFORE publishing:**
+   - Update wrong product names or descriptions
+   - Remove claims not supported by official sources
+   - Add missing technical details from official sources
+   - Fix misrepresented features or benefits
+
+### What This Means For Your Work:
+
+**BEFORE** you optimize title tags, meta descriptions, hero sections, or any content:
+- First, verify all product information is accurate against graberblinds.com and normanusa.com
+- Document what you found on the official sites
+- Update any inaccuracies in the page content
+- THEN proceed with optimization work
+
+**Example Verification Workflow:**
+```
+Page: Best-Alternatives-to-Blinds.html
+Claims to verify:
+- "Graber® cellular shades have honeycomb structure"
+- "Roman shades fold up beautifully"
+- "Norman® products available"
+
+Action:
+1. Visit graberblinds.com → Search cellular shades → Verify honeycomb description
+2. Visit graberblinds.com → Search roman shades → Verify fold-up description
+3. Visit normanusa.com → Confirm Norman products available in Oklahoma
+4. Document findings
+5. Update page if any inaccuracies found
+6. THEN optimize meta tags and structure
+```
+
+### Documentation Requirement:
+When loading this file for a work session, I should AUTOMATICALLY check if the current page has had its brand information verified. If NOT verified in this session, I must do brand verification FIRST before proceeding with any optimization work.
+
+**Auto-Load Checklist:**
+- ✓ Load this file automatically at session start
+- ✓ Identify which page I'm working on
+- ✓ Check if that page has been verified against graberblinds.com and normanusa.com
+- ✓ If NOT verified, make it the first task before any other edits
+- ✓ Document verification findings in my work log
+
+---
+
 ## COMPETITOR RESEARCH - REQUIRED BEFORE META TAG OPTIMIZATION
 
 **Location:** SEO Plan\10-17-25 - SITE-WIDE-KEYWORD-AUDIT.md (contains 100 keywords)

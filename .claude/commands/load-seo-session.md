@@ -18,20 +18,19 @@ These pages were recently modified and are currently recovering in Google's inde
 
 **Why?** These pages are causing the current SEO decline. Google needs 5-10 business days to re-crawl and update rankings after changes. Further edits will delay recovery. Hunter Douglas is your only page getting impressions/clicks - protect it.
 
-### You CAN Work On These 11 Pages (Safe to Edit)
+### You CAN Work On These 10 Pages (Safe to Edit)
 These pages have NOT been recently modified and do NOT have "What You'll Learn" + Related Articles sections:
 
-1. zebra-shades-stylish-solution.html (3 internal links - needs formatting)
-2. Window-Treatment-Value.html (4 internal links - needs formatting)
-3. Best-Alternatives-to-Blinds.html (6 internal links - needs formatting)
-4. Types-of-window-blinds.html (6 internal links - needs formatting)
-5. Cool-Your-Edmond-Oklahoma-Sunroom.html (6 internal links - needs formatting)
-6. Energy-Saving-Window-Shades-Edmond-and-OKC.html (19 internal links - needs formatting)
-7. custom-blinds-oklahoma-city.html (3 internal links - needs formatting)
-8. best-motorized-blinds-installer-oklahoma-city.html (13 internal links - needs formatting)
-9. norman-smartdrape-oklahoma-city.html (6 internal links - needs formatting)
-10. best-window-treatment-company-edmond-ok.html (5 internal links - needs formatting)
-11. best-window-treatments-oklahoma-weather.html (1 internal link - CRITICAL: needs more links first)
+1. Window-Treatment-Value.html (4 internal links - needs formatting)
+2. Best-Alternatives-to-Blinds.html (6 internal links - needs formatting)
+3. Types-of-window-blinds.html (6 internal links - needs formatting)
+4. Cool-Your-Edmond-Oklahoma-Sunroom.html (6 internal links - needs formatting)
+5. Energy-Saving-Window-Shades-Edmond-and-OKC.html (19 internal links - needs formatting)
+6. custom-blinds-oklahoma-city.html (3 internal links - needs formatting)
+7. best-motorized-blinds-installer-oklahoma-city.html (13 internal links - needs formatting)
+8. norman-smartdrape-oklahoma-city.html (6 internal links - needs formatting)
+9. best-window-treatment-company-edmond-ok.html (5 internal links - needs formatting)
+10. best-window-treatments-oklahoma-weather.html (1 internal link - CRITICAL: needs more links first)
 
 ### COMPLETED PAGES (✓ Fully Optimized)
 
@@ -45,9 +44,36 @@ These pages have NOT been recently modified and do NOT have "What You'll Learn" 
    - Applied new link quality standards: content-focused descriptive text
    - This page now serves as a model for the remaining 11 pages
 
+2. **zebra-shades-stylish-solution.html** ✓
+   - Already had comprehensive "What You'll Learn" section with 4 checkmark bullets
+   - Already had Related Articles section with 3 descriptive inline links
+   - All images already have width, height, alt text, and loading="lazy"
+   - Brand verification completed: All Graber product claims verified against graberblinds.com
+   - Page is fully optimized and ready
+
 ---
 
-## SECTION 1.5: AUTOMATIC LOADING & SESSION WORKFLOW
+## SECTION 1.5: BRAND VERIFICATION REQUIREMENT - LOAD THIS FIRST
+
+**BEFORE WORKING ON ANY PAGE:** You MUST verify all product information against:
+- **graberblinds.com** - For Graber® products
+- **normanusa.com** - For Norman® products
+
+This is non-negotiable. See code-templates.md section "BRAND ACCURACY VERIFICATION - REQUIRED BEFORE ANY PAGE EDIT" for the complete verification process.
+
+**Your standard workflow for ANY page work:**
+1. Load code-templates.md (includes brand verification directive)
+2. Load INTERNAL-LINK-PRIORITY-CHECKLIST.md (if optimizing Related Articles)
+3. Read the target page
+4. Identify all product claims and brand references
+5. Verify each claim against graberblinds.com and normanusa.com
+6. Document findings
+7. Correct any inaccuracies BEFORE proceeding with optimization
+8. THEN proceed with title/meta/structure optimization
+
+---
+
+## SECTION 1.6: AUTOMATIC LOADING & SESSION WORKFLOW
 
 ### Do You Need to Load This File Each Session?
 **SHORT ANSWER:** No - I should proactively load this file automatically at the start of each session without you asking.

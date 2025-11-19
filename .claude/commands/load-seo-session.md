@@ -8,8 +8,8 @@
 
 ## SECTION 1: CRITICAL DIRECTIVES - READ FIRST
 
-### You Must NOT Touch These Pages (Recovery Period)
-These pages were recently modified and are currently recovering in Google's index. **DO NOT make changes to:**
+### ⚠️ CRITICAL: DO NOT TOUCH - Recovery Period (5 Pages)
+These pages were recently modified and are currently recovering in Google's index. **ZERO changes to:**
 - graber.html (modified Nov 15-17)
 - norman.html (completed week of Nov 10)
 - window-shades.html (modified early Nov)
@@ -18,19 +18,42 @@ These pages were recently modified and are currently recovering in Google's inde
 
 **Why?** These pages are causing the current SEO decline. Google needs 5-10 business days to re-crawl and update rankings after changes. Further edits will delay recovery. Hunter Douglas is your only page getting impressions/clicks - protect it.
 
-### You CAN Work On These 10 Pages (Safe to Edit)
-These pages have NOT been recently modified and do NOT have "What You'll Learn" + Related Articles sections:
+### 🔴 HANDLE WITH CAUTION - Currently Ranking Top 10 (9 Pages)
+These pages are currently in Google's top 10 and are volatile due to recent fluctuations. **Only minor formatting/link fixes. NO structural changes.**
+- 2025Trends.html (position 1.0)
+- Top-Five-Window-Treatment-Trends-in-Oklahoma-City.html (position 1.0)
+- WindowShadeOpacitiesExplained.html (position 1.0)
+- patio-shades-nichols-hills.html (position 3.0)
+- best-window-treatments-oklahoma-weather.html (position 5.0)
+- about.html (position 9.0)
+- blog.html (position 9.0)
+- window-shades.html (position 9.0)
+- faq.html (position 10.0)
 
-1. Window-Treatment-Value.html (4 internal links - needs formatting)
-2. Best-Alternatives-to-Blinds.html (6 internal links - needs formatting)
-3. Types-of-window-blinds.html (6 internal links - needs formatting)
-4. Cool-Your-Edmond-Oklahoma-Sunroom.html (6 internal links - needs formatting)
-5. Energy-Saving-Window-Shades-Edmond-and-OKC.html (19 internal links - needs formatting)
-6. custom-blinds-oklahoma-city.html (3 internal links - needs formatting)
-7. best-motorized-blinds-installer-oklahoma-city.html (13 internal links - needs formatting)
-8. norman-smartdrape-oklahoma-city.html (6 internal links - needs formatting)
-9. best-window-treatment-company-edmond-ok.html (5 internal links - needs formatting)
-10. best-window-treatments-oklahoma-weather.html (1 internal link - CRITICAL: needs more links first)
+### ✅ COMPLETED (7 Pages - Fully Optimized)
+1. **Window-Treatment-Value.html** ✓
+2. **Best-Alternatives-to-Blinds.html** ✓
+3. **Cool-Your-Edmond-Oklahoma-Sunroom.html** ✓
+4. **Energy-Saving-Window-Shades-Edmond-and-OKC.html** ✓
+5. **custom-blinds-oklahoma-city.html** ✓
+6. **best-motorized-blinds-installer-oklahoma-city.html** ✓
+   - Fixed all Related Articles links (descriptive, not sentences)
+   - Fixed "Perfect for Oklahoma Climate" UV Protection link
+   - All link formatting now matches SEO standards
+
+### 🔧 REMAINING WORK (3 Pages)
+
+**Minor Fixes Only (1 page):**
+1. Types-of-window-blinds.html (6 internal links)
+   - Fix sentence-style links to descriptive inline links
+   - Fix h2/h3 color classes (reported as backwards)
+
+**Full Optimization (2 pages):**
+2. norman-smartdrape-oklahoma-city.html (6 internal links - needs full formatting)
+3. best-window-treatment-company-edmond-ok.html (5 internal links - needs full formatting)
+
+**Handle With Caution (1 page - ranking, minor edits only):**
+4. best-window-treatments-oklahoma-weather.html (position 5.0 - only link/color fixes, NO structural changes)
 
 ### COMPLETED PAGES (✓ Fully Optimized)
 
@@ -231,15 +254,23 @@ Location: `c:\My Documents\ShadedInTheSun.com\` (root)
 - Nov 3: 2,300 impressions, 5 clicks, 28.5 avg position
 - Nov 10: 1,140 impressions, 0 clicks, 19.3 avg position
 - Nov 17: 1,653 impressions, 1 click, 21.7 avg position (continuing to fluctuate)
+- Nov 19: **NOW RANKING - 9 pages in top 10!** (0 impressions still, but position volatility shows crawling activity)
 
-**What We're Doing:**
-- Currently in RECOVERY PHASE - no major page edits to recently-modified pages
-- Adding formatting to unmodified pages to build structural consistency
-- Monitoring Google's re-crawl and re-evaluation of changed pages
+**Current Status - VOLATILE BUT IMPROVING:**
+- ✅ 9 pages now visible in Google top 10 (up from near-zero visibility)
+- ⚠️ Volatility is HIGH due to Google's re-evaluation of changed pages
+- 🔴 **CRITICAL:** Protect these 9 pages - only cosmetic edits allowed
+- 📈 Building equity on safe-to-edit pages in background
+
+**Strategy:**
+- Currently in RECOVERY PHASE - no major page edits to critical/ranking pages
+- Only descriptive link fixes on top 10 pages (no content restructuring)
+- Building formatting/link equity on 10 safe-to-edit pages
+- Monitoring Google's re-crawl and re-evaluation
 
 **Expected Recovery:**
-- 5-10 business days from final page modification
-- Formatting improvements on other pages build equity for when recovery completes
+- Full recovery when fluctuation stabilizes (estimated 1-2 weeks)
+- Safe-to-edit pages provide crawl opportunities without risking rankings
 
 ---
 
@@ -308,7 +339,12 @@ This ensures next session knows exactly what's been done and what's next.
 
 ---
 
-**Last Updated:** November 17, 2025
-**Version:** 1.1
-**Status:** Production-ready with 4 reference files
+**Last Updated:** November 19, 2025 (Evening)
+**Version:** 1.3
+**Status:** Accurate completion tracking - 7 of 10 safe-to-edit pages DONE. 3 remaining.
 **Auto-Load:** Yes - I should load this automatically at session start when working on site optimization
+
+**Tomorrow's Work Summary:**
+- 1 page with minor fixes (Types-of-window-blinds.html)
+- 2 pages with full optimization (norman-smartdrape, best-window-treatment-company)
+- 1 page with cautious edits (best-window-treatments-oklahoma-weather at position 5.0)

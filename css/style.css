@@ -1776,30 +1776,30 @@ label.required:after {
   }
   
   .variable-h1 {
-    font-size: var(--fs-600);
+    font-size: var(--fs-700);
     }
 
   .variable-h1-orange {
-    font-size: var(--fs-600);
+    font-size: var(--fs-700);
     }
 
   .variable-h2 {
-    font-size: var(--fs-550);
+    font-size: var(--fs-600);
     color: var(--clr-primary-400);
   }
 
   .variable-h2-orange {
-    font-size: var(--fs-550);
+    font-size: var(--fs-600);
     color: var(--clr-pop-100);
   }
 
   .variable-h3 {
-    font-size: var(--fs-600);
+    font-size: var(--fs-550);
     color: var(--clr-primary-400);
   }
 
   .variable-h3-orange {
-    font-size: var(--fs-600);
+    font-size: var(--fs-550);
   }
 
   .margin-rl-25 {

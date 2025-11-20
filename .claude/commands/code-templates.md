@@ -4,6 +4,21 @@
 
 ---
 
+## CRITICAL VERIFICATION RULE - READ FIRST
+
+**BEFORE flagging any page element as "broken," "wrong," or needing fixing:**
+
+1. Read the actual page code
+2. Compare it to template.html or a working completed example
+3. Check if it matches another completed page that you know is correct
+4. If uncertain whether it's correct or wrong, ASK THE USER - do not assume
+5. Only flag something as needing fixing if you can identify a specific problem with evidence
+6. Do NOT assume template examples are universal rules - ask if there's a reason a page differs
+
+**If you make assumptions and "fix" something that was already correct, you waste time and break working pages.**
+
+---
+
 ## HERO SECTION WITH "WHAT YOU'LL LEARN" - Exact Template
 
 Copy this structure exactly from patio-shades-nichols-hills.html lines 169-191:

@@ -46,7 +46,7 @@ These pages are currently in Google's top 10 and are volatile due to recent fluc
 **Minor Fixes Only (1 page):**
 1. Types-of-window-blinds.html (6 internal links)
    - Fix sentence-style links to descriptive inline links
-   - Fix h2/h3 color classes (reported as backwards)
+   - Verify h2/h3 color classes match template before any changes
 
 **Full Optimization (2 pages):**
 2. norman-smartdrape-oklahoma-city.html (6 internal links - needs full formatting)

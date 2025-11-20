@@ -1450,9 +1450,9 @@ label.required:after {
 /* Ensure these styles are appropriate for your desktop menu appearance */
 .header .menu > li.has-submenu > label.brands-label {
   display: block;
-  /* padding: 20px 10px; Adjust to match your other desktop menu link padding */
+  padding: 15px 3px; /* Matches .header ul a padding */
   color: var(--clr-primary-400); /* Adjust to match your menu link color */
-  text-decoration: none;
+  text-decoration: underline;
   cursor: pointer;
   /* Add other styles like font-weight, text-align if they apply to your menu links */
 }
@@ -1704,7 +1704,6 @@ label.required:after {
 
   .header .menu > li.brands-item > label.brands-label {
    margin-bottom: 8px; /* Added margin to brands button mobile*/
-   margin-right: 10px;
    }
 }
 
@@ -1842,9 +1841,9 @@ label.required:after {
   /* Style the label for the Brands submenu to look like other menu items on desktop */
   .header .menu > li.has-submenu > label.brands-label {
     display: block; /* Crucial for padding and alignment */
-    padding: 20px 10px; /* Matches .header li a padding */
+    padding: 15px 3px; /* Matches .header ul a padding */
     color: var(--clr-primary-400); /* Matches .header ul a color */
-    text-decoration: none; /* Typically labels don't have this, but keeps it consistent if links do */
+    text-decoration: underline; /* Matches other menu links */
     cursor: pointer;
     /* Add any other relevant styles from .header li a if needed (e.g., font-weight) */
   }

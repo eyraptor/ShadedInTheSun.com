@@ -1785,7 +1785,7 @@ label.required:after {
 
   .variable-h2 {
     font-size: var(--fs-550);
-    color: var(--clr-pop-100);
+    color: var(--clr-primary-400);
   }
 
   .variable-h2-orange {
@@ -1795,6 +1795,7 @@ label.required:after {
 
   .variable-h3 {
     font-size: var(--fs-600);
+    color: var(--clr-primary-400);
   }
 
   .variable-h3-orange {
@@ -1944,6 +1945,7 @@ label.required:after {
 
   .variable-h2 {
     font-size: var(--fs-600);
+    color: var(--clr-primary-400);
   }
   
   .variable-h2-orange {

@@ -91,6 +91,21 @@
 }
 </script>
 
+<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+  <script src="https://assets.calendly.com/assets/external/widget.js" async></script>
+  <script>
+    window.onload = function () {
+      Calendly.initBadgeWidget({
+        url: 'https://calendly.com/volfram74/15min',
+        text: 'Schedule a call with us',
+        color: '#0069ff',
+        textColor: '#ffffff',
+        // ADD THIS LINE:
+        onClick: function () { gtag_report_conversion_Calendly(); }
+      });
+    };
+  </script>
+
 </head>
 
 <body>
@@ -408,21 +423,6 @@
           'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
     })(window, document, 'script', 'dataLayer', 'GTM-KPGF8C29');</script>
   <!-- End Google Tag Manager -->
-
-  <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
-  <script src="https://assets.calendly.com/assets/external/widget.js" async></script>
-  <script>
-    window.onload = function () {
-      Calendly.initBadgeWidget({
-        url: 'https://calendly.com/volfram74/15min',
-        text: 'Schedule a call with us',
-        color: '#0069ff',
-        textColor: '#ffffff',
-        // ADD THIS LINE:
-        onClick: function () { gtag_report_conversion_Calendly(); }
-      });
-    };
-  </script>
 
   <!-- Calendly badge widget begin
   <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">

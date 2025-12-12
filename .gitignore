@@ -1,0 +1,22 @@
+# Video files (too large for GitHub)
+*.MOV
+*.mov
+*.mp4
+*.MP4
+*.avi
+*.AVI
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Node modules (if used)
+node_modules/
+
+# Temporary files
+*.tmp
+*.temp

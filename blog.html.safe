@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Shaded In The Sun Blog - Window Treatment Tips & Design Inspiration</title>
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-W4SF3R9Q43"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-W4SF3R9Q43');
+  </script>
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-991416893"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'AW-991416893');
+  </script>
+
+  <!-- Event snippet for Phone Number Click conversion page
+          In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+  <script>
+    function gtag_report_conversion() { // Removed 'url' parameter
+      gtag('event', 'conversion', {
+        'send_to': 'AW-991416893/cP5ZCMvr65YaEL2k39gD' // Your unique ID
+      });
+      // REMOVED 'return false;' from here
+    }
+  </script>
+
+  <!-- Google Tag Manager -->
+  <script>(function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-KPGF8C29');</script>
+  <!-- End Google Tag Manager -->
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="description"
+    content="Learn all about window treatments and get your questions answered by the experts at Shaded In The Sun.">
+  <meta property="og:url" content="https://www.ShadedInTheSun.com/blog.html">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Shaded In The Sun">
+  <meta property="og:title" content="Shaded In The Sun Blog - Window Treatment Tips & Design Inspiration">
+  <meta property="og:description"
+    content="Learn all about window treatments and get your questions answered by the experts at Shaded In The Sun.">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link rel="DNS-prefetch" href="//fonts.googleapis.com">
+
+  <link rel="canonical" href="https://shadedinthesun.com/blog.html">
+
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,400;1,500&display=swap"
+    media="print" onload="this.onload=null;this.removeAttribute('media');">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="images/favicon.ico">
+
+</head>
+
+<body>
+
+  <header class="header">
+  
+    <input class='menu-btn' type='checkbox' id='menu-btn'>
+    <label class='menu-icon' for='menu-btn'><span class='nav-icon'></span></label>
+    <ul class='menu'>
+      <li><a href="/index.html">Home</a></li>
+      <li><a href="/window-shades.html">Window Shades</a></li>
+      <li><a href="/window-shutters.html">Window Shutters</a></li>
+      <li class="has-submenu brands-item"> <!-- Added brands-item for potentially more specific styling -->
+        <input type="checkbox" id="brands-submenu-toggle" class="submenu-toggle-checkbox">
+        <label for="brands-submenu-toggle" class="brands-label">Brands</label>
+        <ul class="submenu"> <!-- Submenu for Brands -->
+          <li><a href="graber.html">Graber</a></li>
+          <li><a href="norman.html">Norman</a></li>
+        </ul>
+      </li>
+      <li><a href="/about.html">About</a></li>
+      <li><a href="/blog.html">Blog</a></li>
+      <li><a href="/contact.html">Contact</a></li>
+    </ul>
+  </header>
+  
+  <div class='display-block'>
+    <a href="/index.html"><img class="hero-pic" width="400" height="200" src="images/SITS-blue-logo-400px.webp"
+        alt='ShadedInTheSun logo'></a>
+  </div>
+
+  <!-- <header class="primary-header">
+    <div>
+      <div class="nav-wrapper">
+        <a href="/index.html"><img class="hero-pic" width="400" height="200"
+            src="images/SITS-blue-logo-400px.webp" alt="Shaded In The Sun Logo"></a>
+        <button class="mobile-nav-toggle" aria-controls="primary-navigation">
+          <img class="icon-hamburger" aria-hidden="true">
+          <img class="icon-close" src="images/icon-close.svg" aria-hidden="true" alt="Menue Image">
+          <span class="visually-hidden">Menu</span>
+        </button>
+
+        <nav class="primary-navigation z-1" id="primary-navigation">
+          <ul aria-label="Primary" role="list" class="nav-list">
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/window-shades.html">Window Shades</a></li>
+            <li><a href="/window-shutters.html">Window Shutters</a></li>
+            <li><a href="/about.html">About</a></li>
+            <li><a href="/blog.html">Blog</a></li>
+            <li><a href="/contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header> -->
+
+  <main class='h-center-div'>
+    <div>
+      <div class="rel-position margin-tb-25">
+        <a href="tel:14052595599" onclick="return gtag_report_conversion();">
+          <div class="heroContainer stagger1">
+            <img class="hero stagger1 z-1" src="images/10353-solar-shades.webp" width="1200" height="533"
+              alt="Graber Solar Shades">
+          </div>
+        </a>
+        <!-- Calendly badge widget begin -->
+        <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+        <script src="https://assets.calendly.com/assets/external/widget.js" async></script>
+        <script>
+          window.onload = function () { Calendly.initBadgeWidget({ url: 'https://calendly.com/volfram74/15min', text: 'Schedule a call with us', color: '#0069ff', textColor: '#ffffff' }); }</script>
+        <!-- Calendly badge widget end -->
+      </div>
+    </div>
+    <section class='h-center-div desktop-70p'>
+      <h1 class="stagger1 fs-1000 balanced-text">Answers to your Window Treatment Questions</h1>
+      <div class='margin-rl-20'>
+        <div>
+          <p>There is a lot to know about window treatments and Shaded In The Sun is here to help. If you have a window treatment question, call us for help and we will schedule an in-home consultation to answer your questions and help you find the right window treatments for your home. We will even bring samples for you to look at.</p><br>
+
+          <h2>Stay Informed and Inspired</h2>
+          <p>Visit our blog often so you can stay informed and inspired with the latest insights from Shaded In The Sun in Oklahoma City and Edmond. Our blog is your go-to resource for <span class="fw-bold"> window shutters, roller shades, solar shades, cellular shades, roman shades, drapery and blinds.</span> </p><br>
+        </div>
+        <h3 class='variable-h3-orange'>Stay up to date with the following topics:</h3>
+        <div class='text-neutral-900 margin-l-20px margin-b-25'>
+          
+          <ul>
+            <li><span class='pop-100'> &#8226;</span> <span class="fw-bold">Window Treatment ideas</span>: Explore stylish and functional window treatment ideas to enhance your home's decor and improve energy efficiency.</li>
+            <li><span class='pop-100'> &#8226;</span> <span class="fw-bold">Window Shades</span>: Learn about the elegance and versatility of the many different styles of window shades.</li>
+            <li><span class='pop-100'> &#8226;</span> <span class="fw-bold">Motorized Window Coverings & Treatments</span>: Discover the convenience and luxury of motorized window shades, including smart home integration and energy-saving benefits.</li>
+            <li><span class='pop-100'> &#8226;</span> <span class="fw-bold">And So Much More!</span>: Each month we have a variety of topics we share.</li>
+          </ul>
+        </div>
+
+        <div>
+          <p>We regularly share <span class="fw-bold">tips and guides</span> to help you <span class="fw-bold">find the perfect window treatments for your home</span>. Explore our latest articles and discover valuable insights that can help you <span class="fw-bold">choose the best window treatments</span>.</p>
+
+          <p class='fs-900 h-center margin-t-15'>Call Brent & Edna today at <a class='button2 vertical-align-text' href="tel:14052595599" onclick="return gtag_report_conversion();">405-259-5599</a> <br>for your window treatment questions.</p>
+        </div>
+      </div>
+    </section>
+    <section>
+      <h2 class='h-center text-neutral-900 fw-black'>Shaded In The Sun Blog</h2>
+      <div class="container grid-3-col">
+        <a href='/2025Trends.html'>
+          <div class="card">
+            <img src="images/21374-roller-shades.webp" alt="Graber Roller Shades" width='650' height='434'>
+            <h2 class='text-neutral-900 fs-500 left-align margin-t-15 balanced-text padding-left-5px'>Interior Design Trends For 2025 - 01-10-2025<br><span class='underline-text'>Click to Read More</span></h2>
+          </div>
+        </a>
+        <a href='/WindowShadeOpacitiesExplained.html'>
+          <div class="card">
+            <img src="images/4110-layered-shades-rs23-v1.webp" alt="Graber Layered Shades" width='650' height='434'>
+            <h2 class='text-neutral-900 fs-500 left-align margin-t-15 balanced-text padding-left-5px'>Window Shade Opacities, Explained - 01-17-2025<br><span class='underline-text'>Click to Read More</span></h2>
+          </div>
+        </a>
+        <a href='/fiveCustomBlindReasons.html'>
+          <div class="card">
+            <img src="images/7247-sheer-shades-rs20-v1-650wide.webp" alt="Graber Sheer Shades" width='650' height='434'>
+            <h2 class='text-neutral-900 fs-500 left-align margin-t-15 balanced-text padding-left-5px'>Five Reasons To Choose Custom Blinds And Shades 01-24-2025<br><span class='underline-text'>Click to Read More</span></h2>
+          </div>
+        </a>
+        <a href='/LuxuryWindowTreatments.html'>
+          <div class="card">
+            <img src="images/5250-sheer-shades-rs20-v1.webp" alt="Graber Sheer Shades" width='650' height='434'>
+            <h2 class='text-neutral-900 fs-500 left-align margin-t-15 balanced-text padding-left-5px'>Luxury Blinds and Shades for Windows - 01-31-2025<br><span class='underline-text'>Click to Read More</span></h2>
+          </div>
+        </a>
+        <a href='/Top-Five-Window-Treatment-Trends-in-Oklahoma-City.html'>
+          <div class="card">
+            <img src="images/16801-roller-shade-rs20-v2.webp" alt="Graber Roller Shades" width='650' height='434'>
+            <h2 class='text-neutral-900 fs-500 left-align margin-t-15 balanced-text padding-left-5px'>Top 5 Window Treatment Trends in Oklahoma City & Edmond - 02-06-2025<br><span class='underline-text'>Click to Read More</span></h2>
+          </div>
+        </a>
+        <a href='/shades-and-shutters-and-blinds-oh-my.html'>
+          <div class="card">
+            <img src="images/3406-classic-roman-shade-rs22-v2-full-size.webp" alt="Classic Graber Roman Shades" width='650' height='434'>
+            <h2 class='text-neutral-900 fs-500 left-align margin-t-15 balanced-text padding-left-5px'>Shades and Shutters and Blinds, Oh My! - 02/13/2025<br><span class='underline-text'>Click to Read More</span></h2>
+          </div>
+        </a>
+        <a href='/motorized-window-treatments-for-OKC.html'>
+          <div class="card">
+            <img src="images/5182-sheer-shades-rs20-v2.webp" alt="Graber Pleated Shades" width='650' height='434'>
+            <h2 class='text-neutral-900 fs-500 left-align margin-t-15 balanced-text padding-left-5px'>Smart Home Integration - 2-20-2025<br><span class='underline-text'>Click to Read More</span></h2>
+          </div>
+        </a>
+        <a href='/zebra-shades-stylish-solution.html'>
+          <div class="card">
+            <img src="images/4110-layered-shades-rs23-v1.webp" alt="Picture of Zebra Shades" width='650' height='434'>
+            <h2 class='text-neutral-900 fs-500 left-align margin-t-15 balanced-text padding-left-5px'>Zebra Shades: Window Coverings, Not Wildlife! - 3-15-2025<br><span class='underline-text'>Click to Read More</span></h2>
+          </div>
+        </a>
+        <a href='/Window-Treatment-Value.html'>
+          <div class="card">
+            <img src="/images/0726-cellular-shades-rs20-v1.webp" alt="Graber Cellular Shades" width='650' height='434'>
+            <h2 class='text-neutral-900 fs-500 left-align margin-t-15 balanced-text padding-left-5px'>Are Window Treatments Really Worth the Investment - 03-29-2025<br><span class='underline-text'>Click to Read More</span></h2>
+          </div>
+        </a>
+        <a href='/Best-Alternatives-to-Blinds.html'>
+          <div class="card">
+            <img src="/images/Blind-Alternatives.webp" alt="Blind alternatives" width='650' height='434'>
+            <h2 class='text-neutral-900 fs-500 left-align margin-t-15 balanced-text padding-left-5px'>Best Alternatives to Blinds: Shades & Shutters - 4-10-2025<br><span class='underline-text'> Click to Read More</span></h2>
+          </div>
+        </a>
+        <a href='/Types-of-window-blinds.html'>
+          <div class="card">
+            <img src="/images/1570-drapery-wood-blinds-rs22-v1.webp" alt="Graber Wood Blinds" width='650' height='434'>
+            <h2 class='text-neutral-900 fs-500 left-align margin-t-15 balanced-text padding-left-5px'>Types of Window Blinds - 5-08-2025<br><span class='underline-text'>
+            Click to Read More</span></h2>
+          </div>
+        </a>
+        <a href='/Cool-Your-Edmond-Oklahoma-Sunroom.html'>
+          <div class="card">
+            <img src="/images/3683-exterior-solar-shades-rs22-v1.webp" alt="Graber Solar Shades for Sunrooms and Patios" width='650' height='434'>
+            <h2 class='text-neutral-900 fs-500 left-align margin-t-15 balanced-text padding-left-5px'>Cool Your Edmond Oklahoma Sunroom - 5/31/2025<br><span class='underline-text'> Click to Read More</span></h2>
+          </div>
+        </a>
+        <a href='/Energy-Saving-Window-Shades-Edmond-and-OKC.html'>
+          <div class="card">
+            <img src="/images/0126-cellular-shades-rs22-v1.webp" alt="Graber Cellular Shades">
+            <h2 class='text-neutral-900 fs-500 left-align margin-t-15 balanced-text padding-left-5px'><span class='underline-text'> Energy-Saving Window Shades - 6/14/2025<br>Click to Read More</span></h2>
+          </div>
+        </a>
+        <a href='/why-is-hunter-douglas-so-expensive.html'>
+          <div class="card">
+            <img src="/images/60004-roller-shades-r17-v1.webp" alt="Graber Roller Shades">
+            <h2 class='text-neutral-900 fs-500 left-align margin-t-15 balanced-text padding-left-5px'>Why Is Hunter Douglas So Expensive? - 6-21-2025<br><span class='underline-text'> Click to Read More</span></h2>
+          </div>
+        </a>
+        <!-- <a href='/2025Trends.html'>
+          <div class="card">
+            <img src="images/" alt="">
+            <h2 class='text-neutral-900 fs-500 left-align margin-t-15 balanced-text padding-left-5px'><br><span class='underline-text'> Click to Read More</span></h2>
+          </div>
+        </a> -->
+        <!-- <a href='/2025Trends.html'>
+          <div class="card">
+            <img src="images/" alt="">
+            <h2 class='text-neutral-900 fs-500 left-align margin-t-15 balanced-text padding-left-5px'><br><span class='underline-text'> Click to Read More</span></h2>
+          </div>
+        </a> -->
+      </div>
+    </section>
+  </main>
+  <footer>
+    <nav class="footer-nav container padding-tb-30">
+      <div class="footer-layout">
+  
+        <!-- ====== COLUMN 1: BRAND & CONTACT INFO ====== -->
+        <!-- This entire div is the first "flex item" or column -->
+        <div class='max-width-40ch'>
+          <a class='display-block-left' href="/index.html"><img class="hero-pic display-block-left" width="200"
+              height="100" src="images/SITS-blue-logo-400px.webp" loading="lazy" alt="Shaded In The Sun Logo"></a>
+  
+          <ul aria-label="Contact Information" class="nav-list" style="display: block;">
+            <!-- Inline style to override nav-list flex behavior -->
+            <li class="margin-t-10"><a href="tel:14052595599" onclick="gtag_report_conversion();">(405) 259-5599</a></li>
+            <li class="margin-t-10"><a href="mailto:ednabuxton@yahoo.com">ednabuxton@yahoo.com</a></li>
+            <li class="text-neutral-900 margin-t-10 max-width-40ch balanced-text">
+              <strong>Serving Oklahoma City, Edmond, Nichols Hills, Yukon, The Village, Bethany, Moore, Piedmont, Warr Acres, Mustang & The
+              Surrounding Metro</strong>
+            </li>
+          </ul>
+  
+          <p class="fs-400 margin-t-20">Copyright ©2025 Shaded In The Sun</p>
+          <a href='https://graberblinds.com' target="_blank" rel="noopener noreferrer">
+            <p class='Second-Color fs-400'>An Authorized Graber Dealer</p>
+          </a>
+        </div>
+  
+        <!-- ====== COLUMN 2: NAVIGATION ====== -->
+        <!-- This entire div is the second "flex item" or column -->
+        <div>
+          <ul aria-label="Footer Navigation" class="nav-list">
+            <!-- Inline style to override nav-list flex behavior -->
+            <li class="margin-t-10"><a href="/index.html">Home</a></li>
+            <li class="margin-t-10"><a href="/window-shades.html">Window Shades</a></li>
+            <li class="margin-t-10"><a href="/window-shutters.html">Window Shutters</a></li>
+            <li class="margin-t-10"><a href="/graber.html">Graber</a></li>
+            <li class="margin-t-10"><a href="/norman.html">Norman</a></li>
+            <li class="margin-t-10"><a href="/about.html">About</a></li>
+            <li class="margin-t-10"><a href="/blog.html">Blog</a></li>
+            <li class="margin-t-10"><a href="/contact.html">Contact</a></li>
+          </ul>
+        </div>
+  
+      </div>
+    </nav>
+  </footer>
+  <!-- <script src="/main.js" type="module"></script> -->
+</body>
+
+</html>

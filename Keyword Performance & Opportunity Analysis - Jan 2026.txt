@@ -1,0 +1,368 @@
+================================================================================
+KEYWORD PERFORMANCE & OPPORTUNITY ANALYSIS
+Shaded in the Sun - January 2026
+================================================================================
+
+EXECUTIVE SUMMARY
+================================================================================
+
+Your best opportunities are NOT new rankings—they're optimizing what you already have.
+You have 50+ impressions on "blinds oklahoma city" but ranking at position 36.
+You have 8+ impressions on "custom blinds oklahoma city" at position 13-14 (just one page away from top 10).
+You're ranking for "alternatives to blinds" but position is 74.89—content exists but visibility is buried.
+
+Your ChatGPT lead this week shows new discovery channels are opening.
+Your position average improved to 18.77 this week—getting closer to baseline.
+Impression volume holding at 4,500+/week shows sustained visibility increase.
+
+
+PART 1: BEST OVERALL PERFORMING KEYWORDS (By Search Volume)
+================================================================================
+
+These are keywords searchers are ACTUALLY using most, regardless of your current ranking:
+
+Rank | Keyword                                    | Impressions | Position | CTR  | Intent
+-----|--------------------------------------------|-----------|---------|----|--------
+  1  | blinds oklahoma city                       |    50     |  36.3   | 0% | HIGH
+  2  | hunter douglas blinds cost                 |    22     | 60.23   | 0% | MEDIUM
+  3  | graber shutters plantation                 |    22     | 68.59   | 0% | LOW
+  4  | graber banded shades                       |    22     |  79.5   | 0% | LOW
+  5  | graber plantation shutters prices          |    21     | 70.38   | 0% | MEDIUM
+  6  | graber custom window coverings             |    21     | 87.43   | 0% | MEDIUM
+  7  | graber simple selections                   |    20     |  58.5   | 0% | LOW
+  8  | graber window treatments cost              |    20     |  80.4   | 0% | MEDIUM
+  9  | graber zebra blinds                        |    20     |  83.2   | 0% | LOW
+ 10  | graber window shutters                     |    20     | 84.15   | 0% | LOW
+
+KEY FINDING: Top 10 keywords dominated by brand comparison and cost queries.
+Only #1 is a LOCAL COMMERCIAL query where you can compete.
+
+
+PART 2: HIGH-BUYING-INTENT KEYWORDS YOU RANK WELL FOR (Top 20)
+================================================================================
+
+These are keywords where people are ACTIVELY LOOKING TO BUY and you're already ranking competitively:
+
+Keyword                                    | Impressions | Position | Your Status
+------------------------------------------|-------------|----------|------------------------------------------
+"window blinds oklahoma city" (quoted)    |      8      |   5.0    | **EXCELLENT POSITION**
+"custom blinds oklahoma city" (quoted)    |      6      |   3.17   | **EXCELLENT POSITION**
+"motorized blinds oklahoma city" (quoted) |      6      |   5.0    | **EXCELLENT POSITION**
+patio shades nichols hills ok              |      7      |   8.43   | **EXCELLENT POSITION** (RECOVERED!)
+custom blinds for windows oklahoma city    |     11      |  14.36   | **STRONG POSITION** (Close to top 10)
+custom blinds oklahoma city                |      8      |  13.75   | **STRONG POSITION** (Position 13 is threshold)
+custom shades edmond                       |      3      |   5.67   | **EXCELLENT POSITION**
+warr acres ok exterior roller shades       |     10      |   8.4    | **STRONG POSITION**
+edmond ok zebra shade blinds               |     10      |   9.9    | **STRONG POSITION**
+warr acres ok motorized window treatments  |     10      |  12.6    | **STRONG POSITION**
+edmond ok electric window blinds           |     10      |  12.8    | **STRONG POSITION**
+piedmont ok blackout cellular shades       |     10      |  14.5    | **STRONG POSITION**
+
+CRITICAL INSIGHT: You're ranking in TOP 20 for 12+ buying-intent queries but getting 0 CTR
+because meta descriptions aren't compelling enough. These aren't ranking problems—they're
+CTR CONVERSION PROBLEMS.
+
+
+PART 3: HIGH-VOLUME KEYWORDS YOU'RE MISSING (Weak Positions 50+)
+================================================================================
+
+Solution-Based Keywords (High Buying Intent):
+
+Keyword                                | Impressions | Position | Buying Intent | Opportunity
+---------------------------------------|-------------|----------|--------------|---------------------------------------------
+"alternatives to blinds"               |      9      |  74.89   | VERY HIGH    | Repurpose existing GBP content to blog
+"blind alternatives"                   |      9      |  82.11   | VERY HIGH    | Merge with above - create master page
+"window shading"                        |      9      |  91.11   | MEDIUM       | Generic term - add to content
+"motorized porch shades okc"            |      7      |  15.14   | HIGH         | Specific local + motorized intent
+"outdoor roller shades oklahoma city"   |      5      |  16.6    | HIGH         | Outdoor + specific product
+"security shutters nichols hills ok"    |      4      |   5.0    | HIGH         | Excellent position - security angle
+"custom window treatments oklahoma city"|      7      |  16.0    | HIGH         | Already good position - meta optimization
+
+CRITICAL FINDING #2: Your GBP post about "alternatives to blinds" is working—these keywords
+are ranking at positions 74-82, which is essentially invisible. This suggests content exists
+but isn't connected to your main site's authority to boost visibility.
+
+
+PART 4: IMMEDIATE ACTION - TOP 3 PRIORITY KEYWORDS
+================================================================================
+
+PRIORITY 1: "blinds oklahoma city"
+  • Current: 50 impressions, position 36.3, 0 clicks
+  • Problem: Position 36 is "never see" territory (off first page)
+  • Solution: This needs top 10 position to generate clicks
+  • Buying Signal: Broad but every searcher is IN MARKET
+  • Action: Ensure strong targeting page exists; meta optimization; consider landing page
+  • Expected Impact: 5-10 clicks/week if you reach position 5-10
+
+PRIORITY 2: "custom blinds oklahoma city"
+  • Current: 8 impressions, position 13.75, 0 clicks
+  • Problem: Position 13 is critical threshold (right edge of first page results)
+  • Solution: One small ranking improvement gets you into top 10
+  • Buying Signal: "Custom" = serious buyer ready to invest
+  • Action: Meta description optimization - likely all that's needed
+  • Expected Impact: 2-3 clicks/week from positioning into top 10
+
+PRIORITY 3: "custom blinds for windows oklahoma city"
+  • Current: 11 impressions, position 14.36, 0 clicks
+  • Problem: Position 14 is right at the edge - just barely off page 1
+  • Solution: Meta optimization likely gets you position 8-10
+  • Buying Signal: Super specific intent - high conversion probability
+  • Action: Meta optimization target
+  • Expected Impact: 1-2 clicks/week if you reach top 8-10
+
+
+PART 5: CONTENT GAPS - HIGH-INTENT KEYWORDS NEEDING NEW/IMPROVED CONTENT
+================================================================================
+
+TIER 1 - CREATE DEDICATED CONTENT (Missing or Weak Position + High Intent)
+
+1. "alternatives to blinds" & "blind alternatives"
+   • Impressions: 18 combined (9 each)
+   • Current Position: 74.89 / 82.11 (invisible)
+   • Buying Signal: VERY HIGH - person actively looking for window treatment options
+   • Your Current Status: GBP post exists but isn't boosting search visibility
+   • Recommendation: Repurpose GBP content into full blog post with:
+     - Comparison of blinds vs. curtains vs. shades vs. shutters
+     - Benefits of each type
+     - Local Edmond/OKC options
+     - Links to your specific services
+   • Expected Impact: 3-5 clicks/week once positioned in top 10
+
+2. Motorized Window Treatments (Various Local Variations)
+   • "motorized window treatments oklahoma city" + city variations
+   • Combined Impressions: 40+ across variations
+   • Current Position: Scattered 8-25 positions across multiple pages
+   • Buying Signal: HIGH - motorized = premium customer
+   • Your Current Status: Scattered content, no unified authority page
+   • Recommendation: Create dedicated motorized treatments landing page that covers:
+     - Benefits of motorization
+     - Alexa/Google Home integration
+     - Safety features (cordless)
+     - Cost/ROI
+     - Local service area
+   • Expected Impact: 5-8 clicks/week once consolidated authority page ranks
+
+3. Outdoor/Patio Shades (Various Combinations)
+   • "motorized porch shades oklahoma city" (7 impressions, pos 15.14)
+   • "outdoor roller shades oklahoma city" (5 impressions, pos 16.6)
+   • "patio shades oklahoma city" (10 impressions, position 27)
+   • Combined: 22+ impressions suggesting real search volume
+   • Buying Signal: HIGH - specific application + ready to buy
+   • Your Current Status: You have Nichols Hills patio page (position 8.43) but not general OKC page
+   • Recommendation: Create "Patio Shades Oklahoma City" page separate from Nichols Hills
+   • Expected Impact: 3-5 clicks/week
+
+TIER 2 - OPTIMIZE EXISTING CONTENT (Already Have Content, Position Improvement Needed)
+
+1. "hunter douglas blinds cost" (22 impressions, position 60.23)
+   • Problem: People searching costs but you're on page 6+
+   • Solution: Create cost comparison page or add cost info to Hunter Douglas page
+   • Note: This is competitor-adjacent but still high intent
+
+2. Cellular Shades Keywords (Once Page Deployed)
+   • "cellular shades oklahoma city" (multiple hits with good positions)
+   • "cellular shades edmond" (8 impressions, position 15.38)
+   • "warr acres ok cellular shades" (8 impressions, position 10.12)
+   • Status: Waiting for cellular shades page deployment
+   • Expected Impact: Consolidates scattered cellular searches once page lives
+
+
+PART 6: KEYWORD CATEGORIES & STRATEGY BY INTENT
+================================================================================
+
+BRANDED QUERIES (Low Priority - Competitor's Keywords)
+  • "graber window treatments cost" (20 impressions, position 80.4)
+  • "graber custom window coverings" (21 impressions, position 87.43)
+  • Action: NOT RECOMMENDED - Too competitive, low ROI for local business
+  • Focus: Better to own "custom blinds oklahoma city" than compete on Graber terms
+
+LOCAL COMMERCIAL QUERIES (High Priority - Your Core Market)
+  • "blinds oklahoma city" (50 impressions)
+  • "custom blinds oklahoma city" (8 impressions)
+  • "motorized blinds oklahoma city" (6 impressions)
+  • Action: OPTIMIZE IMMEDIATELY - These are your market
+  • Timeline: Meta optimization (1-2 weeks), content deployment (2-4 weeks)
+
+SOLUTION-BASED QUERIES (High Priority - Problem Solver = Buyer)
+  • "alternatives to blinds" (9 impressions)
+  • "motorized window treatments" (various, 40+ combined)
+  • "patio shades" (various, 22+ combined)
+  • Action: CREATE/IMPROVE CONTENT - High conversion potential
+  • Timeline: Content creation (1-2 weeks), index + rank (2-4 weeks)
+
+LONG-TAIL LOCAL QUERIES (Medium Priority - Niche But Targeted)
+  • "edmond ok zebra shade blinds" (10 impressions, position 9.9)
+  • "warr acres ok motorized window treatments" (10 impressions, position 12.6)
+  • "piedmont ok blackout cellular shades" (10 impressions, position 14.5)
+  • Action: MAINTAIN - Already ranking well, CTR optimization only
+  • Timeline: Meta descriptions, ongoing
+
+
+PART 7: THE CHATGPT LEAD - NEW DISCOVERY CHANNEL
+================================================================================
+
+KEY INSIGHT: One of this week's calls was from someone who found you via ChatGPT
+(searching for blinds). This indicates:
+
+1. ChatGPT has indexed your site but may not have complete recent content
+2. ChatGPT users are BUYING-INTENT (they're calling you!)
+3. ChatGPT searches are different from Google—more conversational
+
+RECOMMENDATIONS TO CAPTURE MORE CHATGPT LEADS:
+
+1. Create/Expand FAQ Page with Questions Like:
+   • "What window treatments does Shaded in the Sun offer?"
+   • "Do you sell motorized blinds?"
+   • "What brands do you carry (Graber, Hunter Douglas, Norman)?"
+   • "Do you offer cellular shades?"
+   • "What areas do you serve in Oklahoma?"
+   • "What's the difference between blinds and shades?"
+   • "Can I get motorized window treatments?"
+   • "Do you offer installation?"
+
+2. Ensure Schema Markup (Structured Data):
+   • Business info schema (name, address, phone, hours)
+   • Service schema (list of services offered)
+   • Local business schema (multiple locations: OKC, Edmond, Norman)
+
+3. Create Service Overview Pages:
+   • ChatGPT will cite these when users ask about your services
+   • Helps users decide before calling
+   • Builds trust and confidence
+
+EXPECTED IMPACT: One ChatGPT lead per week = 3-4 calls/month from a new channel
+
+
+PART 8: KEYWORDS NOT FOUND (Worth Investigating)
+================================================================================
+
+Search these in Google and check YOUR position:
+
+1. "solar shades oklahoma city" - Should be ranking given your content
+2. "roller shades oklahoma city" - Should be ranking but not in top 50
+3. "motorized shades oklahoma city" - Check if ranked
+4. "window treatments oklahoma city" - Check position (generic but volume)
+5. "motorized window blinds oklahoma city" - Check if ranked
+6. "shutters oklahoma city" - Core offering, check position
+
+These aren't in your top queries this week, which means EITHER:
+  • You're ranking too low to show up in top 50 results
+  • You're not getting enough search volume on these
+  • Your content isn't optimized for these variations
+
+Recommendation: Do manual Google searches for these 6 keywords and report your positions.
+
+
+PART 9: RECOMMENDED DEPLOYMENT TIMELINE
+================================================================================
+
+WEEK 1 (This Week):
+  □ Meta description optimization for:
+    - "blinds oklahoma city" (position 36 → aim for top 10)
+    - "custom blinds oklahoma city" (position 13.75 → aim for top 8)
+    - "custom blinds for windows oklahoma city" (position 14.36 → aim for top 8)
+  □ Create FAQ page for ChatGPT optimization
+  □ Verify schema markup is in place
+
+WEEK 2:
+  □ Deploy cellular shades page (when ready)
+  □ Monitor meta description impact on CTR
+  □ Check if position improvements occurring on target keywords
+
+WEEK 3-4:
+  □ Deploy "alternatives to blinds" blog post
+  □ Deploy motorized window treatments content (if not existing)
+  □ Deploy patio shades OKC page (separate from Nichols Hills)
+
+WEEK 5+:
+  □ Monitor CTR improvements across all optimized keywords
+  □ Review next week's GSC data (1-18 to 1-24)
+  □ Assess which content deployments drove ranking improvements
+
+
+PART 10: EXPECTED RESULTS FROM THESE OPTIMIZATIONS
+================================================================================
+
+Conservative Estimate (If You Implement 70% of Recommendations):
+  • Meta optimization on 3 keywords: +3-5 clicks/week
+  • "Alternatives to blinds" content: +2-3 clicks/week
+  • FAQ/ChatGPT optimization: +1-2 ChatGPT leads/week
+  • Total: +6-10 clicks/week
+
+Expected Timeline to Baseline (7 clicks/week):
+  • Meta optimization impact: 1-2 weeks
+  • Content deployment impact: 2-4 weeks
+  • Full baseline recovery: By early February
+
+Aggressive Target (If You Implement 100% + deploy cellular page):
+  • All above PLUS cellular shades content: +2-3 clicks/week
+  • Total: +9-13 clicks/week (exceeding baseline)
+  • Timeline: By mid-February
+
+
+PART 11: SUMMARY - YOUR BEST OPPORTUNITIES (In Priority Order)
+================================================================================
+
+1. META DESCRIPTION OPTIMIZATION (1-2 weeks to impact)
+   Keywords: "blinds oklahoma city" (50 impressions),
+             "custom blinds oklahoma city" (8 impressions),
+             "custom blinds for windows oklahoma city" (11 impressions)
+   Expected: +3-5 clicks/week
+
+2. "ALTERNATIVES TO BLINDS" CONTENT DEPLOYMENT (2-4 weeks to impact)
+   Repurpose existing GBP content into blog post
+   Keywords: "alternatives to blinds" (9 impressions), "blind alternatives" (9 impressions)
+   Expected: +2-3 clicks/week
+
+3. CELLULAR SHADES PAGE DEPLOYMENT (When ready)
+   Consolidates scattered cellular keyword searches
+   Expected: +2-3 clicks/week once indexed
+
+4. CHATGPT OPTIMIZATION (1 week, ongoing benefit)
+   FAQ page + schema markup
+   Expected: +1-2 new ChatGPT leads/week
+
+5. MOTORIZED WINDOW TREATMENTS PAGE (If not existing)
+   Consolidates 40+ scattered impressions
+   Expected: +3-5 clicks/week once ranked
+
+6. PATIO SHADES OKC PAGE (Optional, secondary)
+   Separate from Nichols Hills page for broader coverage
+   Expected: +1-2 clicks/week
+
+
+PART 12: KEY METRICS TO TRACK NEXT WEEK
+================================================================================
+
+When you receive next week's GSC data (1-18 to 1-24), track these metrics:
+
+1. Did "blinds oklahoma city" improve position? (Target: move from 36.3 toward 20)
+2. Did "custom blinds oklahoma city" improve position? (Target: move from 13.75 toward 8)
+3. Did CTR improve on these target keywords?
+4. Total clicks for week (Target: 4-5 if meta optimizations working)
+5. New keywords appearing that match your new content deployments
+6. ChatGPT lead tracking (ask callers how they found you)
+
+If these metrics improve week-over-week, your optimization strategy is working.
+If not, drill into position changes to see where Google stands.
+
+
+CONTACT & QUESTIONS
+================================================================================
+
+This analysis covers:
+✓ All 769 keywords currently ranking
+✓ Volume analysis (impressions)
+✓ Position analysis
+✓ Buying intent assessment
+✓ Opportunity identification
+✓ ChatGPT channel optimization
+✓ Deployment recommendations
+
+Next step: Execute meta optimizations and content deployments, then track results.
+
+Questions? Review the specific sections above for detailed analysis on each keyword group.
+
+================================================================================
+END OF REPORT
+================================================================================

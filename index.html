@@ -356,29 +356,26 @@
     </nav>
   </footer>
 
-  <!-- Ahrefs Analytics - already async, no change needed -->
+<!-- ============================================================
+     SHADED IN THE SUN - OPTIMIZED SCRIPT BLOCK
+     Replace everything from Ahrefs to closing Calendly script
+     Last updated: March 2026
+     ============================================================ -->
+
+<!-- Ahrefs - already async, no delay needed -->
 <script src="https://analytics.ahrefs.com/analytics.js" data-key="CvU7eCtPtOpru47fXtaoBg" async></script>
 
-<!-- Google Ads Conversion Tracking - loads normally (must be ready for clicks) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-991416893"></script>
+<!-- Conversion functions - must be immediate, they are tiny and needed before any click -->
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag() { dataLayer.push(arguments); }
-  gtag('js', new Date());
-  gtag('config', 'AW-991416893');
-</script>
 
-<!-- Phone Number Click Conversion -->
-<script>
   function gtag_report_conversion() {
     gtag('event', 'conversion', {
       'send_to': 'AW-991416893/cP5ZCMvr65YaEL2k39gD'
     });
   }
-</script>
 
-<!-- Calendly Conversion -->
-<script>
   function gtag_report_conversion_Calendly() {
     gtag('event', 'conversion', {
       'send_to': 'AW-991416893/czo8CNKc7JYaEL2k39gD'
@@ -386,56 +383,98 @@
   }
 </script>
 
-<!-- Google Tag Manager - loads normally -->
-<script>(function(w,d,s,l,i){
-  w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});
-  var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';
-  j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;
-  f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-KPGF8C29');</script>
-
-<!-- GA4 - Delayed Load for Page Speed -->
+<!-- GA4 - delayed 3.5 seconds -->
 <script>
-  function loadGA4() {
-    var script = document.createElement('script');
-    script.src = 'https://www.googletagmanager.com/gtag/js?id=G-W4SF3R9Q43';
-    script.async = true;
-    document.head.appendChild(script);
-    window.dataLayer = window.dataLayer || [];
-    gtag('js', new Date());
-    gtag('config', 'G-W4SF3R9Q43');
-  }
-
   var ga4Loaded = false;
-  function triggerGA4() {
-    if (!ga4Loaded) {
-      ga4Loaded = true;
-      loadGA4();
-    }
+  function loadGA4() {
+    if (ga4Loaded) return;
+    ga4Loaded = true;
+    var s = document.createElement('script');
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-W4SF3R9Q43';
+    s.async = true;
+    document.head.appendChild(s);
+    s.onload = function() {
+      gtag('js', new Date());
+      gtag('config', 'G-W4SF3R9Q43');
+    };
   }
-
-  setTimeout(triggerGA4, 3500);
-  document.addEventListener('mousemove', triggerGA4, { once: true });
-  document.addEventListener('scroll', triggerGA4, { once: true });
-  document.addEventListener('keydown', triggerGA4, { once: true });
-  document.addEventListener('touchstart', triggerGA4, { once: true });
+  setTimeout(loadGA4, 3500);
+  document.addEventListener('mousemove', loadGA4, { once: true });
+  document.addEventListener('scroll', loadGA4, { once: true });
+  document.addEventListener('keydown', loadGA4, { once: true });
+  document.addEventListener('touchstart', loadGA4, { once: true });
 </script>
 
-<!-- Calendly Widget -->
-<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
-<script src="https://assets.calendly.com/assets/external/widget.js"></script>
+<!-- Google Ads + GTM - delayed 5 seconds -->
 <script>
-  window.onload = function() {
-    Calendly.initBadgeWidget({
-      url: 'https://calendly.com/volfram74/15min',
-      text: 'Schedule a call with us',
-      color: '#0069ff',
-      textColor: '#ffffff',
-      onClick: function() { gtag_report_conversion_Calendly(); }
-    });
-  };
+  var adsLoaded = false;
+  function loadAdsAndGTM() {
+    if (adsLoaded) return;
+    adsLoaded = true;
+
+    // Google Ads
+    var ads = document.createElement('script');
+    ads.src = 'https://www.googletagmanager.com/gtag/js?id=AW-991416893';
+    ads.async = true;
+    document.head.appendChild(ads);
+    ads.onload = function() {
+      gtag('js', new Date());
+      gtag('config', 'AW-991416893');
+    };
+
+    // Google Tag Manager
+    (function(w,d,s,l,i){
+      w[l]=w[l]||[];
+      w[l].push({'gtm.start': new Date().getTime(), event:'gtm.js'});
+      var f=d.getElementsByTagName(s)[0],
+          j=d.createElement(s),
+          dl=l!='dataLayer'?'&l='+l:'';
+      j.async=true;
+      j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;
+      f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-KPGF8C29');
+  }
+  setTimeout(loadAdsAndGTM, 5000);
+  document.addEventListener('mousemove', loadAdsAndGTM, { once: true });
+  document.addEventListener('scroll', loadAdsAndGTM, { once: true });
+  document.addEventListener('keydown', loadAdsAndGTM, { once: true });
+  document.addEventListener('touchstart', loadAdsAndGTM, { once: true });
 </script>
 
+<!-- Calendly - delayed 4 seconds, removed from critical path -->
+<script>
+  var calendlyLoaded = false;
+  function loadCalendly() {
+    if (calendlyLoaded) return;
+    calendlyLoaded = true;
+
+    // Load Calendly CSS
+    var css = document.createElement('link');
+    css.rel = 'stylesheet';
+    css.href = 'https://assets.calendly.com/assets/external/widget.css';
+    document.head.appendChild(css);
+
+    // Load Calendly JS then initialize widget
+    var js = document.createElement('script');
+    js.src = 'https://assets.calendly.com/assets/external/widget.js';
+    js.async = true;
+    js.onload = function() {
+      Calendly.initBadgeWidget({
+        url: 'https://calendly.com/volfram74/15min',
+        text: 'Schedule a call with us',
+        color: '#0069ff',
+        textColor: '#ffffff',
+        onClick: function() { gtag_report_conversion_Calendly(); }
+      });
+    };
+    document.head.appendChild(js);
+  }
+  setTimeout(loadCalendly, 4000);
+  document.addEventListener('mousemove', loadCalendly, { once: true });
+  document.addEventListener('scroll', loadCalendly, { once: true });
+  document.addEventListener('keydown', loadCalendly, { once: true });
+  document.addEventListener('touchstart', loadCalendly, { once: true });
+</script>
 
   <!-- Calendly badge widget begin
   <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">

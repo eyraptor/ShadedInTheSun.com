@@ -355,75 +355,85 @@
     </nav>
   </footer>
 
-  <script src="https://analytics.ahrefs.com/analytics.js" data-key="CvU7eCtPtOpru47fXtaoBg" async></script>
+  <!-- Ahrefs Analytics - already async, no change needed -->
+<script src="https://analytics.ahrefs.com/analytics.js" data-key="CvU7eCtPtOpru47fXtaoBg" async></script>
 
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-W4SF3R9Q43"></script>
+<!-- Google Ads Conversion Tracking - loads normally (must be ready for clicks) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-991416893"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() { dataLayer.push(arguments); }
+  gtag('js', new Date());
+  gtag('config', 'AW-991416893');
+</script>
 
-  <script>
+<!-- Phone Number Click Conversion -->
+<script>
+  function gtag_report_conversion() {
+    gtag('event', 'conversion', {
+      'send_to': 'AW-991416893/cP5ZCMvr65YaEL2k39gD'
+    });
+  }
+</script>
+
+<!-- Calendly Conversion -->
+<script>
+  function gtag_report_conversion_Calendly() {
+    gtag('event', 'conversion', {
+      'send_to': 'AW-991416893/czo8CNKc7JYaEL2k39gD'
+    });
+  }
+</script>
+
+<!-- Google Tag Manager - loads normally -->
+<script>(function(w,d,s,l,i){
+  w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});
+  var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';
+  j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;
+  f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KPGF8C29');</script>
+
+<!-- GA4 - Delayed Load for Page Speed -->
+<script>
+  function loadGA4() {
+    var script = document.createElement('script');
+    script.src = 'https://www.googletagmanager.com/gtag/js?id=G-W4SF3R9Q43';
+    script.async = true;
+    document.head.appendChild(script);
     window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
-
     gtag('config', 'G-W4SF3R9Q43');
-  </script>
+  }
 
-  <!-- Google tag (gtag.js) Phone Number click Tracking-->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-991416893"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-
-    gtag('config', 'AW-991416893');
-  </script>
-
-  <!-- Event snippet for Phone Number Click conversion page
-  In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
-  <script>
-    function gtag_report_conversion() { // Removed 'url' parameter
-      gtag('event', 'conversion', {
-        'send_to': 'AW-991416893/cP5ZCMvr65YaEL2k39gD' // Your unique ID
-      });
-      // REMOVED 'return false;' from here
+  var ga4Loaded = false;
+  function triggerGA4() {
+    if (!ga4Loaded) {
+      ga4Loaded = true;
+      loadGA4();
     }
-  </script>
+  }
 
-  <script>
-    function gtag_report_conversion_Calendly() { // Renamed for clarity
-      gtag('event', 'conversion', {
-        'send_to': 'AW-991416893/czo8CNKc7JYaEL2k39gD' // This is your unique Calendly Conversion ID
-      });
-      // REMOVED 'return false;' and 'callback' logic
-    }
-  </script>
+  setTimeout(triggerGA4, 3500);
+  document.addEventListener('mousemove', triggerGA4, { once: true });
+  document.addEventListener('scroll', triggerGA4, { once: true });
+  document.addEventListener('keydown', triggerGA4, { once: true });
+  document.addEventListener('touchstart', triggerGA4, { once: true });
+</script>
 
-<!-- Google Tag Manager -->
-  <script>(function (w, d, s, l, i) {
-      w[l] = w[l] || []; w[l].push({
-        'gtm.start':
-          new Date().getTime(), event: 'gtm.js'
-      }); var f = d.getElementsByTagName(s)[0],
-        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
-          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
-    })(window, document, 'script', 'dataLayer', 'GTM-KPGF8C29');</script>
-  <!-- End Google Tag Manager -->
-
-  
+<!-- Calendly Widget -->
 <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
-  <script src="https://assets.calendly.com/assets/external/widget.js"></script>
-  <script>
-    window.onload = function () {
-      Calendly.initBadgeWidget({
-        url: 'https://calendly.com/volfram74/15min',
-        text: 'Schedule a call with us',
-        color: '#0069ff',
-        textColor: '#ffffff',
-        // ADD THIS LINE:
-        onClick: function () { gtag_report_conversion_Calendly(); }
-      });
-    };
-  </script>
+<script src="https://assets.calendly.com/assets/external/widget.js"></script>
+<script>
+  window.onload = function() {
+    Calendly.initBadgeWidget({
+      url: 'https://calendly.com/volfram74/15min',
+      text: 'Schedule a call with us',
+      color: '#0069ff',
+      textColor: '#ffffff',
+      onClick: function() { gtag_report_conversion_Calendly(); }
+    });
+  };
+</script>
 
 
   <!-- Calendly badge widget begin

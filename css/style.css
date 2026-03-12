@@ -1588,6 +1588,10 @@ label.required:after {
     gap: 15px;
   }
 
+  .hero-img-link {
+    order: 2;
+  }
+
   .max-width-50p {
     max-width: 100%;
   }

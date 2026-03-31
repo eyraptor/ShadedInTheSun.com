@@ -476,6 +476,7 @@ img {
   justify-content: center;
   text-align: left;
   grid-template-columns: 1fr 1fr;
+  gap: 15px;
 }
 
 .grid-3-col {
@@ -723,10 +724,12 @@ img {
 }
 
 .max-width-90p-h-auto {
+  display: block;
   max-width: 90%;
   height: auto;
   flex-shrink: 1;
   min-width: 50%;
+  margin-inline: auto;
 }
 
 .padding-15 {

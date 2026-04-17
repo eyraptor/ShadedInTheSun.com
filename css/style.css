@@ -1850,3 +1850,45 @@ label.required:after { content: ' *'; color: red; }
   .nav-list { grid-template-columns: 1fr 1fr; gap: 5px; }
   .primary-navigation { max-width: 580px; }
 }
+
+/* ---- Floating Action Button ---- */
+.fab-wrap {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  z-index: 9999;
+  background: var(--accent);
+  border-radius: 30px;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.25);
+  overflow: hidden;
+}
+.fab-label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 13px 22px;
+  color: #fff;
+  font-weight: 600;
+  font-size: var(--fs-500);
+  cursor: pointer;
+  user-select: none;
+}
+.fab-expanded {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+.fab-wrap:hover .fab-expanded { max-height: 80px; }
+.fab-action {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 22px;
+  color: #fff;
+  text-decoration: none;
+  font-size: var(--fs-500);
+  white-space: nowrap;
+  border-top: 1px solid rgba(255,255,255,0.2);
+  transition: background 0.15s;
+}
+.fab-action:hover { background: rgba(255,255,255,0.12); }

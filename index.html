@@ -346,6 +346,20 @@
     </nav>
   </footer>
 
+<!-- FAB -->
+<div class="fab-wrap">
+  <a href="tel:14052595599" onclick="gtag_report_conversion();" class="fab-label">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1-9.4 0-17-7.6-17-17 0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1L6.6 10.8z"/></svg>
+    Contact
+  </a>
+  <div class="fab-expanded">
+    <a href="/contact.html" class="fab-action">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M19 3h-1V1h-2v2H8V1H6v2H5C3.9 3 3 3.9 3 5v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V8h14v11zM7 10h5v5H7z"/></svg>
+      Request a Quote
+    </a>
+  </div>
+</div>
+
 <!-- ============================================================
      SHADED IN THE SUN - OPTIMIZED SCRIPT BLOCK
      Last updated: March 2026
@@ -444,16 +458,16 @@
 
     var js = document.createElement('script');
     js.src = 'https://assets.calendly.com/assets/external/widget.js';
-    js.async = true;
-    js.onload = function() {
-      Calendly.initBadgeWidget({
-        url: 'https://calendly.com/volfram74/15min',
-        text: 'Schedule a call with us',
-        color: '#0069ff',
-        textColor: '#ffffff',
-        onClick: function() { gtag_report_conversion_Calendly(); }
-      });
-    };
+    // js.async = true;
+    // js.onload = function() {
+    //   Calendly.initBadgeWidget({
+    //     url: 'https://calendly.com/volfram74/15min',
+    //     text: 'Schedule a call with us',
+    //     color: '#0069ff',
+    //     textColor: '#ffffff',
+    //     onClick: function() { gtag_report_conversion_Calendly(); }
+    //   });
+    // };
     document.head.appendChild(js);
   }
   setTimeout(loadCalendly, 4000);

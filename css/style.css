@@ -580,6 +580,13 @@ img {
   max-width: 100%;
 }
 
+.hero-grid {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  max-width: 100%;
+}
+
 .outer-flex-small {
   display: flex;
   flex-direction: row;
@@ -1678,6 +1685,7 @@ label.required:after { content: ' *'; color: red; }
   .v-align-top { display: block; margin: 20px auto; }
   .outer-flex  { flex-direction: column; justify-content: center; max-width: 100%; gap: 15px; }
   .hero-img-link { order: 2; }
+  .hero-grid      { display: flex; flex-direction: column; gap: 15px; }
   .max-width-50p { max-width: 100%; }
   .centerSmall { display: grid; justify-items: center; }
   .grid-3-col  { grid-template-columns: 1fr 1fr; }

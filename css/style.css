@@ -277,6 +277,7 @@ body {
   font-size: var(--fs-body);
   font-family: var(--ff-body);
   color: var(--text-primary);
+  padding-top: 15px;
 }
 
 a {
@@ -937,6 +938,7 @@ img {
   left: 0;
   right: 0;
   width: 100%;
+  padding-right: 15px;
   background-color: var(--bg-primary);
   z-index: 100;
   box-shadow: 0 2px 6px rgba(0,0,0,.10);
@@ -1857,13 +1859,28 @@ label.required:after { content: ' *'; color: red; }
   .header .menu > li.brands-item > .submenu-toggle-checkbox:not(:checked) ~ .submenu { pointer-events: none; display: none; }
 }
 
+/* Mobile: center the logo when menu is collapsed */
+@media (max-width: 768px) {
+  .header .logo {
+    float: none;
+    display: block;
+    text-align: center;
+    padding: 10px 15px;
+  }
+  .header .menu-icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+}
+
 @media (max-width: 512px) {
   .button-hide { display: none; }
   .button3     { margin-top: -40px; margin-bottom: 50px; }
   h2           { font-size: var(--fs-700); }
   .grid-3-col  { grid-template-columns: 1fr; gap: 15px; }
-  .header .logo { max-width: 80%; }
-
+  .header .logo { max-width: 80%; float: none; display: block; text-align: center; margin: 0 auto; }
+  .header .menu-icon { position: absolute; right: 15px; top: 15px; }
   .variable-h1        { font-size: var(--fs-600); }
   .variable-h1-orange { font-size: var(--fs-600); }
   .variable-h2        { font-size: var(--fs-600); color: var(--text-primary); }

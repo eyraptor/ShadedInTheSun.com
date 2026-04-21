@@ -1,0 +1,63 @@
+# Build/Dev junk
+node_modules/
+.git/
+dist/
+build/
+*.log
+*.lock
+coverage/
+.cache/
+
+# Data files (reference explicitly when needed)
+Google Files/
+Keyword Research/
+
+# Media & fonts (Claude can't use these anyway)
+images/
+fonts/
+WebsiteIdeas/
+
+# Archive & backups
+_archive/
+*.old
+*.safe
+*.before*
+*-copy.*
+*Copy.*
+*OLD.*
+*Old.*
+
+# Specific backup files in root
+indexNow.html
+index-copy.html
+indexOld.html
+RollerShadesOLD.html
+drapery-alternatives.html.old
+template.html.old
+blog.html.safe
+
+# CSS backups (keep only style.css active)
+css/style-copy.css
+css/style.css.6-19-25
+css/style.css.before*
+css/styleClaude.css
+css/styletemplate.css
+css/styleOld*
+css/style-4-17-26.css
+
+# Heavy context files
+SESSION-CONTEXT-FULL.md
+
+# Analysis text dumps
+COMPLETE_LINK_INVENTORY.txt
+EXECUTIVE_SUMMARY.txt
+LINK_ANALYSIS_REPORT.txt
+PRIORITY_PAGES_DETAILED.txt
+report.txt
+sitemap.txt
+
+# Scripts not needed in sessions
+analyze_links.sh
+detailed_analysis.sh
+
+.claude/_archive/

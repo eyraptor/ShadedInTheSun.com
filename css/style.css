@@ -199,6 +199,7 @@ html:focus-within {
 html,
 body {
   height: 100%;
+  margin-top: 75px;
 }
 
 body {
@@ -534,8 +535,10 @@ img {
 
 .grid-3-col {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  /* grid-template-columns: 1fr 1fr 1fr; */
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 15px;
+  overflow: hidden;
   justify-items: center;
 }
 
@@ -548,7 +551,9 @@ img {
 .grid-auto-3 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  /* grid-template-columns: repeat(3, minmax(0, 1fr)); */
   gap: 1rem;
+  overflow: hidden;
 }
 
 .even-grid-columns {
@@ -928,10 +933,19 @@ img {
 
 .header {
   position: fixed;
-  right: 20px;
-  width: 550px;
-  background-color: transparent;
-  z-index: 3;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background-color: var(--bg-primary);
+  z-index: 100;
+  box-shadow: 0 2px 6px rgba(0,0,0,.10);
+}
+
+.header::after {
+  content: '';
+  display: table;
+  clear: both;
 }
 
 .header ul {
@@ -944,7 +958,8 @@ img {
 .header ul a { display: block; padding: 15px 3px; color: var(--text-primary); }
 .header ul a:hover { background-color: var(--border-color); }
 
-.header .logo { float: left; display: block; max-width: 300px; padding: 10px 10px; }
+.header .logo { float: left; display: block; padding: 16px 15px; line-height: 0; }
+.header .logo img { height: 50px; width: auto; }
 
 .header .menu {
   text-align: right;
@@ -1259,6 +1274,7 @@ img {
   height: 100%;
   object-fit: cover;
   border-radius: 14px;
+  margin-top: 120;
 }
 
 /* LEGACY — do not use in new HTML. Remove when site rewrite is complete. */
@@ -1834,7 +1850,7 @@ label.required:after { content: ' *'; color: red; }
   .header .menu > li.has-submenu > label.brands-label:hover { background-color: var(--border-color); }
   .display-block-left { margin-left: 0; margin-right: auto; }
 
-  .header .menu { display: block; clear: none; float: right; max-height: none; }
+  .header .menu { display: block; clear: none; float: right; max-height: none; margin-top: 0; }
   .header .menu-icon { display: none; }
 
   .header .menu > li.brands-item > .submenu-toggle-checkbox:checked ~ .submenu { display: block; pointer-events: auto; }

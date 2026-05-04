@@ -199,7 +199,7 @@ html:focus-within {
 html,
 body {
   height: 100%;
-  margin-top: 75px;
+  margin-top: 115px;
 }
 
 body {
@@ -960,14 +960,14 @@ img {
 .header ul a { display: block; padding: 15px 3px; color: var(--text-primary); }
 .header ul a:hover { background-color: var(--border-color); }
 
-.header .logo { float: left; display: block; padding: 16px 15px; line-height: 0; }
-.header .logo img { height: 50px; width: auto; }
+.header .logo { float: left; display: block; padding: 12px 15px; line-height: 0; }
+.header .logo img { height: 100px; width: auto; }
 
 .header .menu {
   text-align: right;
   max-height: 0;
   transition: max-height .2s ease-out;
-  margin-top: 62px;
+  margin-top: 94px;
 }
 
 .menu { display: none; font-size: 12px; }

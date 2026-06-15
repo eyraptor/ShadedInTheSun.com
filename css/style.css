@@ -698,7 +698,7 @@ img {
    17. SPACING — PADDING
    ============================================================ */
 
-.padding-15          { padding: 15px; }
+.padding-15px        { padding: 15px; }
 .padding-30px        { padding: 30px; }
 .padding-tb-20px     { padding-top: 20px; padding-bottom: 20px; }
 .padding-tb-30px     { padding-top: 30px; padding-bottom: 30px; }
@@ -718,6 +718,9 @@ img {
 .padding-block-900   { padding-block: var(--fs-900); }
 .padding-block-700   { padding-block: var(--fs-700); }
 
+/* LEGACY — do not use in new HTML. Remove when site rewrite is complete. */
+.padding-15          { padding: 15px; }
+
 
 /* ============================================================
    18. SPACING — MARGIN
@@ -725,20 +728,33 @@ img {
 
 .margin-0        { margin: 0; }
 .margin-top-0    { margin-top: 0; }
-.margin-t-10     { margin-top: 10px; }
-.margin-t-15     { margin-top: 15px; }
-.margin-t-20     { margin-top: 20px; }
-.margin-t-25     { margin-top: 25px; }
+.margin-t-10px   { margin-top: 10px; }
+.margin-t-15px   { margin-top: 15px; }
+.margin-t-20px   { margin-top: 20px; }
+.margin-t-25px   { margin-top: 25px; }
 .margin-b-0      { margin-bottom: 0; }
 .margin-b-20px   { margin-bottom: 20px; }
-.margin-b-25     { margin-bottom: 25px; }
-.margin-b-30     { margin-bottom: 30px; }
+.margin-b-25px   { margin-bottom: 25px; }
+.margin-b-30px   { margin-bottom: 30px; }
 .margin-l-0      { margin-left: 0; }
 .margin-l-10px   { margin-left: 10px; }
 .margin-l-15px   { margin-left: 15px; }
 .margin-l-20px   { margin-left: 20px; }
 .margin-l-25px   { margin-left: 25px; }
 .margin-l-30px   { margin-left: 30px; }
+.margin-rl-20px  { margin-left: 20px; margin-right: 20px; }
+.margin-rl-25px  { margin-right: 25px; margin-left: 25px; }
+.margin-rl-30px  { margin-left: 30px; margin-right: 30px; }
+.margin-tb-25px  { margin-top: 25px; margin-bottom: 25px; }
+.margin-tb-15px  { margin-top: 15px; margin-bottom: 15px; }
+
+/* LEGACY — do not use in new HTML. Remove when site rewrite is complete. */
+.margin-t-10     { margin-top: 10px; }
+.margin-t-15     { margin-top: 15px; }
+.margin-t-20     { margin-top: 20px; }
+.margin-t-25     { margin-top: 25px; }
+.margin-b-25     { margin-bottom: 25px; }
+.margin-b-30     { margin-bottom: 30px; }
 .margin-rl-20    { margin-left: 20px; margin-right: 20px; }
 .margin-rl-25    { margin-right: 25px; margin-left: 25px; }
 .margin-rl30     { margin-left: 30px; margin-right: 30px; }
@@ -757,25 +773,21 @@ img {
 .border-bottom-accent { border-bottom: 1px solid var(--accent); }
 .border-color         { border: 1px solid var(--border-color); }
 
+.border-radius-8px   { border-radius: 8px; }
+.border-radius-10px  { border-radius: 10px; }
+.border-radius-12px  { border-radius: 12px; }
+.border-radius-14px  { border-radius: 14px; }
+.border-radius-round { border-radius: 50%; }
+.border-radius-pill  { border-radius: 100vmax; }
+
+/* LEGACY — do not use in new HTML. Remove when site rewrite is complete. */
 .border-radius-8     { border-radius: 8px; }
 .border-radius-10    { border-radius: 10px; }
 .border-radius-12    { border-radius: 12px; }
 .border-radius-14    { border-radius: 14px; }
-.border-radius-round { border-radius: 50%; }
-.border-radius-pill  { border-radius: 100vmax; }
 
 /* Debug — remove before launch */
 .add-border { border: 2px solid red; }
-
-/* "What You'll Learn" box — accent border highlight used in every page hero */
-.learn-box {
-  border: 2px solid var(--accent);
-  border-radius: 8px;
-  padding: 15px;
-  margin-top: 25px;
-  display: inline-block;
-  text-align: center;
-}
 
 /* LEGACY — do not use in new HTML. Remove when site rewrite is complete. */
 .add-orange-border { border: 2px solid var(--accent); }
@@ -1195,7 +1207,8 @@ img {
 .vertical-align-bottom { vertical-align: bottom; }
 
 /* Replacement for legacy .centerSmall */
-.center-small { display: block; }
+.center-small         { display: block; }
+.display-inline-block { display: inline-block; }
 
 /* LEGACY — do not use in new HTML. Remove when site rewrite is complete. */
 .centerSmall { display: block; }
@@ -1831,6 +1844,7 @@ label.required:after { content: ' *'; color: red; }
   .heading-3-accent   { font-size: var(--fs-550); }
 
   .margin-rl-25           { margin-right: 5px; margin-left: 5px; }
+  .margin-rl-25px         { margin-right: 5px; margin-left: 5px; }
   .display-md-inline-flex { display: inline-flex; }
   .desktop-70p            { max-width: 100%; }
   .display-block-left     { margin-left: 0; margin-right: auto; }

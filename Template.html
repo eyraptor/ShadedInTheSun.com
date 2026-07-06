@@ -35,7 +35,8 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,400;1,500&display=swap">
   </noscript>
 
-  <link rel="stylesheet" href="/css/style.css">
+  <link rel="preload" href="/css/style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="/css/style.css"></noscript>
 
   <!-- Replace hero image below (and the preload src) with the actual LCP hero image for this page -->
   <link rel="preload" as="image" fetchpriority="high" href="/images/1172-pleated-shades-rs22-v1-800X533.webp">
@@ -176,19 +177,19 @@
         <img class="max-width-90p-h-auto margin-rl30" width="800" height="533" fetchpriority="high"
           src="/images/1172-pleated-shades-rs22-v1-800X533.webp" alt="XYZ descriptive alt text with keyword">
         <div class='centerSmall'>
-          <h1 class="h-center fs-1000 balanced-text variable-h1-orange stagger1">XYZ Page Title with Primary Keyword</h1>
+          <h1 class="h-center fs-1000 balanced-text heading-1-accent stagger1">XYZ Page Title with Primary Keyword</h1>
 
           <div class='margin-t-25'>
-            <h2 class='variable-h2-orange h-center margin-t-15'>What You'll Learn in This Article:</h2>
+            <h2 class='heading-2-accent h-center margin-t-15'>What You'll Learn in This Article:</h2>
             <ul class='margin-t-10'>
-              <li class='fs-550 padding-left-15px margin-t-10'><span class='pop-100'>✓</span> <span class='text-neutral-900'>Specific benefit or topic 1</span></li>
-              <li class='fs-550 padding-left-15px margin-t-10'><span class='pop-100'>✓</span> <span class='text-neutral-900'>Specific benefit or topic 2</span></li>
-              <li class='fs-550 padding-left-15px margin-t-10'><span class='pop-100'>✓</span> <span class='text-neutral-900'>Specific benefit or topic 3</span></li>
-              <li class='fs-550 padding-left-15px margin-t-10'><span class='pop-100'>✓</span> <span class='text-neutral-900'>Specific benefit or topic 4</span></li>
+              <li class='fs-550 padding-left-15px margin-t-10'><span class='text-accent'>✓</span> <span class='text-neutral'>Specific benefit or topic 1</span></li>
+              <li class='fs-550 padding-left-15px margin-t-10'><span class='text-accent'>✓</span> <span class='text-neutral'>Specific benefit or topic 2</span></li>
+              <li class='fs-550 padding-left-15px margin-t-10'><span class='text-accent'>✓</span> <span class='text-neutral'>Specific benefit or topic 3</span></li>
+              <li class='fs-550 padding-left-15px margin-t-10'><span class='text-accent'>✓</span> <span class='text-neutral'>Specific benefit or topic 4</span></li>
             </ul>
           </div>
 
-          <p class='Second-Color fs-900 h-center margin-t-25'>Call Brent &amp; Edna today at <a class='button2'
+          <p class='text-primary fs-900 h-center margin-t-25'>Call Brent &amp; Edna today at <a class='button2'
               href="tel:14052595599" onclick="return gtag_report_conversion();">405-259-5599</a><br>for your window treatment questions.</p>
         </div>
       </div>
@@ -205,14 +206,14 @@
 
     <!-- ============================================================
          PRODUCT / FEATURE CARD GRID
-         - h2 variable-h2 for card headings
+         - h2 heading-2-accent for card headings
          - Image wrapped in <a> linking to relevant product/page
          - All images: loading="lazy" + width + height
          ============================================================ -->
     <section class="padding-tb-30px">
       <div class="container grid-3-col">
         <div class="card">
-          <h2 class='h-center padding-left-5px variable-h2'>XYZ Card Title 1</h2>
+          <h2 class='h-center padding-left-5px heading-2-accent'>XYZ Card Title 1</h2>
           <!-- Replace href with link to relevant page, replace src/alt with actual image -->
           <a href="#" style="display: block; margin-top: 10px">
             <img class='padding-left-5px' loading="lazy" src="/images/1172-pleated-shades-rs22-v1-800X533.webp" alt="XYZ descriptive alt text" width="800" height="533">
@@ -220,14 +221,14 @@
           <p class='padding-left-5px margin-t-25'>XYZ short description of this product or topic — two to three sentences.</p>
         </div>
         <div class="card">
-          <h2 class='h-center padding-left-5px variable-h2'>XYZ Card Title 2</h2>
+          <h2 class='h-center padding-left-5px heading-2-accent'>XYZ Card Title 2</h2>
           <a href="#" style="display: block; margin-top: 10px">
             <img class='padding-left-5px' loading="lazy" src="/images/1172-pleated-shades-rs22-v1-800X533.webp" alt="XYZ descriptive alt text" width="800" height="533">
           </a>
           <p class='padding-left-5px margin-t-25'>XYZ short description of this product or topic — two to three sentences.</p>
         </div>
         <div class="card">
-          <h2 class='h-center padding-left-5px variable-h2'>XYZ Card Title 3</h2>
+          <h2 class='h-center padding-left-5px heading-2-accent'>XYZ Card Title 3</h2>
           <a href="#" style="display: block; margin-top: 10px">
             <img class='padding-left-5px' loading="lazy" src="/images/1172-pleated-shades-rs22-v1-800X533.webp" alt="XYZ descriptive alt text" width="800" height="533">
           </a>
@@ -242,7 +243,7 @@
          ============================================================ -->
     <section class='margin-t-20'>
       <div class='vertical-center container'>
-        <h3 class='variable-h3 h-center balanced-text'>XYZ Closing Section Heading with Location Keyword</h3>
+        <h3 class='heading-3-accent h-center balanced-text'>XYZ Closing Section Heading with Location Keyword</h3>
         <p class='padding-15 max-width-80p h-center-div'>XYZ closing paragraph 1. 2-3 sentences summarizing the main topic with location references (OKC, Edmond) and an internal link.</p>
         <p class='padding-15 max-width-80p h-center-div'>XYZ closing paragraph 2. Additional benefits, seasonal relevance, or product highlights. Include a phone CTA inline if appropriate.</p>
       </div>
@@ -253,30 +254,30 @@
          ============================================================ -->
     <section class='margin-t-20'>
       <h3 class='fs-900 max-width-40ch balanced-text h-center-all'><a class='fs-600 underline-text' href='/faq.html'>Have questions? See our comprehensive FAQ for expert answers.</a></h3><br>
-      <h3 class='max-width-80p balanced-text h-center-all variable-h3'>Ready to get started? Call Brent &amp; Edna at <a class="button2" href="tel:14052595599" onclick="return gtag_report_conversion();"> 405-259-5599</a></h3>
+      <h3 class='max-width-80p balanced-text h-center-all heading-3-primary'>Ready to get started? Call Brent &amp; Edna at <a class="button2" href="tel:14052595599" onclick="return gtag_report_conversion();"> 405-259-5599</a></h3>
     </section>
 
     <!-- ============================================================
          RELATED ARTICLES — always 3 cards, always last before footer
-         - variable-h3 for H3 titles
+         - heading-3-accent fs-600 for Related Articles card titles (blue)
          - Links inline in paragraph — never "Read More"
          - No duplicate links already used in body content above
          ============================================================ -->
     <section>
       <div class='vertical-center container'>
-        <h2 class='h-center balanced-text margin-tb-25 variable-h2-orange'>Related Articles</h2>
+        <h2 class='h-center balanced-text margin-tb-25 heading-2-accent'>Related Articles</h2>
       </div>
       <div class="container grid-3-col">
         <div class="card h-center-div">
-          <h3 class='variable-h3 h-center balanced-text'>XYZ Article Title 1</h3>
+          <h3 class='heading-3-accent fs-600 h-center balanced-text'>XYZ Article Title 1</h3>
           <p class='padding-left-5px'>Introductory sentence with <a href="/XYZ.html">descriptive link text</a> integrated naturally into the sentence.</p>
         </div>
         <div class="card h-center-div">
-          <h3 class='variable-h3 h-center balanced-text'>XYZ Article Title 2</h3>
+          <h3 class='heading-3-accent fs-600 h-center balanced-text'>XYZ Article Title 2</h3>
           <p class='padding-left-5px'>Different content about <a href="/XYZ.html">another linked topic</a> that readers will find valuable.</p>
         </div>
         <div class="card h-center-div">
-          <h3 class='variable-h3 h-center balanced-text'>XYZ Article Title 3</h3>
+          <h3 class='heading-3-accent fs-600 h-center balanced-text'>XYZ Article Title 3</h3>
           <p class='padding-left-5px'>Additional related content featuring <a href="/XYZ.html">third link with descriptive text</a>.</p>
         </div>
       </div>
@@ -297,7 +298,7 @@
               </a></li>
             <li class="margin-t-10"><a href="tel:14052595599" onclick="gtag_report_conversion();">(405) 259-5599</a></li>
             <li class="margin-t-10"><a href="mailto:ednabuxton@yahoo.com">ednabuxton@yahoo.com</a></li>
-            <li class="text-neutral-900 margin-t-10 max-width-40ch balanced-text">
+            <li class="text-neutral margin-t-10 max-width-40ch balanced-text">
               Serving Oklahoma City, Edmond, Nichols Hills, Yukon, The Village, Bethany, Moore, Piedmont, Warr Acres,
               Mustang &amp; The Surrounding Metro
             </li>

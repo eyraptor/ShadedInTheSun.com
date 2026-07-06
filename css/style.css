@@ -404,6 +404,8 @@ img {
   font-weight: var(--fw-bold);
 }
 
+.heading-3-accent.fs-600 { font-size: var(--fs-600); }
+
 /* LEGACY — do not use in new HTML. Remove when site rewrite is complete. */
 .variable-h1        { font-weight: var(--fw-bold); font-size: var(--fs-1000); color: var(--text-primary); }
 .variable-h1-orange { font-weight: var(--fw-bold); font-size: var(--fs-1000); color: var(--accent); }

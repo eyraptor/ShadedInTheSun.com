@@ -146,8 +146,12 @@
 
 <body>
 
-  <header class="header">
+  <a class="skip-link" href="#main">Skip to content</a>
 
+  <header class="header">
+    <a href="/" class="logo">
+      <img src="/images/SITS-blue-logo-400px.webp" alt="Shaded In The Sun" width="400" height="200">
+    </a>
     <input class='menu-btn' type='checkbox' id='menu-btn'>
     <label class='menu-icon' for='menu-btn'><span class='nav-icon'></span></label>
     <ul class='menu'>
@@ -169,19 +173,14 @@
     </ul>
   </header>
 
-  <div class='display-block'>
-    <a href="/"><img class="hero-pic" width="400" height="200" src="/images/SITS-blue-logo-400px.webp"
-        alt='ShadedInTheSun logo'></a>
-  </div>
-
-  <main class='h-center-div'>
+  <main class='h-center-div' id='main'>
     <section class="margin-tb-25">
       <div class="padding-15 outer-flex">
         <img class="max-width-90p-h-auto margin-rl30" width="800" height="533" fetchpriority="high" src="/images/Norman/03-Soluna-Roller.webp" alt="Norman&reg; window shades in Oklahoma City home">
         <div class='centerSmall'>
           <h1 class="stagger1 fs-1000 balanced-text heading-1-accent">Premium Norman&reg; Window Shades for Oklahoma City & Edmond Homes</h1>
 
-          <div class='margin-t-25'>
+          <div class='margin-t-25 add-orange-border padding-15'>
             <h2 class='heading-2-accent h-center margin-t-15'>What You'll Learn in This Article:</h2>
             <ul class='margin-t-10'>
               <li class='fs-550 padding-left-15px margin-t-10'><span class='text-accent'>✓</span> <span class='text-neutral'>Why Norman&reg; is a trusted leader in custom window treatments with award-winning quality and innovation</span></li>
@@ -192,9 +191,16 @@
           </div>
 
           <p class='text-primary fs-900 h-center margin-t-25'>Call Brent & Edna today at <a class='button2' href="tel:14052595599" onclick="return gtag_report_conversion();">405-259-5599</a> <br>to explore Norman&reg; window shades for your home.</p>
+          <div class='h-center-all margin-t-15'>
+            <a class='button2' href='/contact.html'>Book Your Free In-Home Consultation</a>
+          </div>
         </div>
       </div>
     </section>
+
+    <div class='h-center-all fs-500 text-neutral padding-tb-20px margin-tb-25'>
+      Authorized Graber Dealer &middot; Norman® Dealer &middot; Free In-Home Consultation &middot; <a href="https://g.page/r/CcT55yy26Cm8EAI/review" target="_blank" rel="noopener noreferrer">&#9733; Google Reviews</a>
+    </div>
 
     <section class="padding-tb-30px">
       <div class='vertical-center container'>
@@ -330,7 +336,16 @@
         </div>
       </div>
     </section>
-    
+
+    <section class='cta-dark'>
+      <h2 class='cta-heading'>Ready for Norman® Quality in Your Home?</h2>
+      <p class='cta-subtext'>Get a free in-home consultation with Brent &amp; Edna — no pressure, no obligation.</p>
+      <div class='flex-h-align flex-wrap gap-20 margin-t-15'>
+        <a class='button2' href="tel:14052595599" onclick="return gtag_report_conversion();">Call 405-259-5599</a>
+        <a class='button2' href='/contact.html'>Book Your Free In-Home Consultation</a>
+      </div>
+    </section>
+
     <section class='max-width-70p h-center-div padding-tb-30px'>
       <div class='h-center-div'>
         <h2 class='h-center balanced-text margin-tb-25 heading-2-primary'>Norman&reg; Motorization & Smart Home Integration</h2>
@@ -420,7 +435,7 @@
         <!-- ====== COLUMN 1: BRAND & CONTACT INFO ====== -->
         <div class='max-width-40ch'>
   
-          <ul aria-label="Contact Information" class="nav-list" style="display: block;">
+          <ul aria-label="Contact Information" class="nav-list display-block">
             <li><a href="/"><img class="hero-pic display-block-left" width="200" height="100"
                   src="/images/SITS-blue-logo-400px.webp" loading="lazy" alt="Shaded In The Sun Logo">
                 Copyright ©2026 Shaded In The Sun

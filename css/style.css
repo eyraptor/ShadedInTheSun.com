@@ -1601,6 +1601,10 @@ img {
   margin-right: auto;
 }
 
+/* Vertical rhythm for bullet lists inside cards — added July 2026 */
+.card ul li { margin-bottom: 15px; }
+.card ul li:last-child { margin-bottom: 0; }
+
 .card-small {
   color: var(--accent);
   background-size: cover;

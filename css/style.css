@@ -1565,11 +1565,18 @@ img {
 .footer-dealer { font-size: var(--fs-300); color: var(--text-muted); margin-top: 12px; }
 .footer-dealer img { height: 30px; width: auto; border-radius: 0; margin: 4px 0 0; }
 
-/* Replacement for legacy .footer-layout */
-.footer-columns { display: flex; margin: 15px; justify-content: space-around; margin-bottom: 50px; }
-
-/* LEGACY — do not use in new HTML. Remove when site rewrite is complete. */
-.footer-layout { display: flex; margin: 15px; justify-content: space-around; margin-bottom: 50px; }
+/* Replacement for legacy .footer-layout — grid-based so column order per breakpoint is explicit (July 2026) */
+.footer-columns,
+.footer-layout {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  grid-template-areas: "contact menu-products";
+  gap: 60px;
+  margin: 15px;
+  margin-bottom: 50px;
+}
+.footer-col-contact { grid-area: contact; }
+.footer-col-menu-products { grid-area: menu-products; }
 
 /* skip link — added July 2026 */
 .skip-link {
@@ -1784,6 +1791,36 @@ label.required:after { content: ' *'; color: red; }
 
   .nav-list { flex-direction: column; gap: var(--fs-600); font-weight: var(--fw-bold); }
   .primary-navigation[data-visible] { display: block; }
+
+  /* Footer: Menu+Products moves above Contact Info — Contact Info already repeats in the
+     header/CTAs, so Products gets priority once space is tight. Named grid areas make the
+     stacking order explicit instead of relying on flex order. */
+  .footer-columns,
+  .footer-layout {
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-areas:
+      "menu-products"
+      "contact";
+    justify-items: center;
+    text-align: center;
+  }
+
+  /* Menu and Products sit side by side as two grid columns (desktop keeps them stacked as one column). */
+  .footer-col-menu-products {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: 20px 40px;
+    text-align: left;
+    justify-items: start;
+    max-width: 100%;
+  }
+  .footer-col-menu-products .nav-list.margin-t-25 {
+    margin-top: 0;
+  }
+  .footer-col-menu-products .nav-list {
+    min-width: 0;
+    max-width: 100%;
+  }
 
   .mobile-nav-toggle {
     display: block;

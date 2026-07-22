@@ -406,14 +406,6 @@ img {
 
 .heading-3-accent.fs-600 { font-size: var(--fs-600); }
 
-/* LEGACY — do not use in new HTML. Remove when site rewrite is complete. */
-.variable-h1        { font-weight: var(--fw-bold); font-size: var(--fs-1000); color: var(--text-primary); }
-.variable-h1-orange { font-weight: var(--fw-bold); font-size: var(--fs-1000); color: var(--accent); }
-.variable-h2        { font-size: var(--fs-900); color: var(--text-primary); }
-.variable-h2-orange { font-size: var(--fs-900); color: var(--accent); }
-.variable-h3        { font-size: var(--fs-700); color: var(--text-primary); }
-.variable-h3-orange { font-size: var(--fs-600); color: var(--accent); }
-
 
 /* ============================================================
    8. TYPOGRAPHY — TEXT ALIGNMENT & STYLE
@@ -435,8 +427,7 @@ img {
 .h-center-div  { margin-left: auto; margin-right: auto; }
 .balanced-text { text-wrap: balance; }
 
-/* LEGACY — do not use in new HTML. Remove when site rewrite is complete. */
-.left-align     { text-align: left; }
+/* Active — used site-wide; legacy name kept for compatibility */
 .underline-text { text-decoration: underline; }
 
 
@@ -465,10 +456,8 @@ img {
   margin-bottom: 0.5rem;
 }
 
-/* LEGACY — do not use in new HTML. Remove when site rewrite is complete. */
+/* Active — used site-wide; legacy name kept for compatibility */
 .pop-100          { color: var(--accent); }
-.text-pop-200     { color: var(--accent-dark); }
-.text-primary-400 { color: var(--text-primary); }
 .text-neutral-900 { color: var(--text-body); }
 .Second-Color     { color: var(--text-primary); }
 
@@ -484,7 +473,7 @@ img {
 .bg-darker  { background-color: var(--bg-darker); }
 .bg-accent  { background-color: var(--accent); }
 
-/* LEGACY — do not use in new HTML. Remove when site rewrite is complete. */
+/* Active — used site-wide; legacy name kept for compatibility */
 .section-bg-n-100 { background-image: linear-gradient(#afd8eb, #e6f4f1); }
 
 
@@ -643,12 +632,6 @@ img {
   justify-content: space-around;
 }
 
-/* LEGACY — do not use in new HTML. Remove when site rewrite is complete. */
-.flex-justify-pad { display: flex; flex-direction: column; justify-content: center; align-items: flex-end; padding: 0 5px; }
-.button-vertical-center { display: flex; align-items: center; }
-.my-flex { display: flex; }
-
-
 /* ============================================================
    14. LAYOUT — SIZING
    ============================================================ */
@@ -720,7 +703,7 @@ img {
 .padding-block-900   { padding-block: var(--fs-900); }
 .padding-block-700   { padding-block: var(--fs-700); }
 
-/* LEGACY — do not use in new HTML. Remove when site rewrite is complete. */
+/* Active — used site-wide; legacy name kept for compatibility */
 .padding-15          { padding: 15px; }
 
 
@@ -750,7 +733,7 @@ img {
 .margin-tb-25px  { margin-top: 25px; margin-bottom: 25px; }
 .margin-tb-15px  { margin-top: 15px; margin-bottom: 15px; }
 
-/* LEGACY — do not use in new HTML. Remove when site rewrite is complete. */
+/* Active — used site-wide; legacy name kept for compatibility */
 .margin-t-10     { margin-top: 10px; }
 .margin-t-15     { margin-top: 15px; }
 .margin-t-20     { margin-top: 20px; }
@@ -781,18 +764,9 @@ img {
 .border-radius-round { border-radius: 50%; }
 .border-radius-pill  { border-radius: 100vmax; }
 
-/* LEGACY — do not use in new HTML. Remove when site rewrite is complete. */
-.border-radius-8     { border-radius: 8px; }
-.border-radius-10    { border-radius: 10px; }
-.border-radius-12    { border-radius: 12px; }
-.border-radius-14    { border-radius: 14px; }
 
-/* Debug — remove before launch */
-.add-border { border: 2px solid red; }
-
-/* LEGACY — do not use in new HTML. Remove when site rewrite is complete. */
+/* Active — used site-wide; legacy name kept for compatibility */
 .add-orange-border { border: 2px solid var(--accent); }
-.add-accent-border { border: 2px solid var(--accent); }
 
 
 /* ============================================================
@@ -870,21 +844,6 @@ img {
   display: flex;
   align-items: center;
   gap: 7px;
-}
-
-/* LEGACY — kept until old pages rewritten */
-.img-overlay2 { position: relative; }
-.img-overlay2::after {
-  content: '';
-  display: block;
-  width: 100%;
-  height: 99%;
-  border-radius: 15px;
-  position: absolute;
-  top: 0;
-  left: 0;
-  opacity: 1;
-  background: linear-gradient(#ffffff, #0000004d 20%, #000000);
 }
 
 .img-align-left {margin-left: auto;}
@@ -1163,29 +1122,6 @@ img {
 
 .width-211-center { display: block; width: 211px; margin-top: 20px; text-align: center; }
 
-/* LEGACY — do not use in new HTML. Remove when site rewrite is complete. */
-.button3 {
-  cursor: pointer;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: -98px;
-  margin-bottom: 80px;
-  text-decoration: none;
-  border-style: none;
-  border-radius: 100vmax;
-  padding: 10px 20px;
-  font-weight: var(--fw-black);
-  font-size: var(--fs-button);
-  line-height: 1;
-  color: var(--text-body);
-  background-color: var(--accent);
-}
-
-.button3:hover,
-.button3:focus-visible { background-color: var(--accent-dark); font-style: italic; }
-
-
 /* ============================================================
    24. DISPLAY & VISIBILITY UTILITIES
    ============================================================ */
@@ -1211,12 +1147,8 @@ img {
 .vertical-align-text   { vertical-align: middle; }
 .vertical-align-bottom { vertical-align: bottom; }
 
-/* Replacement for legacy .centerSmall */
 .center-small         { display: block; }
 .display-inline-block { display: inline-block; }
-
-/* LEGACY — do not use in new HTML. Remove when site rewrite is complete. */
-.centerSmall { display: block; }
 
 
 /* ============================================================
@@ -1232,10 +1164,6 @@ img {
   -webkit-box-shadow: -8px 8px 17px -6px rgba(103, 103, 103, 0.65);
   box-shadow: -8px 8px 17px -6px rgba(103, 103, 103, 0.65);
 }
-
-/* LEGACY — do not use in new HTML. Remove when site rewrite is complete. */
-.gray-shadow-right { -webkit-box-shadow: 8px 8px 17px -6px rgba(103,103,103,0.65); box-shadow: 8px 8px 17px -6px rgba(103,103,103,0.65); }
-.gray-shadow-left  { -webkit-box-shadow: -8px 8px 17px -6px rgba(103,103,103,0.65); box-shadow: -8px 8px 17px -6px rgba(103,103,103,0.65); }
 
 
 /* ============================================================
@@ -1297,7 +1225,7 @@ img {
   margin-top: 120;
 }
 
-/* LEGACY — do not use in new HTML. Remove when site rewrite is complete. */
+/* Active — used site-wide; legacy name kept for compatibility */
 .hero      { width: 100%; height: auto; }
 .hero-pic  { display: block; padding-left: 5px; }
 .heroContainer       { position: relative; border-radius: 15px; }
@@ -1565,9 +1493,7 @@ img {
 .footer-dealer { font-size: var(--fs-300); color: var(--text-muted); margin-top: 12px; }
 .footer-dealer img { height: 30px; width: auto; border-radius: 0; margin: 4px 0 0; }
 
-/* Replacement for legacy .footer-layout — grid-based so column order per breakpoint is explicit (July 2026) */
-.footer-columns,
-.footer-layout {
+.footer-columns {
   display: grid;
   grid-template-columns: max-content 1fr;
   grid-template-areas: "contact menu-products";
@@ -1593,8 +1519,7 @@ img {
 
 
 /* ============================================================
-   36. CARDS (LEGACY)
-   LEGACY — do not use in new HTML. Remove when site rewrite is complete.
+   36. CARDS
    ============================================================ */
 
 .card {
@@ -1652,21 +1577,6 @@ img {
    ============================================================ */
 
 label.required:after { content: ' *'; color: red; }
-
-
-/* ============================================================
-   38. MISCELLANEOUS / LEGACY
-   ============================================================ */
-
-:where(.flow :not(:first-child)) { margin-top: var(--flow-spacer, 3em); }
-
-.fs-secondary-heading { font-size: var(--fs-secondary-heading); line-height: 1.1; }
-.fs-primary-heading   { font-size: var(--fs-primary-heading); }
-.font-size-550        { font-size: var(--fs-550); }
-.index-H1             { font-size: var(--fs-550); }
-
-/* Commented out — text belongs in HTML not CSS */
-/* .background-calendy::before { content: 'One Moment While Calendy Loads'; } */
 
 
 /* ============================================================
@@ -1795,8 +1705,7 @@ label.required:after { content: ' *'; color: red; }
   /* Footer: Menu+Products moves above Contact Info — Contact Info already repeats in the
      header/CTAs, so Products gets priority once space is tight. Named grid areas make the
      stacking order explicit instead of relying on flex order. */
-  .footer-columns,
-  .footer-layout {
+  .footer-columns {
     grid-template-columns: minmax(0, 1fr);
     grid-template-areas:
       "menu-products"
@@ -1850,9 +1759,6 @@ label.required:after { content: ' *'; color: red; }
 
   .mobile-nav-toggle .icon-close { display: none; }
 
-  .variable-h1        { font-size: var(--fs-700); }
-  .variable-h2-orange { font-size: var(--fs-700); color: var(--accent); }
-  .variable-h3        { font-size: var(--fs-600); }
   .heading-1-primary  { font-size: var(--fs-700); }
   .heading-1-accent   { font-size: var(--fs-700); }
   .heading-2-primary  { font-size: var(--fs-700); }
@@ -1883,18 +1789,11 @@ label.required:after { content: ' *'; color: red; }
   .container      { padding: 10px; margin-inline: auto; }
   .max-width-80p  { max-width: 100%; }
   .button-hide    { display: none; }
-  .button3        { margin-top: -50px; margin-bottom: 40px; }
   .even-columns   { grid-auto-flow: row; grid-auto-rows: 1fr; }
   .outer-flex     { flex-direction: column; align-items: center; }
   .card           { max-width: fit-content; }
   img             { margin-inline: auto; }
 
-  .variable-h1        { font-size: var(--fs-700); }
-  .variable-h1-orange { font-size: var(--fs-700); }
-  .variable-h2        { font-size: var(--fs-600); color: var(--text-primary); }
-  .variable-h2-orange { font-size: var(--fs-600); color: var(--accent); }
-  .variable-h3        { font-size: var(--fs-550); color: var(--text-primary); }
-  .variable-h3-orange { font-size: var(--fs-550); }
   .heading-1-primary  { font-size: var(--fs-700); }
   .heading-1-accent   { font-size: var(--fs-700); }
   .heading-2-primary  { font-size: var(--fs-600); }
@@ -1949,15 +1848,10 @@ label.required:after { content: ' *'; color: red; }
 
 @media (max-width: 512px) {
   .button-hide { display: none; }
-  .button3     { margin-top: -40px; margin-bottom: 50px; }
   h2           { font-size: var(--fs-700); }
   .grid-3-col  { grid-template-columns: 1fr; gap: 15px; }
   .header .logo { max-width: 80%; float: none; display: block; text-align: center; margin: 0 auto; }
   .header .menu-icon { position: absolute; right: 15px; top: 15px; }
-  .variable-h1        { font-size: var(--fs-600); }
-  .variable-h1-orange { font-size: var(--fs-600); }
-  .variable-h2        { font-size: var(--fs-600); color: var(--text-primary); }
-  .variable-h2-orange { font-size: var(--fs-600); color: var(--accent); }
   .heading-1-primary  { font-size: var(--fs-600); }
   .heading-1-accent   { font-size: var(--fs-600); }
   .heading-2-primary  { font-size: var(--fs-600); }
